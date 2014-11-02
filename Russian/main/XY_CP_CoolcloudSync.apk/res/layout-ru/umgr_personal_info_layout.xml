@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/scrollView1" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/setting_header_item" />
+                <RelativeLayout android:id="@id/personal_head_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="96.0dip">
+                    <ImageView android:id="@id/head_image" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/umgr_person_info_default_rect" android:layout_centerVertical="true" />
+                    <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/head_image" android:layout_alignTop="@id/head_image">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/detai_nickname_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip">
+                            <TextView android:textSize="22.0dip" android:textColor="#ff383838" android:id="@id/detai_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:text="@string/personal_nickname" android:singleLine="true" />
+                        </LinearLayout>
+                        <TextView android:textSize="12.0dip" android:textColor="#ff9a9a9a" android:id="@id/detail_userid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/personal_userid" android:singleLine="true" android:layout_below="@id/detai_nickname_layout" android:layout_alignLeft="@id/detai_nickname_layout" />
+                    </RelativeLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/score_info_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/head_image" android:layout_below="@id/relativeLayout1">
+                        <TextView android:textSize="12.0dip" android:textColor="#ff9a9a9a" android:id="@id/user_score" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="12.0dip" android:textColor="#ff9a9a9a" android:id="@id/user_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                    </LinearLayout>
+                    <Button android:textSize="14.0dip" android:textColor="#ff676767" android:id="@id/edit_nickname_btn" android:background="@drawable/umgr_login_reg_button_selector" android:layout_width="52.0dip" android:layout_height="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:text="Редактирование" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip">
+                    <RelativeLayout android:id="@id/nickname_layout" android:background="@drawable/common_list_white_top_selector" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/nickname_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="Никнейм" style="@style/personal_info_item_text_style" />
+                            <TextView android:id="@id/nickname_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/nickname_text" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/user_id_layout" android:background="@drawable/common_list_white_middle_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/nickname_layout">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/user_id_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="Личный ID Облака" style="@style/personal_info_item_text_style" />
+                            <TextView android:id="@id/user_id_content" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" android:layout_below="@id/user_id_text" android:layout_alignLeft="@id/user_id_text" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView android:visibility="gone" style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/autograph_layout" android:background="@drawable/common_list_white_bottom_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="55.0dip" android:layout_below="@id/user_id_layout">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/autograph_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/personal_autograph" style="@style/personal_info_item_text_style" />
+                            <TextView android:id="@id/autograph_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="15.0dip" android:text="@string/please_input_autograph" android:layout_below="@id/autograph_text" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip">
+                    <RelativeLayout android:id="@id/score_layout" android:background="@drawable/common_list_white_normal_selector" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_centerVertical="true">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                            <TextView android:id="@id/score_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="Баллы" style="@style/personal_info_item_text_style" />
+                            <TextView android:id="@id/score_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:text="" android:layout_below="@id/score_text" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView android:visibility="gone" style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="22.0dip">
+                        <TextView android:textSize="12.0dip" android:textColor="#ff8b8c8e" android:id="@id/textViewCompanyInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Личная информация" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/personal_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                    <RelativeLayout android:id="@id/male_or_female_linearlayout" android:background="@drawable/common_list_white_top_selector" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/text_male_or_female" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/personal_sex" style="@style/personal_info_item_text_style" />
+                            <TextView android:id="@id/text_male_or_female_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/text_male_or_female" android:layout_alignLeft="@id/text_male_or_female" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/birthday_layout" android:background="@drawable/common_list_white_bottom_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/male_or_female_linearlayout">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/text_birthday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/personal_birthday" style="@style/personal_info_item_text_style" />
+                            <TextView android:id="@id/birthday_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/text_birthday" android:layout_alignLeft="@id/text_birthday" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip">
+                    <RelativeLayout android:id="@id/RelativeLayout03" android:layout_width="wrap_content" android:layout_height="22.0dip">
+                        <TextView android:textSize="12.0dip" android:textColor="#ff8b8c8e" android:id="@id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/account_info" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="8.0dip">
+                    <RelativeLayout android:id="@id/bind_phone_layout" android:background="@drawable/common_list_white_top_selector" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/bind_text_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/personal_phone" style="@style/personal_info_item_text_style" />
+                            <TextView android:textSize="14.0dip" android:textColor="#ff9a9a9a" android:id="@id/bind_content_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/bind_text_phone" android:layout_alignLeft="@id/bind_text_phone" />
+                            <TextView android:id="@id/bind_content_phone_extra" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/not_setting" android:layout_toRightOf="@id/bind_content_phone" android:layout_below="@id/bind_text_phone" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/bind_email_layout" android:background="@drawable/common_list_white_bottom_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/bind_phone_layout">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/bind_text_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/personal_email" style="@style/personal_info_item_text_style" />
+                            <TextView android:textSize="14.0dip" android:textColor="#ff9a9a9a" android:id="@id/bind_content_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/bind_text_email" android:layout_alignLeft="@id/bind_text_email" />
+                            <TextView android:id="@id/bind_content_email_extra" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/not_setting" android:layout_toRightOf="@id/bind_content_email" android:layout_below="@id/bind_text_email" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/bind_sina_layout" android:background="@drawable/common_list_white_bottom_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/bind_email_layout">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/bind_text_weibo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/personal_sina" style="@style/personal_info_item_text_style" />
+                            <TextView android:textSize="14.0dip" android:textColor="#ff9a9a9a" android:id="@id/bind_content_weibo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/bind_text_weibo" android:layout_alignLeft="@id/bind_text_weibo" />
+                            <TextView android:id="@id/bind_content_weibo_extra" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/not_setting" android:layout_toRightOf="@id/bind_content_weibo" android:layout_below="@id/bind_text_weibo" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip">
+                    <RelativeLayout android:id="@id/devices_manager_layout" android:background="@drawable/common_list_white_normal_selector" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <TextView android:id="@id/devices_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/devices_manager" style="@style/personal_info_item_text_style" />
+                            <TextView android:id="@id/devices_text_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="1" android:layout_below="@id/devices_text" android:layout_alignLeft="@id/devices_text" style="@style/personal_info_item_subtext_style" />
+                        </RelativeLayout>
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip">
+                    <RelativeLayout android:id="@id/password_setting_layout" android:background="@drawable/common_list_white_normal_selector" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                        <TextView android:id="@id/password_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/modify_password" android:layout_centerVertical="true" style="@style/personal_info_item_text_style" />
+                        <ImageView style="@style/list_item_righticon_style" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip">
+                    <RelativeLayout android:id="@id/logout_layout" android:background="@drawable/umgr_exit_btn_selector" android:layout_width="fill_parent" android:layout_height="42.0dip">
+                        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="false" android:layout_alignParentTop="false" android:layout_centerInParent="true">
+                            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/logout" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <include android:layout_alignParentTop="true" layout="@layout/umgr_new_menu_header" />
+</RelativeLayout>

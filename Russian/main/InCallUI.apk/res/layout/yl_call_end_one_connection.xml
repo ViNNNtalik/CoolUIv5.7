@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/yl_call_end_one_connection_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/yl_call_end_contact_head" android:visibility="visible" android:drawingCacheQuality="auto" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/yl_call_end_contact_head_overlay" android:visibility="gone" android:drawingCacheQuality="high" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/yl_top_bg_color" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/yl_call_end_toparea" android:paddingLeft="@dimen/top_view_padding_left" android:paddingTop="@dimen/top_view_padding_top" android:paddingRight="@dimen/top_view_padding_right" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/top_view_height">
+        <ImageView android:id="@id/yl_call_end_small_photo" android:visibility="gone" android:layout_width="@dimen/dual_photo_width" android:layout_height="@dimen/dual_photo_height" android:layout_marginTop="@dimen/small_photo_margin_top" android:layout_marginRight="@dimen/info_margin_left" />
+        <RelativeLayout android:id="@id/yl_call_end_callinfomation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/yl_call_end_small_photo">
+            <RelativeLayout android:id="@id/call_end_name_net" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/name_text_size" android:textColor="@color/white_color" android:id="@id/yl_call_end_contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name" android:maxLines="2" android:freezesText="false" android:layout_toLeftOf="@id/yl_call_end_nettype" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/downShadowBlack1px" />
+                <ImageView android:id="@id/yl_call_end_nettype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_net_margin_left" android:layout_marginTop="@dimen/small_photo_margin_top" android:layout_alignParentRight="true" style="@style/downShadowBlack1px" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/number_text_size" android:textColor="@color/white_alpha80_color" android:gravity="left" android:id="@id/yl_call_end_contact_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/number_margin_top" android:maxLines="2" android:layout_below="@id/call_end_name_net" style="@style/downShadowBlack1px" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_time_margin_top" android:layout_below="@id/yl_call_end_contact_number">
+                <TextView android:textSize="@dimen/number_text_size" android:textColor="@color/white_alpha80_color" android:id="@id/yl_call_end_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_title_call_ended" style="@style/downShadowBlack1px" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/number_text_size" android:textColor="@color/white_alpha80_color" android:id="@id/yl_call_end_call_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" style="@style/downShadowBlack1px" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/record_view" android:background="@drawable/yl_bg_bottom_view" android:paddingLeft="@dimen/bottom_view_padding_left" android:paddingRight="@dimen/bottom_view_padding_right" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_above="@id/bottomButtons">
+        <LinearLayout android:gravity="center" android:id="@id/remind_button_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="10.0dip" android:textColor="@color/white_color" android:gravity="center" android:id="@id/remind_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_refuse_remind_later" android:drawableLeft="@drawable/yl_btn_remind_later_selector" android:drawablePadding="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/record_button_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="10.0dip" android:textColor="@color/white_color" android:gravity="center" android:id="@id/record_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_end_record" android:drawableLeft="@drawable/yl_btn_view_record_selector" android:drawablePadding="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/add_record_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="10.0dip" android:textColor="@color/white_color" android:gravity="center" android:id="@id/add_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_record_contacts" android:maxLines="2" android:drawableLeft="@drawable/yl_btn_add_record_contacts_selector" android:drawablePadding="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/delete_record_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="10.0dip" android:textColor="@color/white_color" android:gravity="center" android:id="@id/delete_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_record_file" android:maxLines="2" android:drawableLeft="@drawable/yl_btn_delete_record_selector" android:drawablePadding="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/add_blacklist_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="10.0dip" android:textColor="@color/white_color" android:gravity="center" android:id="@id/add_blacklist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mark_action" android:drawableLeft="@drawable/yl_btn_add_blacklist_selector" android:drawablePadding="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bottomButtons" android:background="@drawable/yl_bg_bottom_view" android:paddingLeft="@dimen/bottom_view_padding_left" android:paddingRight="@dimen/bottom_view_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_view_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_button_line_one" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:id="@id/redial_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/call_end_redial" android:drawableTop="@drawable/yl_btn_redial_selector" android:layout_weight="1.0" style="@style/bottom_button" />
+            <TextView android:id="@id/send_message_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/call_end_send_message" android:drawableTop="@drawable/yl_btn_send_message_selector" android:layout_weight="1.0" style="@style/bottom_button" />
+            <TextView android:id="@id/add_plan_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/menu_notePadEnter" android:drawableTop="@drawable/yl_btn_notepad_selector" android:layout_weight="1.0" style="@style/bottom_button" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_button_line_two" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:id="@id/look_contacts_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_end_contacts" android:drawableTop="@drawable/yl_btn_look_contact_selector" style="@style/bottom_button" />
+                <TextView android:id="@id/add_contacts_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/menu_add" android:drawableTop="@drawable/yl_btn_add_contact_selector" style="@style/bottom_button" />
+            </FrameLayout>
+            <TextView android:textSize="10.0dip" android:textColor="@color/white_color" android:gravity="center" android:id="@id/btn_ok" android:background="@drawable/yl_bg_call_end_ok_selector" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginTop="3.0dip" android:text="@android:string/ok" android:layout_weight="1.0" style="@style/upShadowBlack1pxAlpha70" />
+            <TextView android:id="@id/send_contacts_in_sms_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/call_end_add_contacts" android:drawableTop="@drawable/yl_btn_send_contact_selector" android:layout_weight="1.0" style="@style/bottom_button" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

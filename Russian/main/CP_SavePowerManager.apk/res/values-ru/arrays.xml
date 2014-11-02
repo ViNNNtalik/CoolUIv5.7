@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lowpower_dialog_items_display">
+        <item>2%</item>
+        <item>3%</item>
+        <item>4%</item>
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+        <item>30%</item>
+    </string-array>
+    <string-array name="lowpower_dialog_items_value">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="lowpower_dialog_mode_items_display">
+        <item>Экономия</item>
+        <item>Долгожитель</item>
+    </string-array>
+    <string-array name="lowpower_dialog_mode_items_value">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="screen_off_time">
+        <item>15 сек.</item>
+        <item>30 сек.</item>
+        <item>1 мин.</item>
+        <item>2 мин.</item>
+        <item>5 мин.</item>
+        <item>10 мин.</item>
+        <item>30 мин.</item>
+        <item>Никогда</item>
+    </string-array>
+    <integer-array name="screen_off_time_value">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>1800000</item>
+        <item>360000000</item>
+    </integer-array>
+    <integer-array name="battery_info">
+        <item>1800</item>
+        <item>265</item>
+        <item>248</item>
+        <item>201</item>
+        <item>143</item>
+        <item>186</item>
+        <item>301</item>
+        <item>330</item>
+    </integer-array>
+    <integer-array name="battery_percent_time">
+        <item>212454</item>
+        <item>200000</item>
+    </integer-array>
+    <string-array name="close_apn_time">
+        <item>15 сек.</item>
+        <item>30 сек.</item>
+        <item>1 мин.</item>
+        <item>2 мин.</item>
+        <item>3 мин.</item>
+        <item>5 мин.</item>
+        <item>10 мин.</item>
+    </string-array>
+    <integer-array name="battery_display_length">
+        <item>255</item>
+    </integer-array>
+    <string-array name="cpu_dialog_items_display">
+        <item>Закрыть</item>
+        <item>Старт при низком заряде</item>
+        <item>Держать открытым</item>
+    </string-array>
+</resources>

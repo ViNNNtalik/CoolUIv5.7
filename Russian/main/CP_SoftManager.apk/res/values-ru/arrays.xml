@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_process_limit_entries">
+        <item>Стандартный лимит</item>
+        <item>Без фоновых процессов</item>
+        <item>Не более 1 процесса</item>
+        <item>Не более 2 процессов</item>
+        <item>Не более 3 процессов</item>
+        <item>Не более 4 процессов</item>
+    </string-array>
+</resources>

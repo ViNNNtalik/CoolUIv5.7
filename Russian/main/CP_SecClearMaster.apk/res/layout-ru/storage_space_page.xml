@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/space_detail_view_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="24.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_list_abstract" android:layout_gravity="center_vertical" android:id="@id/son_space_info_tv" android:paddingLeft="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/storage_son_space" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/space_detail_view_background_color" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/system_progressbar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.yulong.android.secclearmaster.ui.view.RoundProgressBar android:layout_gravity="center_horizontal" android:id="@id/sys_progressbar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/color_list_title" android:layout_gravity="center_horizontal" android:id="@id/system_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/system" />
+        </LinearLayout>
+        <ImageView android:id="@id/divide_one" android:background="@drawable/ic_list_dividing_line" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/internal_sd_progressbar_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.yulong.android.secclearmaster.ui.view.RoundProgressBar android:layout_gravity="center_horizontal" android:id="@id/internal_sd_progressbar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/color_list_title" android:layout_gravity="center_horizontal" android:id="@id/internal_sd_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/inner_sdcard" />
+        </LinearLayout>
+        <ImageView android:id="@id/divide_two" android:background="@drawable/ic_list_dividing_line" android:visibility="visible" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/external_sd_progressbar_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.yulong.android.secclearmaster.ui.view.RoundProgressBar android:layout_gravity="center_horizontal" android:id="@id/external_sd_progressbar" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/color_list_title" android:layout_gravity="center_horizontal" android:id="@id/external_sd_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/outer_sdcard" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/color_list_abstract" android:layout_gravity="center_vertical" android:id="@id/son_space_info_tv" android:paddingLeft="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_detail" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/space_detail_view_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+                <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/progress_and_pie_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/progress_dlg_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/progress_dialog_icon" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <com.yulong.android.secclearmaster.ui.view.PieView android:id="@id/info_pie_view" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginBottom="20.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_list_title" android:layout_gravity="center_horizontal" android:id="@id/total_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                    <com.yulong.android.secclearmaster.ui.view.YLSecurityShortcut android:id="@id/app_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <com.yulong.android.secclearmaster.ui.view.YLSecurityShortcut android:id="@id/pic_video_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip">
+                    <com.yulong.android.secclearmaster.ui.view.YLSecurityShortcut android:id="@id/others_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <com.yulong.android.secclearmaster.ui.view.YLSecurityShortcut android:id="@id/available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

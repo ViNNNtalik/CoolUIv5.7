@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/common_list_item_selector" android:layout_width="fill_parent" android:layout_height="124.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#ffb3b3b4" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/description" android:background="#ffe8ecef" android:paddingLeft="10.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="Выберите способ воссатновления" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="102.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                <TextView android:textSize="22.0dip" android:textColor="#ff303846" android:ellipsize="end" android:id="@id/device_name" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aaa" android:singleLine="true" />
+                <TextView android:textSize="22.0dip" android:textColor="#ffb3b3b4" android:ellipsize="end" android:id="@id/phone_setting_is_loacal" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="#ffb3b3b4" android:ellipsize="end" android:id="@id/phone_setting_meid" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="meid" android:singleLine="true" />
+            <TextView android:textSize="14.0dip" android:textColor="#ffb3b3b4" android:ellipsize="end" android:id="@id/phone_setting_imei" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="imei" android:singleLine="true" />
+            <TextView android:textSize="14.0dip" android:textColor="#ff009cea" android:ellipsize="end" android:id="@id/updata_time" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="time" android:singleLine="true" />
+        </LinearLayout>
+        <Button android:textSize="16.0dip" android:textColor="@drawable/sync_phonesetting_backup_btn_selector" android:layout_gravity="center_vertical" android:id="@android:attr/theme" android:background="@drawable/sync_phonesetting_onekey_bakcup_selector" android:focusable="true" android:clickable="true" android:layout_width="57.0dip" android:layout_height="33.0dip" android:layout_marginRight="8.0dip" android:text="Восстановление" />
+    </LinearLayout>
+</LinearLayout>

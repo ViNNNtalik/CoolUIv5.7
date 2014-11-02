@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/setting_head_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/header_bg_id" android:background="@drawable/umgr_person_info_top_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/setting_header_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <TextView android:textSize="22.0dip" android:textColor="#ffffffff" android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="Мой аккаунт" android:singleLine="true" android:shadowColor="#ff1b1b1b" android:shadowDy="1.0" android:shadowRadius="3.0" android:layout_centerHorizontal="true" />
+        <FrameLayout android:id="@id/head_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:layout_below="@id/title" android:layout_centerHorizontal="true">
+            <com.coolcloud.android.sync.view.CircularImage android:layout_gravity="center" android:id="@id/image1" android:layout_width="89.0dip" android:layout_height="89.0dip" android:src="@drawable/cc_personalheader_big_default_my" android:scaleType="fitXY" />
+            <com.coolcloud.android.sync.view.CircularImage android:layout_gravity="center" android:id="@id/user_head_icon" android:layout_width="79.0dip" android:layout_height="79.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" android:singleLine="true" android:shadowColor="#ff1b1b1b" android:shadowDy="1.0" android:shadowRadius="3.0" android:layout_below="@id/head_layout" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/user_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/name" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/title_icon" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/ico_caution" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/user_score_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:shadowColor="#ff1b1b1b" android:shadowDy="1.0" android:shadowRadius="3.0" />
+        </LinearLayout>
+        <ImageView android:id="@id/head_icon_line" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

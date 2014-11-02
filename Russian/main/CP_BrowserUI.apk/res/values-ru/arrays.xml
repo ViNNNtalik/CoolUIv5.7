@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="google">
+        <item>Google</item>
+        <item>google.com</item>
+        <item>http://www.google.com/favicon.ico</item>
+        <item>http://www.google.com/search?hl={language}&amp;ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://www.google.com/complete/search?hl=ru&amp;client=android&amp;q={searchTerms}</item>
+    </string-array>
+    <string-array name="yandexmarket">
+        <item>Яндекс.Маркет</item>
+        <item>http://market.yandex.ru/</item>
+        <item>http://market.yandex.ru/favicon.ico</item>
+        <item>http://market.yandex.ru/search.xml?cvredirect=2&amp;text={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://www.google.com/complete/search?hl=ru&amp;client=android&amp;q={searchTerms}</item>
+    </string-array>
+    <string-array name="add_mode_list">
+        <item>Из закладок</item>
+        <item>Из истории</item>
+        <item>Вручную</item>
+    </string-array>
+    <string-array name="edit_mode_list">
+        <item>В новой вкладке</item>
+        <item>Редактировать</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="edit_default_list">
+        <item>В новой вкладке</item>
+    </string-array>
+    <string-array name="pref_flash_using_choices">
+        <item>Всегда вкл.</item>
+        <item>По запросу</item>
+        <item>Выкл.</item>
+    </string-array>
+    <string-array name="array_share_link_choices">
+        <item>Эл.письмо</item>
+        <item>Weibo</item>
+        <item>Bluetooth</item>
+        <item>SMS/MMS</item>
+    </string-array>
+    <string-array name="history_contextmenu_item_choices">
+        <item>В новой вкладке</item>
+        <item>В навигацию</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="history_contextmenu_item_choices_cm">
+        <item>В новой вкладке</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="clear_downlads_deleted_item_choices_cm">
+        <item>Удалить файлы</item>
+    </string-array>
+    <string-array name="browser_function_tips">
+        <item>Длинное нажатие  Назад - быстрый возврат на первую веб-страницу</item>
+        <item>Длинное нажатие в правом углу скроллера - быстрая прокрутка списков</item>
+        <item>Длинное нажатие на веб-страницах для всплывающих меню</item>
+        <item>В режиме инкогнито не записываются история посещения сайтов, поиска и Cookies</item>
+        <item>Нажатие страницы для включения элементов</item>
+        <item>Нажатие левой клавиши - быстрое добавление в закладки</item>
+        <item>В режиме без фото загружается быстрее</item>
+        <item>Режим в фоне - позволяет быстро открывать новые страницы в фоне</item>
+        <item>Кнопка полного экрана может легко перемещаться</item>
+        <item>Автоматически делаются нестандартные URL для поисковых страниц</item>
+        <item>Нажатие правой клавиши в истории - быстрое добавление в закладки</item>
+        <item>Нажатие меню закладок - быстрое переключение между видами просмотра</item>
+        <item>Можно легко создать бэкап всех локальных закладок</item>
+        <item>Можно легко создать бэкап всех локальных закладок и истории посещений</item>
+    </string-array>
+    <string-array name="common_url">
+        <item>Google</item>
+        <item>http://www.google.ru</item>
+    </string-array>
+    <array name="CU01">
+        <item>3</item>
+        <item>@drawable/bookmark_60</item>
+        <item>Google</item>
+        <item>http://www.google.ru</item>
+    </array>
+    <string-array name="browser_about">
+        <item>"Версия (перевод ViNNNtalik): "</item>
+        <item>"Версия Webkit: "</item>
+        <item>"История изменений: "</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="search_engines_cm">
+        <item>google</item>
+        <item>baidu</item>
+        <item>search139</item>
+    </string-array>
+    <string-array name="search_engines">
+        <item>google</item>
+        <item>baidu</item>
+    </string-array>
+    <string-array name="search_engines_tw">
+        <item>google</item>
+        <item>yahoo_tw</item>
+        <item>bing_zh_TW</item>
+    </string-array>
+    <string-array name="pref_content_plugins_choices">
+        <item>Всегда вкл.</item>
+        <item>По запросу</item>
+        <item>Выкл.</item>
+    </string-array>
+
+
+
+
+    <string-array name="pref_content_tabswitch_choices">
+        <item>Список</item>
+        <item>Миниатюры</item>
+    </string-array>
+
+
+
+
+    <string-array name="pref_homepage_choices">
+        <item>Активная страница</item>
+        <item>Пустая страница</item>
+        <item>Страница по умолчанию</item>
+        <item>Другое</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="pref_useragent_choices">
+        <item>По умолчанию (рекомендуется)</item>
+        <item>Android</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>PC</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string-array name="pref_text_size_choices">
+        <item>Мелкий</item>
+        <item>Маленький</item>
+        <item>Нормальный</item>
+        <item>Большой</item>
+        <item>Огромный</item>
+    </string-array>
+    <string-array name="pref_default_zoom_choices">
+        <item>Далеко</item>
+        <item>Средне</item>
+        <item>Закрыто</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="pref_development_ua_choices">
+        <item>Android</item>
+        <item>Desktop</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+        <item>Froyo-N1</item>
+        <item>Honeycomb-Xoom</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="pref_data_preload_choices">
+        <item>Никогда</item>
+        <item>Только Wi-Fi</item>
+        <item>Всегда</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="pref_link_prefetch_choices">
+        <item>Никогда</item>
+        <item>Только Wi-Fi</item>
+        <item>Всегда</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="snapshot_context_dialog_list_items">
+        <item>Перейти по URL</item>
+        <item>Закладка</item>
+        <item>Поделиться</item>
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="bookmark_folder_context_dialog_list_items">
+        <item>Открыть в новой вкладке</item>
+        <item>Редактировать папку</item>
+        <item>Удалить папку</item>
+    </string-array>
+    <string-array name="bookmark_context_dialog_list_items">
+        <item>Открыть в новой вкладке</item>
+        <item>Редактировать закладку</item>
+        <item>Удалить закладку</item>
+        <item>Поделиться закладкой</item>
+        <item>В навигацию</item>
+        <item>Как дом.страница</item>
+    </string-array>
+    <string-array name="bookmark_context_dialog_list_items_cm">
+        <item>Открыть в новой вкладке</item>
+        <item>Редактировать закладку</item>
+        <item>Удалить закладку</item>
+        <item>Поделиться  закладкой</item>
+        <item>Как дом.страница</item>
+    </string-array>
+    <string-array name="download_history_context_finished">
+        <item>Открыть</item>
+        <item>Очистить из списка</item>
+    </string-array>
+    <string-array name="download_history_context_failed">
+        <item>Очистить из списка</item>
+        <item>Повтор</item>
+    </string-array>
+    <string-array name="download_history_context_paused">
+        <item>Возобновить</item>
+    </string-array>
+    <string-array name="download_history_context_running">
+        <item>"Отмена "</item>
+        <item>"Пауза "</item>
+    </string-array>
+    <string-array name="pref_land_mode_choices">
+        <item>Авто</item>
+        <item>Портрет</item>
+        <item>Ландшафт</item>
+    </string-array>
+    <string-array name="delete_data_string_array">
+        <item>Кэш</item>
+        <item>История</item>
+        <item>Cookies</item>
+        <item>Данные форм</item>
+        <item>Очистить пароли</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="handle_pdf_choices">
+        <item>Загрузка</item>
+        <item>Открыть</item>
+    </string-array>
+</resources>

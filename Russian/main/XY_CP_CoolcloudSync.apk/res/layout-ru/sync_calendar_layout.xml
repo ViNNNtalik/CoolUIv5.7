@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="70.0dip" layout="@layout/sync_synccontent_item_layout" />
+            <TextView android:textSize="14.0dip" android:textColor="@drawable/sync_content_sync_btn_color" android:gravity="center" android:id="@id/sci_start_sync_id" android:background="@drawable/sync_content_sync_btn_selector" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="Синхронизировать сейчас" />
+            <RelativeLayout android:id="@id/scal_rpc_layout_id" android:background="@drawable/common_list_item_selector" android:layout_marginTop="8.0dip" style="@style/list_item_style">
+                <ImageView android:id="@id/scal_rpc_icon_id" android:background="@drawable/sync_icon_recover" android:layout_centerVertical="true" style="@style/list_item_lefticon_style" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/scal_rpc_icon_id" android:layout_centerVertical="true">
+                    <TextView android:id="@id/scal_rpc_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Восстановление Календаря" style="@style/list_item_text_style" />
+                    <TextView android:id="@id/scal_rpc_content_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Восстановление Календаря не нарушит работу устройства" style="@style/list_item_subtext_style" />
+                </LinearLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/scal_csc_layout_id" android:background="@drawable/common_list_item_selector" android:layout_marginTop="8.0dip" style="@style/list_item_style">
+                <ImageView android:id="@id/scal_csc_icon_id" android:background="@drawable/cc_sync_icon_cloudcalendar" android:layout_centerVertical="true" style="@style/list_item_lefticon_style" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/scal_csc_icon_id" android:layout_centerVertical="true">
+                    <TextView android:id="@id/scal_csc_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Календарь в Облаке" style="@style/list_item_text_style" />
+                    <TextView android:id="@id/scal_csc_content_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Просмотр Календаря в Облаке" style="@style/list_item_subtext_style" />
+                </LinearLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

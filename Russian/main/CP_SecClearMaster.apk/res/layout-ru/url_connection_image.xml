@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.yulong.android.secclearmaster.ui.fragment.main.GuideGallery android:id="@id/image_wall_gallery" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spacing="1.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:unselectedAlpha="1.0" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:background="#88000000" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_alignBottom="@id/image_wall_gallery">
+        <TextView android:textColor="#ffffffff" android:id="@id/txt_gallerytitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/recommend_this_week" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/gallery_point_linear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="70.0dip" layout="@layout/sync_synccontent_item_layout" />
+            <TextView android:textSize="14.0dip" android:textColor="@drawable/sync_content_sync_btn_color" android:gravity="center" android:id="@id/sci_start_sync_id" android:background="@drawable/sync_content_sync_btn_selector" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="Синхронизировать сейчас" />
+            <RelativeLayout android:id="@id/spl_pr_layout_id" android:background="@drawable/common_list_item_selector" android:layout_marginTop="8.0dip" style="@style/list_item_style">
+                <ImageView android:id="@id/spl_pr_icon_id" android:background="@drawable/cc_sync_icon_picrecovery" android:layout_centerVertical="true" style="@style/list_item_lefticon_style" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/spl_pr_icon_id" android:layout_centerVertical="true">
+                    <TextView android:id="@id/spl_pr_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Восстановление изображений" style="@style/list_item_text_style" />
+                    <TextView android:id="@id/spl_pr_content_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Восстановление данных не нарушает работу устройства" style="@style/list_item_subtext_style" />
+                </LinearLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/spl_rppl_layout_id" android:background="@drawable/common_list_item_selector" android:layout_marginTop="8.0dip" style="@style/list_item_style">
+                <ImageView android:id="@id/spl_rppl_icon_id" android:background="@drawable/cc_sync_icon_piccheck" android:layout_centerVertical="true" style="@style/list_item_lefticon_style" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/spl_rppl_icon_id" android:layout_centerVertical="true">
+                    <TextView android:id="@id/spl_rppl_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Просмотр изображений" style="@style/list_item_text_style" />
+                    <TextView android:id="@id/spl_rppl_content_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Просмотр изображений для резервирования" style="@style/list_item_subtext_style" />
+                </LinearLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/spl_csc_layout_id" android:background="@drawable/common_list_item_selector" android:layout_marginTop="8.0dip" style="@style/list_item_style">
+                <ImageView android:id="@id/spl_csc_icon_id" android:background="@drawable/cc_sync_icon_cloudpic" android:layout_centerVertical="true" style="@style/list_item_lefticon_style" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/spl_csc_icon_id" android:layout_centerVertical="true">
+                    <TextView android:id="@id/spl_csc_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Изображения в Облаке" style="@style/list_item_text_style" />
+                    <TextView android:id="@id/spl_csc_content_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Просмотр изображений в Облаке" style="@style/list_item_subtext_style" />
+                </LinearLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <TextView android:textSize="12.0dip" android:textColor="#ff8b8c8e" android:id="@id/spl_pss_lable_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:text="Параметры синхронизации" />
+            <RelativeLayout android:id="@id/spl_wus_layout_id" android:background="@drawable/common_list_white_top_selector" android:layout_marginTop="6.0dip" style="@style/list_item_style">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_centerVertical="true">
+                    <TextView android:id="@id/spl_wus_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Только Wi-Fi" style="@style/list_item_text_style" />
+                    <TextView android:id="@id/spl_wus_content_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Экономия времени и трафика" style="@style/list_item_subtext_style" />
+                </LinearLayout>
+                <ImageView android:id="@id/spl_wus_image" android:background="@drawable/sync_radiobutton_selector" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/spl_3gup_layout_id" android:background="@drawable/common_list_white_middle_selector" style="@style/list_item_style">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_centerVertical="true">
+                    <TextView android:id="@id/spl_3gup_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3G и Wi-Fi" style="@style/list_item_text_style" />
+                    <TextView android:id="@id/spl_3gup_content_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Возможен расход трафика по 3G" style="@style/list_item_subtext_style" />
+                </LinearLayout>
+                <ImageView android:id="@id/spl_3gup_image" android:background="@drawable/sync_radiobutton_selector" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/spl_pcu_layout_id" android:background="@drawable/common_list_white_bottom_selector" style="@style/list_item_style">
+                <TextView android:gravity="center_vertical" android:id="@id/spl_pcu_title_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="Сжатие изображений" android:layout_centerVertical="true" style="@style/list_item_text_style" />
+                <com.coolcloud.android.sync.view.SlipButton android:id="@id/spl_slipbtn_id" android:focusable="false" android:layout_width="52.0dip" android:layout_height="26.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

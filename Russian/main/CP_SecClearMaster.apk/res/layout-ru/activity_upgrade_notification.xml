@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="300.0dip" android:layout_height="wrap_content" android:maxHeight="600.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="" android:layout_weight="0.8">
+        <TextView android:textSize="14.0dip" android:textColor="#ff383838" android:id="@id/des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textSize="12.0dip" android:id="@id/sizenote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="大小" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff383838" android:id="@id/sizeText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:text="0" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip">
+        <RelativeLayout android:id="@id/upgrade_install" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentLeft="false" android:layout_alignParentTop="false" android:layout_centerInParent="true">
+            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/install_apk" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

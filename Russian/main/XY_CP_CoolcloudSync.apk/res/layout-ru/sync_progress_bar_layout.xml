@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/light_image_id" android:layout_width="@dimen/sync_progress_layout_width" android:layout_height="@dimen/sync_progress_layout_height" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/round_image_id" android:background="@drawable/cc_btn_sync_key_bg_selector" android:layout_width="@dimen/sync_progress_layout_width" android:layout_height="@dimen/sync_progress_layout_height" android:layout_centerInParent="true">
+        <TextView android:textSize="46.0dip" android:textColor="@color/sync_text_color_selector" android:id="@id/sync_progress_text_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Бэкап" android:layout_centerInParent="true" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/sync_text_color_selector" android:gravity="bottom" android:id="@id/sync_progress_synmbol_text_id" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="%" android:layout_toRightOf="@id/sync_progress_text_id" android:layout_alignTop="@id/sync_progress_text_id" android:layout_alignBottom="@id/sync_progress_text_id" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/shadow_image_id" android:background="@drawable/sync_progress_shadow" android:layout_width="@dimen/sync_progress_shadow_width" android:layout_height="@dimen/sync_progress_shadow_height" android:scaleType="fitXY" android:layout_centerInParent="true" />
+</RelativeLayout>

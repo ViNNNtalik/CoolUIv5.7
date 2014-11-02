@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/color_base" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.yulong.android.secclearmaster.ui.view.ResultView android:layout_gravity="center" android:id="@id/resultView" android:background="@drawable/yl_main_activity_scan_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/check_remind_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/add_3days" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/speed_up_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/system_improved" android:singleLine="true" android:drawableTop="@drawable/yl_main_activity_speed_up" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/flux_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flux_control" android:singleLine="true" android:drawableTop="@drawable/yl_main_activity_flux" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/kavass_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kavass" android:singleLine="true" android:drawableTop="@drawable/yl_main_activity_kavass" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/virus_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/virus_scan" android:singleLine="true" android:drawableTop="@drawable/yl_main_activity_virus" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/notify_manager_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ads_block" android:singleLine="true" android:drawableTop="@drawable/yl_main_activity_notify_manager" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/savepower_manager_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_manager" android:singleLine="true" android:drawableTop="@drawable/yl_main_activity_savepower_manager" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/yl_push_delete_view" android:background="@drawable/yl_main_activity_push_background" android:layout_width="fill_parent" android:layout_height="26.0dip">
+        <ImageView android:id="@id/yl_push_delete_image" android:background="@drawable/yl_main_activity_push_delete_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffe9573f" android:gravity="center_horizontal" android:id="@id/yl_push_delete_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/coolpad_came" android:layout_toLeftOf="@id/yl_push_delete_image" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

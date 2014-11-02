@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/bind_weibo_layout" layout="@layout/cooperation_setting_header" />
+    <LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="center_vertical" android:id="@id/bind_weibo_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/icon_weibo" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:textColor="#ff9a9a9a" android:gravity="center" android:id="@id/bind_weibo_tip" android:layout_width="wrap_content" android:layout_height="70.0dip" android:layout_marginTop="10.0dip" android:text="      привязав эл.почту, Вы сможете найти новых друзей" android:layout_toRightOf="@id/bind_weibo_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/cc_frame_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip">
+            <AutoCompleteTextView android:textSize="18.0dip" android:textColor="#ff383838" android:textColorHint="#ffbfbfbf" android:layout_gravity="center" android:id="@id/bindcontent" android:background="@null" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+            <View android:id="@id/exbindcontent_line" android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <EditText android:textSize="18.0dip" android:textColor="#ff383838" android:textColorHint="#ffbfbfbf" android:layout_gravity="center" android:id="@id/exbindcontent" android:background="@null" android:paddingLeft="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:password="true" android:inputType="textPassword" />
+        </LinearLayout>
+        <Button android:textSize="20.0dip" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/next" android:background="@drawable/btn_activite_ground" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="18.0dip" android:text="Далее" />
+    </LinearLayout>
+</LinearLayout>

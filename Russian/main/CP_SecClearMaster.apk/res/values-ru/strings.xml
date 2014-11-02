@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ini_home_detail">Может привести к черному экрану</string>
+    <string name="ini_input_detail">Метод ввода. Возможно, потребуется вручную повторно запустить после окончания</string>
+    <string name="ini_live_wallpaper_detail">Живые обои. Возможно, потребуется вручную повторно установить после окончания</string>
+    <string name="ini_system_core_detail">Системные приложения. Возможно нарущение работы после окончания</string>
+
+
+
+
+    <string name="ini5">Критические системные процессы. Возможен перезапуск</string>
+
+    <string name="ini7">Критические системные процессы. Возможен перезапуск</string>
+
+    <string name="ini9">Может привести к залипанию часов</string>
+
+    <string name="ini11">Может привести к залипанию часов на виджете</string>
+
+    <string name="ini13">Могут не работать функции Менеджера</string>
+
+    <string name="ini15">Могут не работать функции Перехватчика</string>
+
+    <string name="ini17">Могут быть ошибки в журналах</string>
+
+    <string name="ini19">Необходим будет повторный вход</string>
+
+    <string name="ini21">Могут слететь настройки будильников</string>
+
+    <string name="ini23">Могут слететь настройки будильников</string>
+
+    <string name="ini25">Может вызвать нарушение работы приложения С-клавиша</string>
+
+    <string name="ini27">Может не работать и не обновляться  виджет</string>
+
+    <string name="ini29">Может не работать и не обновляться виджет</string>
+
+    <string name="ini31">Может не работать и не обновляться  виджет</string>
+
+    <string name="ini33">Может не работать и не обновляться  виджет</string>
+
+    <string name="ini35">Прервется работа Bluetooth</string>
+
+    <string name="ini37">Ошибки сохранениия данных в журнале ошибок</string>
+
+    <string name="ini39">Может прерваться процесс обновления</string>
+
+    <string name="ini40_2">Может закрыться графический интерфейс системы</string>
+
+    <string name="ini41_2">Не будет работать Мульти-окно</string>
+
+    <string name="ini42_2">Необходим будет повторный вход</string>
+
+    <string name="ini42_4">После позиционирования может привести к ненормальной работе Google</string>
+
+    <string name="ini42_6">После позиционирования может привести к ненормальной работе Google</string>
+
+    <string name="ini42_8">Может вызвать неправильную работу фреймворков Google</string>
+
+    <string name="ini43_2">Может остановиться воспроизведение музыки</string>
+
+    <string name="ini43_4">Может остановиться воспроизведение музыки</string>
+
+    <string name="ini43_6">Могут быть проблемы в работе Бэкапа</string>
+
+    <string name="ini43_8">Общее социальное приложение, не сможет получать сообщения после завершения</string>
+
+    <string name="ini41">QQ-чат</string>
+
+
+    <string name="ini44">Кэш изображений</string>
+
+
+    <string name="ini47">QQ-чат</string>
+
+
+    <string name="ini50">Кэш QQ-чата</string>
+
+
+    <string name="ini53">QQ-чат</string>
+
+
+    <string name="ini56">Журналы</string>
+
+
+    <string name="ini59">QQ-чат</string>
+
+
+    <string name="ini62">Кэш миниатюр</string>
+
+
+    <string name="ini65">QQ-чат</string>
+
+
+    <string name="ini68">Кэш миниатюр</string>
+
+
+    <string name="ini71">QQ-чат</string>
+
+
+    <string name="ini74">Кэш альбома</string>
+
+
+    <string name="ini77">QQ-чат</string>
+
+
+    <string name="ini80">Мониторинг журналов</string>
+
+
+    <string name="ini83">QQ-чат</string>
+
+
+    <string name="ini86">Кэш изображений</string>
+
+
+    <string name="ini89">QQ-чат</string>
+
+
+    <string name="ini92">Кэш</string>
+
+
+    <string name="ini95">QQ-чат</string>
+
+    <string name="ini97">Номера QQ, пароли, друзья, чаты</string>
+
+    <string name="ini99">Сообщения</string>
+
+    <string name="ini101">Номера счетов, пароли, информация</string>
+
+    <string name="ini103">QQ-чат</string>
+
+
+    <string name="ini106">Фотографии</string>
+    <string name="ini107">Глубокая чистка, исходное изображение не будет очищено</string>
+
+    <string name="ini109">QQ-чат</string>
+
+
+    <string name="ini112">Графические сообщения</string>
+    <string name="ini113">При глубобокой очисте придется перезагрузить изображения</string>
+
+    <string name="ini115">QQ-чат</string>
+
+
+    <string name="ini118">Аватары</string>
+    <string name="ini119">После очистки аватар будет загружаться медленнее</string>
+
+    <string name="ini121">QQ-чат</string>
+
+
+    <string name="ini124">Сохранение изображения</string>
+    <string name="ini125">После очистки изображения будут удалены</string>
+
+    <string name="ini127">QQ-чат</string>
+
+
+    <string name="ini130">Кэш миниатюр</string>
+
+
+    <string name="ini133">QQ-чат</string>
+
+
+    <string name="ini136">Голосовые сообщения</string>
+    <string name="ini137">После очистки они могут быть удалены</string>
+
+    <string name="ini139">Сообщения</string>
+
+
+    <string name="ini142">Мониторинг журналов</string>
+
+
+    <string name="ini145">Сообщения</string>
+
+
+    <string name="ini148">Файл мониторинга</string>
+
+
+    <string name="ini151">Сообщения</string>
+
+
+    <string name="ini154">Кэш установки игр</string>
+
+
+    <string name="ini157">Сообщения</string>
+
+
+    <string name="ini160">Круг друзей</string>
+    <string name="ini161">После очистки не будут загружаться фотографии в кругу моих друзей</string>
+
+    <string name="ini163">Сообщения</string>
+
+
+    <string name="ini166">Кэш изображений в браузере</string>
+    <string name="ini167">Изображения могут быть в сети. Не влияет на использование</string>
+
+    <string name="ini169">Сообщения</string>
+
+
+    <string name="ini172">Аватары</string>
+    <string name="ini173">Необходимо заново настроить аватар</string>
+
+    <string name="ini175">Сообщения</string>
+
+
+    <string name="ini178">Изображения</string>
+    <string name="ini179">Графические изображения после уборки не будут отображаться</string>
+
+    <string name="ini181">Сообщения</string>
+
+
+    <string name="ini184">Голосовые сообщения</string>
+    <string name="ini185">Возможны ошибки при использовании голосовых сообщений</string>
+
+    <string name="ini187">Говорящий Tom 2</string>
+
+
+    <string name="ini190">Кэш игры</string>
+
+
+    <string name="ini193">Крокодильчик Свомпи</string>
+
+
+    <string name="ini196">Кэш игры</string>
+
+
+    <string name="ini199">Rhythm Master</string>
+
+
+    <string name="ini202">Кэш игры</string>
+
+
+    <string name="ini205">Rhythm Master</string>
+
+
+    <string name="ini208">Журналы</string>
+
+
+    <string name="ini211">Tencent Pao</string>
+
+
+    <string name="ini214">Кэш игры</string>
+
+
+    <string name="ini217">Tencent Pao</string>
+
+
+    <string name="ini220">Журналы</string>
+
+
+    <string name="ini223">Tencent Pao</string>
+
+
+    <string name="ini226">Мониторинг журналов</string>
+
+
+    <string name="ini229">Tencent Peng</string>
+
+
+    <string name="ini232">Кэш игры</string>
+
+
+    <string name="ini235">Tencent Peng</string>
+
+
+    <string name="ini238">Мониторинг журналов</string>
+
+
+    <string name="ini241">Angry Birds</string>
+
+
+    <string name="ini244">Кэш игры</string>
+
+
+    <string name="ini247">Поиск Baidu</string>
+
+
+    <string name="ini250">Кэш изображений</string>
+
+
+    <string name="ini253">Поиск Baidu</string>
+
+
+    <string name="ini256">Кэш миниатюр</string>
+
+
+    <string name="ini259">Поиск Baidu</string>
+
+
+    <string name="ini262">Сохранение изображений</string>
+    <string name="ini263">Нельзя восстановить после очистки</string>
+
+    <string name="ini265">PPS видео</string>
+
+
+    <string name="ini268">Кэш изображений</string>
+
+
+    <string name="ini271">PPS видео</string>
+
+
+    <string name="ini274">Реклама</string>
+
+
+    <string name="ini277">PPS видео</string>
+
+
+    <string name="ini280">Кэш списка</string>
+
+
+    <string name="ini283">PPS видео</string>
+
+
+    <string name="ini286">Офлайн видео</string>
+    <string name="ini287">Нельзя восстановить после очистки</string>
+
+    <string name="ini289">FM-радио</string>
+
+
+    <string name="ini292">Кэш музыки</string>
+    <string name="ini293">Нельзя восстановить после очистки</string>
+
+    <string name="ini295">Облако</string>
+
+
+    <string name="ini298">История просмотра</string>
+
+
+    <string name="ini301">Облако</string>
+
+    <string name="ini303">Номера счетов, пароли, информация</string>
+
+    <string name="ini305">Облако</string>
+
+
+    <string name="ini308">Журнал исключений</string>
+
+
+    <string name="ini311">Облако</string>
+
+
+    <string name="ini314">Аватары</string>
+
+
+    <string name="ini317">Облако</string>
+
+
+    <string name="ini320">Картинки</string>
+
+
+    <string name="ini323">Облако</string>
+
+
+    <string name="ini326">Мультимедийные файлы</string>
+    <string name="ini327">Нельзя восстановить после очистки</string>
+
+    <string name="ini329">Облако</string>
+
+
+    <string name="ini332">Статистика</string>
+
+
+    <string name="ini335">Облако</string>
+
+
+    <string name="ini338">Временные файлы</string>
+
+
+    <string name="ini341">Облако</string>
+
+
+    <string name="ini344">Временные файлы</string>
+
+
+    <string name="ini347">Облако</string>
+
+
+    <string name="ini350">Голосовые сообщения</string>
+
+
+    <string name="ini353">Облако</string>
+
+
+    <string name="ini356">Календарь</string>
+
+
+    <string name="ini359">Облако</string>
+
+
+    <string name="ini362">Записи уведомлений</string>
+
+
+    <string name="ini365">Облако</string>
+
+
+    <string name="ini368">Кэш</string>
+
+
+    <string name="ini371">Облако</string>
+
+
+    <string name="ini374">Журнал резервного копирования</string>
+
+
+    <string name="ini377">Облако</string>
+
+
+    <string name="ini380">Журнал работы</string>
+
+
+    <string name="ini383">Облако</string>
+
+
+    <string name="ini386">Совместные журналы</string>
+
+
+    <string name="ini389">Облако</string>
+
+
+    <string name="ini392">Журнал синхронизации</string>
+
+
+    <string name="ini395">Руководство пользователя</string>
+
+
+    <string name="ini398">Кэш изображений руководства пользователя</string>
+
+
+    <string name="ini401">Проводник</string>
+
+
+    <string name="ini404">Кэш посещений</string>
+
+
+    <string name="ini407">Проводник</string>
+
+
+    <string name="ini410">Кэш операций</string>
+
+
+    <string name="ini413">Bluetooth</string>
+
+
+    <string name="ini416">Документ Bluetooth (txt)</string>
+    <string name="ini417">Нельзя восстановить после очистки</string>
+
+    <string name="ini419">Bluetooth</string>
+
+
+    <string name="ini422">Bluetooth музыка</string>
+    <string name="ini423">Нельзя восстановить после очистки</string>
+
+    <string name="ini425">Bluetooth</string>
+
+
+    <string name="ini428">Другие документы передачи Bluetooth （xml，zip，apk）</string>
+    <string name="ini429">Нельзя восстановить после очистки</string>
+
+    <string name="ini431">Bluetooth</string>
+
+
+    <string name="ini434">Bluetooth изображения</string>
+    <string name="ini435">Нельзя восстановить после очистки</string>
+
+    <string name="ini437">Bluetooth</string>
+
+
+    <string name="ini440">Bluetooth видео</string>
+    <string name="ini441">Нельзя восстановить после очистки</string>
+
+    <string name="ini443">Журналы логов</string>
+
+
+    <string name="ini446">Журналы логов</string>
+
+
+    <string name="ini449">Журналы логов</string>
+
+
+    <string name="ini452">Журналы логов</string>
+
+
+    <string name="ini455">Мобильный помощник Baidu</string>
+
+
+    <string name="ini458">Скачивание apk</string>
+
+
+    <string name="ini461">Мобильный помощник 360</string>
+
+
+    <string name="ini464">Скачивание apk</string>
+
+
+    <string name="ini467">Мобильный помощник 360</string>
+
+
+    <string name="ini470">Миниатюры</string>
+
+
+    <string name="ini473">Мобильный помощник 360</string>
+
+
+    <string name="ini476">Кэш иконок</string>
+
+
+    <string name="ini479">ING Market</string>
+
+
+    <string name="ini482">Кэш иконок</string>
+
+
+    <string name="ini485">ING Market</string>
+
+
+    <string name="ini488">Кэш изображений</string>
+
+
+    <string name="ini491">ING Market</string>
+
+
+    <string name="ini494">Кэш списка</string>
+
+
+    <string name="ini497">Tencent mobile</string>
+
+
+    <string name="ini500">Кэш изображений</string>
+
+
+    <string name="ini503">QQ-браузер</string>
+
+
+    <string name="ini506">Мониторинг журналов</string>
+
+
+    <string name="ini509">QQ-браузер</string>
+
+
+    <string name="ini512">Кэш</string>
+
+
+    <string name="ini515">QQ-браузер</string>
+
+
+    <string name="ini518">Загруженные файлы</string>
+    <string name="ini519">Нельзя восстановить после очистки</string>
+
+    <string name="ini521">QQ-браузер</string>
+
+
+    <string name="ini524">Скачивание файла</string>
+    <string name="ini525">Нельзя восстановить после очистки</string>
+
+    <string name="ini527">UC-браузер</string>
+
+
+    <string name="ini530">Кэш</string>
+
+
+    <string name="ini533">PPTV</string>
+
+
+    <string name="ini536">Журналы</string>
+
+
+    <string name="ini539">PPTV</string>
+
+
+    <string name="ini542">Кэш</string>
+
+
+    <string name="ini545">PPTV</string>
+
+
+    <string name="ini548">Загрузка видео</string>
+    <string name="ini549">Нельзя восстановить после очистки</string>
+
+    <string name="ini551">QQ-музыка</string>
+
+
+    <string name="ini554">Кэш</string>
+
+
+    <string name="ini557">QQ-музыка</string>
+
+
+    <string name="ini560">Загрузка песен</string>
+    <string name="ini561">Нельзя прослушивать онлайн после очистки</string>
+
+    <string name="ini563">QQ-музыка</string>
+
+
+    <string name="ini566">Кэш прослушивания</string>
+    <string name="ini567">Нельзя прослушивать онлайн после очистки</string>
+
+    <string name="ini569">QQ-музыка</string>
+
+
+    <string name="ini572">Фотоальбом</string>
+    <string name="ini573">Фоновые изображения будут отсутствовать после очистки</string>
+
+    <string name="ini575">QQ-музыка</string>
+
+
+    <string name="ini578">Тексты песен</string>
+    <string name="ini579">После чоистки не будут отображаться тексты песен</string>
+
+    <string name="ini581">Sohu Видео</string>
+
+
+    <string name="ini584">Данные и кэш изображений</string>
+
+
+    <string name="ini587">Sohu Видео</string>
+
+
+    <string name="ini590">Кэш изображений</string>
+
+
+    <string name="ini593">Sohu Видео</string>
+
+
+    <string name="ini596">Офлайн видео</string>
+    <string name="ini597">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini599">TTpod</string>
+
+
+    <string name="ini602">Мониторинг журналов</string>
+
+
+    <string name="ini605">TTpod</string>
+
+
+    <string name="ini608">Скачивание песни</string>
+    <string name="ini609">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini611">TTpod</string>
+
+
+    <string name="ini614">Скачивание текстов песен</string>
+    <string name="ini615">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini617">TTpod</string>
+
+
+    <string name="ini620">Скачивание текстов песен</string>
+    <string name="ini621">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini623">QVOD плеер</string>
+
+
+    <string name="ini626">Обновление</string>
+
+
+    <string name="ini629">QVOD плеер</string>
+
+
+    <string name="ini632">Кэш справочника</string>
+
+
+    <string name="ini635">QVOD плеер</string>
+
+
+    <string name="ini638">Кэш онлайн-миниатюр</string>
+
+
+    <string name="ini641">QVOD плеер</string>
+
+
+    <string name="ini644">Аватары</string>
+
+
+    <string name="ini647">QVOD плеер</string>
+
+
+    <string name="ini650">Кэш обложек</string>
+
+
+    <string name="ini653">QVOD плеер</string>
+
+
+    <string name="ini656">Кэш обложек</string>
+
+
+    <string name="ini659">QVOD плеер</string>
+
+
+    <string name="ini662">Кэш обложек</string>
+
+
+    <string name="ini665">QVOD плеер</string>
+
+
+    <string name="ini668">Кэш рекламы</string>
+
+
+    <string name="ini671">QVOD плеер</string>
+
+
+    <string name="ini674">Кэш видео</string>
+    <string name="ini675">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini677">QVOD плеер</string>
+
+
+    <string name="ini680">Скачивание данных</string>
+    <string name="ini681">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini683">QVOD плеер</string>
+
+
+    <string name="ini686">Закладки к изображению</string>
+    <string name="ini687">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini689">QVOD плеер</string>
+
+
+    <string name="ini692">Миниатюры видео</string>
+    <string name="ini693">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini695">QVOD плеер</string>
+
+
+    <string name="ini698">Тексты песен</string>
+    <string name="ini699">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini701">Changba</string>
+
+
+    <string name="ini704">Кэш изображений и списков</string>
+
+
+    <string name="ini707">Changba</string>
+
+
+    <string name="ini710">Кэш</string>
+
+
+    <string name="ini713">Changba</string>
+
+
+    <string name="ini716">Кэш</string>
+
+
+    <string name="ini719">Changba</string>
+
+
+    <string name="ini722">Скачивание песни</string>
+    <string name="ini723">Нельзя использовать после очистки</string>
+
+    <string name="ini725">Youku</string>
+
+
+    <string name="ini728">Офлайн видео</string>
+    <string name="ini729">Нельзя использовать после очистки</string>
+
+    <string name="ini731">Youku</string>
+
+
+    <string name="ini734">Кэш изображений</string>
+
+
+    <string name="ini737">Storm Smart</string>
+
+
+    <string name="ini740">Кэш изображений</string>
+
+
+    <string name="ini743">Storm Smart</string>
+
+
+    <string name="ini746">Кэш данных</string>
+
+
+    <string name="ini749">Storm Smart</string>
+
+
+    <string name="ini752">Кэш видео-миниатюр</string>
+
+
+    <string name="ini755">Storm Smart</string>
+
+
+    <string name="ini758">Веб-кэш</string>
+
+
+    <string name="ini761">Storm Smart</string>
+
+
+    <string name="ini764">Кэш</string>
+
+
+    <string name="ini767">Storm Smart</string>
+
+
+    <string name="ini770">Кэш</string>
+
+
+    <string name="ini773">Storm Smart</string>
+
+
+    <string name="ini776">Скачивание файла</string>
+    <string name="ini777">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini779">Qiyi-видео</string>
+
+
+    <string name="ini782">Кэш изображений</string>
+
+
+    <string name="ini785">Qiyi-видео</string>
+
+
+    <string name="ini788">Локальный файл</string>
+    <string name="ini789">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini791">Baidu Видео</string>
+
+
+    <string name="ini794">Журналы</string>
+
+
+    <string name="ini797">Meters music</string>
+
+
+    <string name="ini800">Кэш изображений</string>
+
+
+    <string name="ini803">Meters music</string>
+
+
+    <string name="ini806">Кэш</string>
+
+
+    <string name="ini809">Meters music</string>
+
+
+    <string name="ini812">Кэш</string>
+
+
+    <string name="ini815">Duomi</string>
+
+
+    <string name="ini818">Скачивание песни</string>
+    <string name="ini819">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini821">Duomi</string>
+
+
+    <string name="ini824">Фотоальбомы</string>
+    <string name="ini825">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini827">Duomi</string>
+
+
+    <string name="ini830">Тексты песен</string>
+    <string name="ini831">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini833">Duomi</string>
+
+
+    <string name="ini836">Кэш прослушивания</string>
+    <string name="ini837">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini839">Мелодии</string>
+
+
+    <string name="ini842">Журналы</string>
+
+
+    <string name="ini845">Tencent Видео</string>
+
+
+    <string name="ini848">Кэш иконок</string>
+
+
+    <string name="ini851">Tencent Видео</string>
+
+
+    <string name="ini854">Кэш списка</string>
+
+
+    <string name="ini857">Tencent Видео</string>
+
+
+    <string name="ini860">Кэш</string>
+
+
+    <string name="ini863">Tencent Видео</string>
+
+
+    <string name="ini866">Скачивание видео</string>
+    <string name="ini867">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini869">Funshion видео</string>
+
+
+    <string name="ini872">Кэш изображений</string>
+
+
+    <string name="ini875">Funshion видео</string>
+
+
+    <string name="ini878">Кэш списка</string>
+
+
+    <string name="ini881">360 Кино</string>
+
+
+    <string name="ini884">Скачивание видео</string>
+    <string name="ini885">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini887">Potato Video</string>
+
+
+    <string name="ini890">Кэш изображений</string>
+
+
+    <string name="ini893">Potato Video</string>
+
+
+    <string name="ini896">Миниатюры видео</string>
+
+
+    <string name="ini899">Potato Video</string>
+
+
+    <string name="ini902">Кэш миниатюр</string>
+
+
+    <string name="ini905">Potato Video</string>
+
+
+    <string name="ini908">Офлайн видео</string>
+    <string name="ini909">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini911">LeTV</string>
+
+
+    <string name="ini914">Кэш изображений</string>
+
+
+    <string name="ini917">LeTV</string>
+
+
+    <string name="ini920">Офлайн видео</string>
+    <string name="ini921">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini923">Kankan</string>
+
+
+    <string name="ini926">Изображения обложек</string>
+
+
+    <string name="ini929">Motion Video</string>
+
+
+    <string name="ini932">Кэш миниатюр</string>
+
+
+    <string name="ini935">Motion Video</string>
+
+
+    <string name="ini938">Офлайн видео</string>
+    <string name="ini939">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini941">Vedepp4tv</string>
+
+
+    <string name="ini944">Скачивание видео</string>
+    <string name="ini945">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini947">Kugou</string>
+
+
+    <string name="ini950">Кэш</string>
+
+
+    <string name="ini953">Kugou</string>
+
+
+    <string name="ini956">Фотоальбомы</string>
+    <string name="ini957">После очистки не будут отображаться фоновые изображения при воспроизведении музыки в автономном режиме</string>
+
+    <string name="ini959">Kugou</string>
+
+
+    <string name="ini962">Скины</string>
+    <string name="ini963">После очистки не будут доступны скины</string>
+
+    <string name="ini965">Kugou</string>
+
+
+    <string name="ini968">Тексты песен</string>
+    <string name="ini969">После очистки не будут отображаться тексты песен при воспроизведении музыки в автономном режиме</string>
+
+    <string name="ini971">Kugou</string>
+
+
+    <string name="ini974">Кэш прослушивания</string>
+    <string name="ini975">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini977">Kugou</string>
+
+
+    <string name="ini980">Скачивание карты</string>
+    <string name="ini981">После очистки базовая карта будет восстановлена ​​в состояние по умолчанию</string>
+
+    <string name="ini983">Kugou HD</string>
+
+
+    <string name="ini986">Кэш изображений</string>
+
+
+    <string name="ini989">Kugou HD</string>
+
+
+    <string name="ini992">Кэш музыки</string>
+    <string name="ini993">После очистки базовая карта будет восстановлена ​​в состояние по умолчанию</string>
+
+    <string name="ini995">Kugou HD</string>
+
+
+    <string name="ini998">Тексты песен</string>
+    <string name="ini999">После очистки не будут отображаться тексты песен при воспроизведении музыки в автономном режиме</string>
+
+    <string name="ini1001">Kugou HD</string>
+
+
+    <string name="ini1004">Кэш рекламы</string>
+
+
+    <string name="ini1007">Sohu Новости</string>
+
+
+    <string name="ini1010">Кэш новостей</string>
+
+
+    <string name="ini1013">Кэш новостей</string>
+
+
+    <string name="ini1016">Кэш новостей</string>
+
+
+    <string name="ini1019">Tencent Новости</string>
+
+
+    <string name="ini1022">Кэш изображений</string>
+
+
+    <string name="ini1025">Tencent Новости</string>
+
+
+    <string name="ini1028">Кэш изображений</string>
+
+
+    <string name="ini1031">Tencent Новости</string>
+
+
+    <string name="ini1034">Кэш данных</string>
+
+
+    <string name="ini1037">Tencent Новости</string>
+
+
+    <string name="ini1040">Кэш иконок</string>
+
+
+    <string name="ini1043">Tencent Новости</string>
+
+
+    <string name="ini1046">Голосовые сообщения</string>
+    <string name="ini1047">Невозможно будет воспроизвести после очистки</string>
+
+    <string name="ini1049">relian99</string>
+
+
+    <string name="ini1052">Кэш иконок</string>
+
+
+    <string name="ini1055">iReader</string>
+
+
+    <string name="ini1058">Кэш</string>
+
+
+    <string name="ini1061">iReader</string>
+
+
+    <string name="ini1064">Кэш</string>
+
+
+    <string name="ini1067">Реклама</string>
+
+
+    <string name="ini1070">Кэш</string>
+
+
+    <string name="ini1073">Baidu PUSH</string>
+
+
+    <string name="ini1076">Кэш</string>
+
+
+    <string name="ini1079">Временные файлы</string>
+
+
+    <string name="ini1082">Кэш</string>
+
+
+    <string name="ini1085">Baidu Карты SDK</string>
+
+
+    <string name="ini1088">Кэш</string>
+
+
+    <string name="ini1091">Autonavi карты</string>
+
+
+    <string name="ini1094">Кэш изображений</string>
+
+
+    <string name="ini1097">Autonavi карты</string>
+
+
+    <string name="ini1100">Оффлайн карты</string>
+    <string name="ini1101">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini1103">Autonavi карты</string>
+
+
+    <string name="ini1106">Оффлайн 3D карты</string>
+    <string name="ini1107">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini1109">Autonavi карты</string>
+
+
+    <string name="ini1112">Кэш изображений</string>
+
+
+    <string name="ini1115">Autonavi карты</string>
+
+
+    <string name="ini1118">Оффлайн карты</string>
+    <string name="ini1119">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini1121">Autonavi карты</string>
+
+
+    <string name="ini1124">Оффлайн 3D карты</string>
+    <string name="ini1125">После очистки нельзя будет использовать в автономном режиме</string>
+
+    <string name="ini1127">PayPal</string>
+
+
+    <string name="ini1130">Кэш</string>
+
+
+    <string name="ini1133">PayPal</string>
+
+
+    <string name="ini1136">Кэш APK</string>
+
+
+    <string name="ini1139">PayPal</string>
+
+
+    <string name="ini1142">Кэш изображений</string>
+
+
+    <string name="ini1145">PayPal</string>
+
+
+    <string name="ini1148">Кэш изображений</string>
+
+
+    <string name="ini1151">PayPal</string>
+
+    <string name="ini1153">Номера счетов, пароли, информация</string>
+
+    <string name="ini1155">Taobao</string>
+
+
+    <string name="ini1158">Кэш изображений</string>
+
+
+    <string name="ini1161">Taobao</string>
+
+
+    <string name="ini1164">Файлы кэша</string>
+
+
+    <string name="ini1167">Taobao</string>
+
+    <string name="ini1169">Номера счетов, пароли, информация</string>
+    <string name="left_exist">Наличие остатка</string>
+    <string name="left_clean_risk">Нельзя восстановить после очистки</string>
+    <string name="left_file_size">"Размер остатка: "</string>
+    <string name="app_name">Ускоренная очистка</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_checkupdate">Проверка версии</string>
+    <string name="title_activity_main"> MainActivity </string>
+    <string name="menu_installxpose">Установка Xposed</string>
+    <string name="ask_reboot">Фреймворк был успешно установлен. Перезагрузить устройство для вступления изменений в силу?</string>
+    <string name="install_success">Фреймворк был успешно установлен. Необходимо перезагрузить устройство для вступления изменений в силу</string>
+    <string name="reboot">Перезагрузиться немедленно</string>
+    <string name="next_reboot">Перезагрузиться позже</string>
+    <string name="hint">Информация</string>
+    <string name="tiao">Элемент</string>
+    <string name="text_security_improve">Оптимизация безопасности</string>
+    <string name="text_application_manager">Управление приложениями</string>
+    <string name="text_privacy_protect">Защита приватности</string>
+    <string name="text_security_center">Центр безопасности</string>
+    <string name="text_welcome_used">Добро пожаловать</string>
+    <string name="text_security_setting">Настройки</string>
+    <string name="text_check_update">Обновления</string>
+    <string name="text_user_opinion">Обратная связь</string>
+    <string name="text_features">Параметры</string>
+    <string name="text_about">О приложении</string>
+    <string name="text_share">Поделиться</string>
+    <string name="text_app_store">Маркет</string>
+    <string name="text_phone_need">Необходимо установить</string>
+    <string name="text_hot_game">Горячие игры</string>
+    <string name="text_app_uninstall">Деинсталляция приложений</string>
+    <string name="text_app_move">Перемещение приложений</string>
+    <string name="text_apk_manager">Управление APK-файлами</string>
+    <string name="text_save_mode">Режим безопасности</string>
+    <string name="text_economy_protect">Системная безопасность</string>
+    <string name="text_data_protect">Защита данных</string>
+    <string name="text_apk_lock">Блокировка приложений</string>
+    <string name="text_code_box">Пароль для Сейфа</string>
+    <string name="text_onekey_protect">Защита данных</string>
+    <string name="text_screen_password">Пароль экрана</string>
+    <string name="system_improved">Ускоренная очистка</string>
+    <string name="flux_control">Трафик</string>
+    <string name="kavass">Перехватчик</string>
+    <string name="virus_scan">Антивирус</string>
+    <string name="ads_block">Блокировка рекламы</string>
+    <string name="power_manager">Батарея+</string>
+    <string name="text_invisible">123456789</string>
+    <string name="cache">Кэш</string>
+    <string name="residual_files">Остаточные файлы</string>
+    <string name="useless_installation_package">Ненужные APK-файлы</string>
+    <string name="settings">Настройки</string>
+    <string name="trash_clear">Очистка ненужных файлов</string>
+    <string name="scanning">"Сканирование: "</string>
+    <string name="stop">Остановка</string>
+    <string name="clean_files_setting">Настройки очистки мусора</string>
+    <string name="lock_screen_clean_files">Очистка мусора во время экрана блокировки</string>
+    <string name="more_5hours_auto_clean_files">Больше, чем 5 часов автоматической очистки</string>
+    <string name="timing_interval_clean_files">Временной интервал очистки</string>
+    <string name="five_hours_auto_clean_files">Автоматическая очистка каждые 5 часов</string>
+    <string name="scan_progress">Прогресс</string>
+    <string name="garbage_white_list">Белый список очистки мусора</string>
+    <string name="garbage_clean_plan">Расписание очистки мусора</string>
+    <string name="internet_traces">Интернет-следы</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="twodaybefore">Два дня назад</string>
+    <string name="chat_software_privacy_record">Записи приложений для чата</string>
+    <string name="manual_cleaning_items_privacy_record">Параметры очистки вручную</string>
+    <string name="manual_cleaning_calllog_privacy_title">Журнал вызовов</string>
+    <string name="manual_cleaning_sms_privacy_title">SMS/MMS</string>
+    <string name="manual_cleaning_calllog_privacy_abstract">Входящие/исходящие вызовы</string>
+    <string name="manual_cleaning_sms_privacy_abstract">Полученные/отправленные SMS/MMS</string>
+    <string name="unknow_name">Неизвестно</string>
+    <string name="system_cache">Системный кэш</string>
+    <string name="proposed_clean">Рекомендуемая очистка</string>
+    <string name="able_clean">К очистке</string>
+    <string name="de_garbage">Мусор</string>
+    <string name="white_list_setting">Белый список</string>
+    <string name="text_cache_clean">Очистка мусора</string>
+    <string name="text_cache_clean_scanning">"Сканирование: "</string>
+    <string name="text_cache_clean_choiced">Выбрано</string>
+    <string name="text_cache_clean_cancle">Отмена</string>
+    <string name="text_clean">Очистка</string>
+    <string name="text_detail">Детали</string>
+    <string name="text_size">"Размер: "</string>
+    <string name="text_path">"Путь: "</string>
+    <string name="text_from">"От: "</string>
+    <string name="text_number">"Номер: "</string>
+    <string name="text_date">"Дата: "</string>
+    <string name="text_content">"Содержание: "</string>
+    <string name="text_percent">"Подсчет: "</string>
+    <string name="text_manul_clean_confirm">Далее нажмите \"Очистить данные\", для очистки приватных данных</string>
+    <string name="text_manul_clean_toast">Нажмите \"Очистить данные\", для очистки приватных данных</string>
+    <string name="text_manul_clean_cache_toast">Нажмите \"Очистка кэша\", для очистки данных кэша</string>
+    <string name="text_cache_clean_deepclean">Глубокая очистка</string>
+    <string name="text_cache_clean_onekeyclean">Очистка</string>
+    <string name="text_cache_clean_complete">Завершено</string>
+    <string name="text_cache_clean_cache">Кэш</string>
+    <string name="text_cache_clean_leftover">Остаточные файлы</string>
+    <string name="text_cache_clean_apk">APK-файлы</string>
+    <string name="text_cache_clean_big_files">Большие файлы (>10МВ)</string>
+    <string name="text_cache_clean_done">Очищено</string>
+    <string name="text_cache_clean_cachesize">0.00</string>
+    <string name="text_cache_clean_cacheunits">KB</string>
+    <string name="text_cache_clean_cachetype">Всего</string>
+    <string name="text_privacy_clean_web">История браузера</string>
+    <string name="text_privacy_clean_search">Поиск</string>
+    <string name="text_sms_tmp">Черновики</string>
+    <string name="juhao">". "</string>
+    <string name="douhao">", "</string>
+    <string name="maohao">": "</string>
+    <string name="dunhao">", "</string>
+    <string name="clean_accelerate">Ускоренная очистка</string>
+    <string name="clean_accelerate_beta">Версия  Beta1.4</string>
+    <string name="storage_space">SD-карта</string>
+    <string name="ram">Память</string>
+    <string name="ram_accelerate">Очистка оперативной памяти</string>
+    <string name="can_clean">К очистке</string>
+    <string name="process">"процессов, "</string>
+    <string name="release_ram">Очищено памяти</string>
+    <string name="rubbish_clean">Удаление ненужных файлов</string>
+    <string name="predict_can_clean">Можно очистить</string>
+    <string name="rubbish">Мусор</string>
+    <string name="privacy_clean">Очистка приватных данных</string>
+    <string name="privacy_file">Файлы приватности</string>
+    <string name="privacy_url_history">История браузера</string>
+    <string name="privacy_search_history">История поиска</string>
+    <string name="privacy_calllog_history">Журнал вызовов</string>
+    <string name="privacy_sms_history">SMS/MMS</string>
+    <string name="app_has_privacy_info">Приложения с файлами приватности</string>
+    <string name="suggest_operation">Рекомендуемые действия</string>
+    <string name="inner_sdcard_space">Внутреннее хранилище</string>
+    <string name="total_space">Всего</string>
+    <string name="available">Доступно</string>
+    <string name="deeper_rubbish_clean">Глубокая очистка мусора</string>
+    <string name="outer_sdcard_space">Место на SD-карте</string>
+    <string name="app">Приложения</string>
+    <string name="pic">Изображения</string>
+    <string name="video">Видео</string>
+    <string name="others">Прочее</string>
+    <string name="space_detail">Детали</string>
+    <string name="storage_son_space">Структура распределения памяти</string>
+    <string name="system">Внутренняя память</string>
+    <string name="inner_sdcard">Внутреннее хранилище</string>
+    <string name="outer_sdcard">SD-карта</string>
+    <string name="system_space">Внутренняя память</string>
+    <string name="clean_system_cache">Очистка системного кэша</string>
+    <string name="uninstall_not_use_often_app">Деинсталляция редко используемых приложений</string>
+    <string name="ram_accelerate_setting">Настройки очистки опер. памяти</string>
+    <string name="ram_accelerate_plan">Очистка оперативной памяти</string>
+    <string name="confirm">ОК</string>
+    <string name="cancel">Отмена</string>
+    <string name="lock_screen_ram_accelerate">Очистка памчти во время локскрина</string>
+    <string name="more_than">" больше "</string>
+    <string name="hour_auto_accelerate">Время автоматической очистки</string>
+    <string name="every">" каждые "</string>
+    <string name="time_interval_accelerate">Интервал очистки</string>
+    <string name="ram_accelerate_white_list">Белый список приложений</string>
+    <string name="lock_screen_time">Время локскрина</string>
+    <string name="slide_adjust_lock_screen_time">Слайдинг для настройки времени локскрина</string>
+    <string name="current_lock_screen_time">Текущее значение времни локскрина</string>
+    <string name="time_interval">Интервал времени</string>
+    <string name="slide_adjust_time_interval">Слайдинг для настройки времени</string>
+    <string name="current_time_interval">Текущий интервал времени</string>
+    <string name="ram_accelerate_abs_text">Очистка прлиожений</string>
+    <string name="rubbish_clean_abs_text">Очистка мусора и системного кэша</string>
+    <string name="privacy_clean_abs_text">Очистка приватных данных</string>
+    <string name="has_cleaned">Очищено</string>
+    <string name="current_no_cache">Нет системного кэша</string>
+    <string name="pls_wait">Ожидайте</string>
+    <string name="now_clean_cache_for_you">Ожидайте, пока идет процесс очистки кэша</string>
+    <string name="now_analysting_disk">Ожидайте, пока идет процесс загрузки...</string>
+    <string name="uninstall_left_over_size">"Остаточные файлы после деинсталляции приложений: "</string>
+    <string name="left_over_location">"Путь к остаточным файлам: "</string>
+    <string name="cool_clean_master">Помощь в очистке</string>
+    <string name="uninstall_left_over_clean_success">Очистка остаточных файлов завершена</string>
+    <string name="left_over_of">" остатки"</string>
+    <string name="deep_cache_of">Файлы кэша</string>
+    <string name="text_running_process">"Закрыто приложений: "</string>
+    <string name="text_back_process">"Закрыто фоновых процессов: "</string>
+    <string name="text_one_key_improve">Очистка</string>
+    <string name="text_left">Доступно</string>
+    <string name="text_used">Исп.</string>
+    <string name="text_add_whitelist">Добавить в белый список</string>
+    <string name="text_forbid_autorun">Запрет автозагрузки</string>
+    <string name="text_recover_autorun">Восстановление автозагрузки</string>
+    <string name="text_add_fobidlist">Добавить в список запрета автозагрузки</string>
+    <string name="text_release">Очищено</string>
+    <string name="text_finish">Завершено</string>
+    <string name="text_memery_total">Всего</string>
+    <string name="text_user_app">Пользовательские приложения</string>
+    <string name="text_system_app">Системные приложения</string>
+    <string name="text_my_list">Пользовательские приложения</string>
+    <string name="text_system_list">Системные приложения</string>
+    <string name="text_add_whitelist_explan">Приложения из белого списка будут пропущены</string>
+    <string name="text_running_application">Запущено приложений</string>
+    <string name="text_deep_improve">Глубокая очистка</string>
+    <string name="text_suggest_clean_app">Возможна очистка</string>
+    <string name="text_whitelist_app">Белый список</string>
+    <string name="text_suggest_clean">Совет: очистить</string>
+    <string name="text_suggest_save">Совет: оставить</string>
+    <string name="text_warn_clean">Осторожно!</string>
+    <string name="text_operating_system">Система</string>
+    <string name="text_deep_improve_risk_info">Глубокая очистка может нарушить работу некоторых приложений. Используйте с осторожностью!</string>
+    <string name="text_please_choose_application">Выберите приложение для завершения</string>
+    <string name="text_memory_used">"Использование памяти: "</string>
+    <string name="text_force_over">Принудительно</string>
+    <string name="text_have_add_whitelist">Добавлено в белый список</string>
+    <string name="text_have_forbid_autorun">Добавлено в список запрета автозагрузки</string>
+    <string name="text_have_recover_autorun">Разрешена автозагрузка</string>
+    <string name="text_ge" />
+    <string name="text_already_choiced">"Выбрано: "</string>
+    <string name="text_speed_improve_finish">Ускоренная очистка завершена!</string>
+    <string name="text_more_improve">Возможна максимально глубокая очистка устройства</string>
+    <string name="text_useable_mem">Доступно</string>
+    <string name="text_autorun_manager">Список запрета автозагрузки</string>
+    <string name="click_for_space_info">Нажмите для деталей использования памяти</string>
+    <string name="text_boot_autorun">" (автозагрузка)"</string>
+    <string name="text_back_autorun">" (запуск в фоне)"</string>
+    <string name="text_improve_good_enough">Оптимизировано</string>
+    <string name="text_improve_process_num">"Закрыто: "</string>
+    <string name="text_improve_mem_size">"Очищено: "</string>
+    <string name="text_null_choiced_explan">Выберите очистку мусора</string>
+    <string name="text_zero_cache">Без проверки</string>
+    <string name="text_deep_warnning">Могут содержаться важные файлы. Будьте аккуратны!</string>
+    <string name="mobile_already_improve">Устройство очищено и оптимизировано</string>
+    <string name="depth_clean_could_clean_more">Более глубокая очистка позволит лучше вычистить мусор</string>
+    <string name="depth_improve_could_improve_more">Более глубокая очистка позволит лучше оптимизировать устройство</string>
+    <string name="text_rom_analyst">Анализ больших файлов</string>
+    <string name="text_rom_analyst_abs">Просмотр и анализ больших файлов после подсчета</string>
+    <string name="item_delete">Удаление</string>
+    <string name="item_detail">Просмотр деталей</string>
+    <string name="head_to_loaction">Открыть папку, где находится файл</string>
+    <string name="cleaner_delete">Удаление</string>
+    <string name="toast_rar_isencrypt">Файл зашифрован!</string>
+    <string name="toast_cannot_browser_file">Не удается просмотреть файл!</string>
+    <string name="toast_cannot_open_file">Нет приложения для просмотра файла!</string>
+    <string name="dialog_cannot_select_copyFIle">Файл не существует!</string>
+    <string name="cleaner_msg_scanend">Сканирование завершено!</string>
+    <string name="file_msg_loading">Сканирование</string>
+    <string name="dialog_delete_failed">Удаление не удалось</string>
+    <string name="dialog_delete_success">Успешно удалено</string>
+    <string name="dialog_banch_delete_success">Групповое удаление завершено</string>
+    <string name="dialog_banch_delete_failed">Групповое удаление не удалось</string>
+    <string name="dialog_delete_cancel">Удаление отменено</string>
+    <string name="dialog_delete_doing">Идет процесс удаления. Ожидайте...</string>
+    <string name="dialog_copy_count_doing">Идет подсчет. Ожидайте</string>
+    <string name="file_msg_scandir">Сканирование папки</string>
+    <string name="file_detail_name">Имя</string>
+    <string name="file_detail_location">Путь</string>
+    <string name="file_detail_size">Размер</string>
+    <string name="file_detail_time">Время изменения</string>
+    <string name="dialog_file_detail">Детали</string>
+    <string name="alert_dialog_noSelectFile">Выберите файл!</string>
+    <string name="dialog_banch_confire_deleteFile">Вы точно уверены, что хотите удалить выбранное содержимое?</string>
+    <string name="dialog_confire_deleteFile">Вы точно уверены, что хотите удалить это?</string>
+    <string name="toast_uncompress_file">Долгое нажатие для распаковки архива!</string>
+    <string name="toast_uncompress_file_sort">Долгое нажатие для открытия папки</string>
+    <string name="item_wallpaper_set">Задать</string>
+    <string name="send_file_too_much">Слишком много файлов!</string>
+    <string name="copymove_file_too_much">Слишком много файлов!</string>
+    <string name="dialog_share_canNot_contained_dir">Нельзя поделиться группой папок!</string>
+    <string name="item_share">Поделиться</string>
+    <string name="shortcut_mydownload">Мои загрузки</string>
+    <string name="success">Успешно</string>
+    <string name="failed">Не удалось</string>
+    <string name="dialog_copy_success">Скопировано успешно!</string>
+    <string name="dialog_cannot_select_dst">Папка назначения не существует!</string>
+    <string name="dialog_protect_writer">Папка только для чтения!</string>
+    <string name="dialog_copyormove_cancel">Отмена операции</string>
+    <string name="dialog_length_limit">Достигнута максимальная длина</string>
+    <string name="dialog_copy_failed">Копирование не удалось!</string>
+    <string name="dialog_move_success">Перемещено успешно!</string>
+    <string name="toast_record_setMode_forbidden">Для папки с аудио установлен запрет для приватных файлов</string>
+    <string name="item_uploadtonetdisk">Загружено в Облако</string>
+    <string name="item_movetosafebox">Перемещено в Сейф</string>
+    <string name="netdisk_not_browser_ziprar_file">Облако не поддерживает запакованные файлы, нажмите для просмотра</string>
+    <string name="dialog_move_failed">Не удалось переместить!</string>
+    <string name="app_version_prompt">Версия</string>
+    <string name="dialog_alert_title">ПОдсказка</string>
+    <string name="dialog_btn_sure">ОК</string>
+    <string name="dialog_btn_cancel">Отмена</string>
+    <string name="dialog_count_doing">Сбор данных. Ожидайте</string>
+    <string name="path_mydownload">/Download</string>
+    <string name="path_mail">/Coolpad/Email</string>
+    <string name="path_music">/Coolpad/Music</string>
+    <string name="path_musicdown">/Coolpad/Music</string>
+    <string name="path_musicshop">/Coolpad/Software</string>
+    <string name="path_dolphin">/Coolpad/Download</string>
+    <string name="cleaner_msg_all_checked">Выбор</string>
+    <string name="cleaner_msg_unchecked">Снять выбор</string>
+    <string name="translated_catelog_camera">Камера</string>
+    <string name="translated_catelog_screenshots">Скриншоты</string>
+    <string name="translated_catelog_myrecords">Записи</string>
+    <string name="translated_catelog_callrecords">Записи разговоров</string>
+    <string name="translated_catelog_normalrecords">Обычные записи</string>
+    <string name="translated_catelog_icmrecords">Записи автответчика</string>
+    <string name="translated_catelog_fmrecords">Запись радио</string>
+    <string name="translated_catelog_coolshow">Темы</string>
+    <string name="translated_catelog_wallpaper">Обои</string>
+    <string name="translated_catelog_memo">Заметки</string>
+    <string name="translated_catelog_music">Музыка</string>
+    <string name="translated_catelog_album">Фотоальбомы</string>
+    <string name="translated_catelog_theme">Темы</string>
+    <string name="translated_catelog_saved_images">Сохраненные изображения</string>
+    <string name="translated_catelog_saved_video"> Сохраненные видеоофайлы</string>
+    <string name="translated_catelog_saved_audio"> Сохраненные аудиофайлы</string>
+    <string name="translated_catelog_saved_other">Сохраненное прочее</string>
+    <string name="translated_catelog_contact">Контакты</string>
+    <string name="translated_catelog_calendar">Календарь</string>
+    <string name="translated_catelog_bluetooth">Bluetooth</string>
+    <string name="translated_catelog_downloads">Загрузки</string>
+    <string name="translated_catelog_show_01">Признательность 01</string>
+    <string name="translated_catelog_show_02">Признательность 02</string>
+    <string name="translated_catelog_show_03">Признательность 03</string>
+    <string name="translated_catelog_show_04">Признательность 04</string>
+    <string name="translated_catelog_show_05">Признательность 05</string>
+    <string name="translated_catelog_show_06">Признательность 06</string>
+    <string name="translated_catelog_show_07">Признательность 07</string>
+    <string name="translated_catelog_collectted_images">Изображения</string>
+    <string name="translated_catelog_collectted_music">Музыка</string>
+    <string name="translated_catelog_collectted_video">Видео</string>
+    <string name="translated_catelog_collectedimages">Изображения</string>
+    <string name="netdisk_filepath_all">/apps/CoolCloud</string>
+    <string name="default_newFolderName">Новая папка</string>
+    <string name="clean_white_list">Очистка белого списка</string>
+    <string name="btn_delete_doing">Идет процесс очистки. Ожидайте...</string>
+    <string name="toast_check_apn">Проверьте подключение к сети передачи данных!</string>
+    <string name="toast_no_new_version">У Вас самая последняя версия!</string>
+    <string name="download">Загрузка</string>
+    <string name="toast_connect_time_out">Тайм-аут соединения</string>
+    <string name="text_checking_update"> Проверка обновлений</string>
+    <string name="reminder_flux">Это приложение будет использовано для установления соединения с передачей данных</string>
+    <string name="no_reminder">Больше не напоминать</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="welcome_reminder">Добро пожаловать в приложение Напоминания</string>
+    <string name="SIM_card">Меню SIM</string>
+
+    <string name="today_clear">"Сегодня: "</string>
+    <string name="all_clear">"История: "</string>
+    <string name="flow_monitor_title">Трафик</string>
+    <string name="online_monitor_title">Доступ к сети</string>
+    <string name="notify">Уведомление</string>
+    <string name="text_flowused">"Исп. "</string>
+    <string name="text_flowrest">"Доступно "</string>
+    <string name="text_monthflowused">в этом месяце</string>
+    <string name="text_outofflow">Порог превышен</string>
+    <string name="text_rest">Доступно</string>
+    <string name="text_flowmt_ntf_notify1">Месячный трафик почти привышен</string>
+    <string name="text_flowmt_ntf_notify2">Месячный трафик привышен</string>
+    <string name="card_1">SIM1</string>
+    <string name="card_2">SIM2</string>
+    <string name="flowmt_useinfo_stop">Включение Трафика</string>
+    <string name="flowmt_mt_no_setting">Задайте тарифный план для контроля трафика</string>
+    <string name="flowmt_mt_enough">Месячный трафик в пределах лимита</string>
+    <string name="flowmt_mt_little">Месячный трафик почти привышен</string>
+    <string name="flowmt_mt_no_flow">Месячный трафик привышен</string>
+    <string name="flowmt_adjust_flow">Калибровка</string>
+    <string name="flowmt_set_flow">Задать тарифный план</string>
+    <string name="dialog_re_autojust">Изменить команду</string>
+    <string name="dialog_auto_check">Калибровка</string>
+
+
+    <string name="text_setting">Настройки</string>
+    <string name="text_day_unit" />
+    <string name="text_flow_setting">Мобильные данные</string>
+    <string name="text_not_set_flow">Тарифный план не задан</string>
+    <string name="text_set_flow_taocan">Задать тарифный план</string>
+    <string name="text_executefunction">Монитор использования трафика</string>
+    <string name="text_flowmonitor_on">Трафик включен</string>
+    <string name="text_clear_statistic_data">Очистить статистику</string>
+    <string name="text_sure_clear_all_data">Очистить всю существующую статистику?</string>
+    <string name="text_sim_flow_setting">Мобильный данные</string>
+    <string name="text_sim1_flow_setting">Трафик через SIM1</string>
+    <string name="text_sim2_flow_setting">Трафик через SIM2</string>
+    <string name="text_already_executefuction">Трафик включен</string>
+    <string name="text_check_month_used_flow">Калибровка использования трафика</string>
+    <string name="text_check_month_used_value">Калибровка использования трафика</string>
+    <string name="text_month_flow_remain_to_alarm">Уведомление использования</string>
+    <string name="text_month_remain_value_to_alarm">Уведомление об окончании трафика</string>
+    <string name="text_month_used_flow">"В этом месяце использовано трафика: "</string>
+    <string name="text_month_used_flow_over">"Уведомлять, когда трафика останется меньше, чем: "</string>
+    <string name="text_do_showdialog_notice" />
+    <string name="text_day_used_over_notice">Уведомлении о высоком дневном потреблении</string>
+    <string name="text_day_used_over_average">Превышение средних значений дневного использования трафика</string>
+    <string name="text_then_notice_int_bar">, уведомлять</string>
+    <string name="text_month_flow_taocan">Месячный тарифный план</string>
+    <string name="text_G_equals_M">Месячный тарифный план (1Гб=1024Мб)</string>
+    <string name="text_donot_know_flow_taocan">Знаете что-нибудь о своем тарифном плане?</string>
+    <string name="text_month_balance_day">Дата начала периода</string>
+    <string name="text_month_flow_used">Месячное использование трафика:</string>
+    <string name="text_wronginput">Неверное значение</string>
+    <string name="text_inputnum">Введите число</string>
+    <string name="text_input_taocan_alarm">"Неверное значение.
+Введите число в заданных интервалах 0-99999 (Мб) or 0-99 (Гб)"</string>
+    <string name="text_input_date_alarm">"Неверное значение.
+Введите число в заданных интервалах 1-31"</string>
+    <string name="text_intput_restflow_alarm">"Неверное значение.
+Введите число в заданных интервалах 0-99999 (Мб) or 0-99 (Гб)"</string>
+    <string name="text_limitlessalarm">Напоминание не может быть больше тарифного плана</string>
+    <string name="text_auto_adjust_message">Периодический запрос у оператора данных по трафику</string>
+    <string name="text_auto_adjust_sumflow_title">Периодическая калибровка (только для Китая)</string>
+    <string name="text_auto_adjust_sumflow_summary">Периодический запрос у оператора данных по трафику</string>
+    <string name="text_nead_hand_adjust_message">Не удается прочитать данные из сообщения</string>
+    <string name="text_auto_adjust_ok_message">Автоматически откалибровано</string>
+    <string name="text_used_regular">(Used |ve used | used | has | been consumed | has consumed | consumed | has spent | Consumed | This month use)</string>
+    <string name="text_dayflow_outoflimit_notify_summary">Уведомлять, когда дневное потребление трафика превышает 10Мб</string>
+    <string name="text_no_setting">Не настроено</string>
+    <string name="text_no_setting_title">Тарифный план не задан</string>
+    <string name="text_no_setting_summary">Задайте тарифный план</string>
+    <string name="text_apn">3G</string>
+    <string name="text_wifi_title">Wi-Fi</string>
+    <string name="text_apn_title">3G</string>
+    <string name="text_bat_title">С доступом к передаче данных</string>
+    <string name="text_no_card">Нет номера</string>
+    <string name="text_no_carrier">Неизв. оператор</string>
+    <string name="text_no_carrier_sms_failed">Не удается определить оператора</string>
+    <string name="text_query_flow">Проверка использования трафика</string>
+    <string name="text_is_send_sms_toget_info">Отправить запрос оператору?</string>
+    <string name="text_sms_honor">Дорогой</string>
+    <string name="text_sms_client">"пользователь, "</string>
+    <string name="text_sms_telecom_total">Всего трафика</string>
+    <string name="text_sms_telecom_used"> и использовано трафика</string>
+    <string name="text_sms_mobile_honorclient">"Дорогой пользователь, "</string>
+    <string name="text_sms_mobile_rest">"Месячное напоминание: "</string>
+    <string name="text_sms_mobile_td_total">"TD тарифный план: "</string>
+    <string name="text_sms_mobile_nowrest">Месячный трафик</string>
+    <string name="text_sms_mobile_traffic">Напоминание</string>
+    <string name="text_sms_mobile_about">О</string>
+    <string name="text_sms_unicom_used">"Использовано: "</string>
+    <string name="text_sms_unicom_rest">"Свободно: "</string>
+    <string name="check_not_match_toast">Если статистика трафика неправильная, ее можно откорректировать на данных оператора</string>
+
+    <string name="text_flow_unit_unknown">Неизв.</string>
+    <string name="text_flow_notify_title">Тревога использования трафика</string>
+    <string name="text_flow_notify_total_1">Потребление превышает месячный лимит (</string>
+    <string name="text_flow_notify_total_2">)</string>
+    <string name="text_flow_notify_alarm_1">Напоминание</string>
+    <string name="text_flow_notify_alarm_2">" ниже, чем безопасный уровень"</string>
+    <string name="text_flow_notify_end">Рекомендуется отключить передачу данных</string>
+    <string name="flow_monitor_static">Трафик</string>
+    <string name="flow_monitor_carrier">Настройки оператора</string>
+    <string name="flow_monitor_idle_switch_from_setting">Установка выходного трафика</string>
+    <string name="flow_monitor_idle_static_total">Квота выходного трафика</string>
+    <string name="ok_button">ОК</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="flow_monitor_starttime">Начало</string>
+    <string name="flow_monitor_endtime">Конец</string>
+    <string name="flow_monitor_everyday">Ежедневно</string>
+    <string name="flow_monitor_tomorrow">Завтра</string>
+    <string name="carrier_setting_notify">Информация оператора задана корректно. Вы можете использовать автоматическую калибровку трафика</string>
+    <string name="adjust_used_flux">Калибровка</string>
+    <string name="flux_package_set">Задать трафик</string>
+    <string name="flux_adjusting">Калибровка...</string>
+    <string name="adjustment_command">Инструкция по калибровке</string>
+    <string name="province">Провинция</string>
+    <string name="carrier">Оператор</string>
+    <string name="modifiedflowerror">Инструкции по калибровке неверны. Вы можете задать параметры вручную</string>
+    <string name="carrier_selection">Выберите оператора</string>
+    <string name="text_flow_set_total">Задать месячный трафик</string>
+    <string name="text_flow_set_staticdate">Дата начала расчета</string>
+    <string name="money_query_title">Монитор расходов</string>
+    <string name="money_query_item">Проверка баланса</string>
+    <string name="flow_query_item">Проверка использованного трафика</string>
+    <string name="money_cost_query_item">Проверка платежей</string>
+    <string name="money_steal_proctect_item">Совершение вызовов</string>
+    <string name="money_steal_proctect_sms_item">Отправка SMS</string>
+    <string name="money_steal_proctect_mms_item">Отправка MMS</string>
+    <string name="carriername_zgdx">China Telecom</string>
+    <string name="carriername_zgyd">China Mobile</string>
+    <string name="carriername_zglt">China Unicom</string>
+    <string name="sms_content">Команда запроса</string>
+    <string name="reset">Сброс</string>
+    <string name="default_attach">Guangdong</string>
+    <string name="attach_selection">Выбор местоположения</string>
+    <string name="attach">Местоположение</string>
+    <string name="costmoney_applist_phone_checkall">Приложения с поддержкой вызовов</string>
+    <string name="costmoney_applist_sms_checkall">Приложения с поддержкой SMS/MMS</string>
+    <string name="costmoney_alert_nonet_content">Нет сети</string>
+    <string name="costmoney_alert_netchoose_title">Выберите сеть для запроса</string>
+    <string name="costmoney_alert_queryrestmoney_title">Баланс</string>
+    <string name="costmoney_alert_queryflowmoney_title">Тарифный план</string>
+    <string name="costmoney_alert_business_title">Месячный лимит</string>
+    <string name="costmoney_smslist_today">Сегодня</string>
+    <string name="costmoney_smslist_dayago">дн. назад</string>
+    <string name="costmoney_sms_notify_title1">Возможные злонамеренные SMS/MMS</string>
+    <string name="costmoney_sms_notify_title2">Возможные злонамеренные SMS/MMS</string>
+    <string name="costmoney_sms_notify_content">Не обработаны</string>
+    <string name="costmoney_sms_unit" />
+    <string name="query">Проверка</string>
+    <string name="costmoney_alert_content1">Будет отправлено обычное сообщение</string>
+    <string name="costmoney_alert_content2">ОК</string>
+    <string name="costmoney_alert_netchoose_send">Отправить</string>
+    <string name="costmoney_applist_title">Монитор злонамеренных расходов</string>
+    <string name="costmoney_applist_savesetting">Сохранить</string>
+    <string name="applist_costmoney_description">Задать доступ для предотвращения злонамеренных расходов</string>
+    <string name="costmoney_menu_setting">Настройки</string>
+    <string name="costmoney_switch_on">Вкл.</string>
+    <string name="costmoney_switch_off">Выкл.</string>
+    <string name="costmoney_switch_content">Включить Монитор</string>
+    <string name="costmoney_switch_false">чтобы обезопаситься от ненужных расходов</string>
+    <string name="costmoney_switch_true">Монитор расходов включен</string>
+    <string name="costmoney_already_forbidden_data">Запрещены вызовы и SMS/MMS</string>
+    <string name="costmoney_already_allowed_data">Вызовы и SMS/MMS</string>
+    <string name="costmoney_applist_setting_title1">Злонамеренное сообщение</string>
+    <string name="costmoney_applist_setting_title1_abstract">Обнаружение злонамеренного сообщения</string>
+    <string name="costmoney_applist_setting_allowed_summary">Уведомлять, когда разрешен вызов или SMS/MMS</string>
+    <string name="costmoney_applist_setting_forbidden_summary">Уведомлять, когда запрещен вызов или SMS/MMS</string>
+    <string name="costmoney_switch_on_remind_application_check">Включить</string>
+    <string name="scannin">Проверка...</string>
+    <string name="find_result_hint">Возможные злонамеренные SMS/MMS</string>
+    <string name="find_result_content1">Возможные злонамеренные SMS/MMS:</string>
+    <string name="find_result_content2" />
+    <string name="find_result_no_hint">Нет подозрительных SMS/MMS</string>
+    <string name="find_sugest_hint">Проверьте специфические расходы</string>
+    <string name="button_text">Проверка расходов</string>
+    <string name="umeng_common_action_info_exist">Приложение уже в списке загрузки</string>
+    <string name="umeng_common_info_interrupt">Загрузка прервана</string>
+    <string name="umeng_common_action_pause">Пауза</string>
+    <string name="umeng_common_action_continue">Продолжить</string>
+    <string name="umeng_common_action_cancel">Отмена</string>
+    <string name="umeng_common_download_notification_prefix">"Загрузка: "</string>
+    <string name="umeng_common_pause_notification_prefix">"Пауза: "</string>
+    <string name="umeng_common_start_download_notification">Старт загрузки</string>
+    <string name="umeng_common_start_patch_notification">Старт загрузки</string>
+    <string name="umeng_common_network_break_alert">Нет соединения</string>
+    <string name="umeng_common_download_failed">Загрузка не удалась!</string>
+    <string name="umeng_common_download_finish">Загрузка завершена, нажмите для установки</string>
+    <string name="umeng_common_patch_finish">Загрузка патча завершена, нажмите для установки</string>
+    <string name="umeng_common_silent_download_finish">Готова новая версия, нажмите для установки</string>
+    <string name="umeng_common_icon">Иконка</string>
+    <string name="UMBreak_Network">Нет соединения</string>
+    <string name="UMUpdateTitle">Найдена новая версия</string>
+    <string name="UMNewVersion">"Последняя версия: "</string>
+    <string name="UMUpdateContent">Содержание обновления</string>
+    <string name="UMUpdateSize">"Размер апдейта: "</string>
+    <string name="UMTargetSize">"Заданный размер: "</string>
+    <string name="UMGprsCondition">(Внимание: нет Wi-Fi)</string>
+    <string name="UMUpdateNow">Обновить сейчас</string>
+    <string name="UMAppUpdate">Приложение обновляется</string>
+    <string name="UMNotNow">Не сейчас</string>
+    <string name="UMIgnore">Игнорировать</string>
+    <string name="UMToast_IsUpdating">Обновление....</string>
+    <string name="UMDialog_InstallAPK">Последняя версия скачана. Установить ее?</string>
+    <string name="add_3days">Прошло 3 дня с момента последней проверки</string>
+    <string name="coolpad_came">Coolpad: нет поступления средств</string>
+    <string name="install_apk">Установка</string>
+    <string name="recommend_this_week">Рекомендовано на этой неделе</string>
+</resources>

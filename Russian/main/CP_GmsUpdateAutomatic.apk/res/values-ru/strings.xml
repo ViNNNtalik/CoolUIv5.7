@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, installGmsPackage!</string>
+    <string name="app_name">Gms-обновление</string>
+    <string name="messageInstall">Ваше устройство будет перезагружено для установки GMS-пакета</string>
+    <string name="messageNotfound">GMS-пакет не найден. Загрузите с официального веб-сайта и разместите: /mnt/sdcard</string>
+</resources>

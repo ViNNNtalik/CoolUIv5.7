@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff9f9f9" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/personal_layout" android:background="@drawable/common_list_white_normal_selector" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:onClick="onClick">
+                <RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <FrameLayout android:id="@id/head_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true">
+                        <com.coolcloud.android.sync.view.RoundedRectImage android:layout_gravity="center" android:id="@id/image1" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/sync_more_head_image" android:scaleType="fitXY" />
+                        <com.coolcloud.android.sync.view.RoundedRectImage android:layout_gravity="center" android:id="@id/user_head_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:scaleType="fitXY" />
+                    </FrameLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginRight="30.0dip" android:layout_toRightOf="@id/head_layout" android:layout_centerVertical="true">
+                        <TextView android:ellipsize="end" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" style="@style/list_item_text_style" />
+                        <TextView android:ellipsize="end" android:id="@id/user_mood" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:singleLine="true" style="@style/list_item_subtext_style" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <ImageView android:id="@id/arrow" style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/sync_layout" android:background="@drawable/common_list_white_normal_selector" android:layout_marginTop="14.0dip" android:onClick="onClick" style="@style/list_item_style">
+                <RelativeLayout android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_setting" android:focusable="false" android:layout_centerVertical="true" style="@style/list_item_lefticon_style" />
+                    <TextView android:id="@id/sync_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Автоматическая синхронизация" android:layout_toRightOf="@id/lefticon" android:layout_centerVertical="true" style="@style/list_item_text_style" />
+                </RelativeLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/advance_sync_contact_layout" android:background="@drawable/common_list_white_top_selector" android:layout_marginTop="14.0dip" android:onClick="onClick" style="@style/list_item_style">
+                <RelativeLayout android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_contact" android:focusable="false" android:layout_centerVertical="true" style="@style/list_item_lefticon_style" />
+                    <TextView android:id="@id/sync_contact_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/contacts_advanced_sync" android:layout_toRightOf="@id/lefticon" style="@style/list_item_text_style" />
+                    <TextView android:id="@id/contact_advanced_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:text="@string/sync_contacts_save_info" android:layout_toRightOf="@id/lefticon" android:layout_below="@id/sync_contact_text" style="@style/list_item_subtext_style" />
+                </RelativeLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/recycle_layout" android:background="@drawable/common_list_white_middle_selector" android:layout_below="@id/advance_sync_contact_layout" android:onClick="onClick" style="@style/list_item_style">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <RelativeLayout android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_recyclebin" android:focusable="false" style="@style/list_item_lefticon_style" />
+                        <ImageView android:id="@id/lefticon_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                    </RelativeLayout>
+                    <LinearLayout android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                        <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/contact_recycle_bin" style="@style/list_item_text_style" />
+                        <TextView android:id="@id/summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/recycle_summary" style="@style/list_item_subtext_style" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/unite_repeate_contacts_layout" android:background="@drawable/common_list_white_bottom_selector" android:onClick="onClick" style="@style/list_item_style">
+                <RelativeLayout android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_unite_contact" android:focusable="false" style="@style/list_item_lefticon_style" />
+                    <TextView android:id="@id/sync_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/unite_repeate_contacts" android:layout_toRightOf="@id/lefticon" android:layout_centerVertical="true" style="@style/list_item_text_style" />
+                </RelativeLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/calendar_layout" android:background="@drawable/common_list_white_top_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_calendar" android:focusable="false" android:layout_centerVertical="true" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_calendar_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/type_calendar" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/calendar_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/contactSummary" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/calendar_progress" android:focusable="false" android:visibility="invisible" android:layout_width="152.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="?android:scrollbarSize" android:progressDrawable="@drawable/sync_photorev_progress" android:layout_below="@id/toast" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textColor="#ff0099e5" android:id="@id/calendar_pro" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/calendar_progress" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@drawable/sync_syncitem_btn_color" android:id="@id/calendar_autosync_lock" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/closed" android:layout_toLeftOf="@id/calendar_arrow_id" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/calendar_arrow_id" style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/note_layout" android:background="@drawable/common_list_white_middle_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/calendar_layout" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_notepad" android:focusable="false" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_note_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/type_notes" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/note_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/contactSummary" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/note_progress" android:focusable="false" android:visibility="invisible" android:layout_width="152.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="?android:scrollbarSize" android:progressDrawable="@drawable/sync_photorev_progress" android:layout_below="@id/toast" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textColor="#ff0099e5" android:id="@id/note_pro" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/note_progress" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@drawable/sync_syncitem_btn_color" android:id="@id/note_autosync_lock" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/closed" android:layout_toLeftOf="@id/note_arrow_id" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/note_arrow_id" style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/bookmark_layout" android:background="@drawable/common_list_white_bottom_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/note_layout" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_webmark" android:focusable="false" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_bookmark_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/type_bookmark" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/bookmark_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/contactSummary" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/bookmark_progress" android:focusable="false" android:visibility="invisible" android:layout_width="152.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="?android:scrollbarSize" android:progressDrawable="@drawable/sync_photorev_progress" android:layout_below="@id/toast" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textColor="#ff0099e5" android:id="@id/bookmark_pro" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/bookmark_progress" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@drawable/sync_syncitem_btn_color" android:id="@id/bookmark_autosync_lock" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/closed" android:layout_toLeftOf="@id/bookmark_arrow_id" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/bookmark_arrow_id" style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/card_contact_layout" android:background="@drawable/common_list_white_top_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_contact_sim" android:focusable="false" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_card_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/type_cardcontacts" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/card_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/card_backup_recover" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/card_progress" android:focusable="false" android:visibility="invisible" android:layout_width="152.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="?android:scrollbarSize" android:progressDrawable="@drawable/sync_photorev_progress" android:layout_below="@id/toast" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textColor="#ff0099e5" android:id="@id/card_pro" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/card_progress" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <ImageView android:id="@id/card_arrow_id" style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/sms_layout" android:background="@drawable/common_list_white_middle_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/card_contact_layout" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_msn" android:focusable="false" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_sms_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/type_sms" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/sms_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/msgSummary" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/sms_progress" android:focusable="false" android:visibility="invisible" android:layout_width="152.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="?android:scrollbarSize" android:progressDrawable="@drawable/sync_photorev_progress" android:layout_below="@id/toast" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textColor="#ff0099e5" android:id="@id/sms_pro" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/sms_progress" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@drawable/sync_syncitem_btn_color" android:id="@id/sms_autosync_lock" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/closed" android:layout_toLeftOf="@id/sms_arrow_id" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/sms_arrow_id" style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/crecord_layout" android:background="@drawable/common_list_white_middle_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/sms_layout" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_calllog" android:focusable="false" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_crecord_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/type_crecord" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/crecord_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/msgSummary" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/crecord_progress" android:focusable="false" android:visibility="invisible" android:layout_width="152.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="?android:scrollbarSize" android:progressDrawable="@drawable/sync_photorev_progress" android:layout_below="@id/toast" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textColor="#ff0099e5" android:id="@id/crecord_pro" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/crecord_progress" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@drawable/sync_syncitem_btn_color" android:id="@id/crecord_autosync_lock" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/closed" android:layout_toLeftOf="@id/crecord_arrow_id" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/crecord_arrow_id" style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/picture_layout" android:background="@drawable/common_list_white_bottom_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/crecord_layout" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_image" android:focusable="false" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_pic_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <RelativeLayout android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/type_picture" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/pic_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/msgSummary" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                            <ProgressBar android:layout_gravity="center_vertical" android:id="@id/pic_progress" android:focusable="false" android:visibility="invisible" android:layout_width="152.0dip" android:layout_height="4.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="?android:scrollbarSize" android:progressDrawable="@drawable/sync_photorev_progress" android:layout_below="@id/toast" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+                            <TextView android:textColor="#ff0099e5" android:id="@id/pic_pro" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/pic_progress" android:layout_below="@id/toast" style="@style/list_item_subtext_style" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@drawable/sync_syncitem_btn_color" android:id="@id/pic_autosync_lock" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/closed" android:layout_toLeftOf="@id/pic_arrow_id" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/pic_arrow_id" style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/phone_setting_layout" android:background="@drawable/common_list_white_top_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_phonesetting" android:focusable="false" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <LinearLayout android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon" android:layout_centerVertical="true">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/type_phone_setting" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/phone_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/type_phone_setting_description" style="@style/list_item_subtext_style" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <ImageView style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/apk_layout" android:background="@drawable/common_list_white_bottom_selector" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_below="@id/phone_setting_layout" android:onClick="onClick">
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <RelativeLayout android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_apk" android:focusable="false" style="@style/list_item_lefticon_style" />
+                            <ImageView android:id="@id/lefticon_change_flag" android:background="@drawable/sync_newnotice" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/lefticon" />
+                        </RelativeLayout>
+                        <LinearLayout android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/frame_icon">
+                            <TextView android:id="@id/toast" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/phone_apk_recover" style="@style/list_item_text_style" />
+                            <TextView android:id="@id/apk_summary" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/sync_apk_backup_description" style="@style/list_item_subtext_style" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <ImageView style="@style/list_item_righticon_style" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/cloud_file_layout" android:background="@drawable/common_list_white_normal_selector" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" android:onClick="onClick" style="@style/list_item_style">
+                <RelativeLayout android:id="@id/frame_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/lefticon" android:background="@drawable/cc_sync_icon_drive" android:focusable="false" style="@style/list_item_lefticon_style" />
+                    <TextView android:id="@id/sync_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Диск на Облаке" android:layout_toRightOf="@id/lefticon" android:layout_centerVertical="true" style="@style/list_item_text_style" />
+                </RelativeLayout>
+                <ImageView style="@style/list_item_righticon_style" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

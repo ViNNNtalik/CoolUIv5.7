@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/pop_share_layout_id" android:background="@drawable/sync_more_pop_left_selector" android:layout_width="68.0dip" android:layout_height="75.0dip" android:layout_alignBottom="@id/pop_about_layout_id" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/sync_pop_share_icon_id" android:background="@drawable/sync_pop_share_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/pop_share_icon_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Реком." android:layout_below="@id/sync_pop_share_icon_id" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:id="@id/line1" android:background="@drawable/sync_more_pop_line" android:layout_width="1.0dip" android:layout_height="60.0dip" android:layout_toRightOf="@id/pop_share_layout_id" android:layout_centerVertical="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/pop_feedback_layout_id" android:background="@drawable/sync_more_pop_selector" android:layout_width="68.0dip" android:layout_height="75.0dip" android:layout_toRightOf="@id/line1">
+        <ImageView android:id="@id/sync_pop_feedback_icon_id" android:background="@drawable/sync_pop_feedback_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/pop_share_icon_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Отзыв" android:layout_below="@id/sync_pop_feedback_icon_id" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:id="@id/line2" android:background="@drawable/sync_more_pop_line" android:layout_width="1.0dip" android:layout_height="60.0dip" android:layout_toRightOf="@id/pop_feedback_layout_id" android:layout_centerVertical="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/pop_about_layout_id" android:background="@drawable/sync_more_pop_right_selector" android:layout_width="68.0dip" android:layout_height="75.0dip" android:layout_toRightOf="@id/line2">
+        <ImageView android:id="@id/sync_pop_about_icon_id" android:background="@drawable/sync_pop_about_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:id="@id/pop_about_icon_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="О прил." android:layout_below="@id/sync_pop_about_icon_id" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

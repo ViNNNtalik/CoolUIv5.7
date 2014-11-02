@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="info_nolist_apps">
+        <item>com.yulong.android.calendar</item>
+        <item>com.yulong.android.filebrowser</item>
+        <item>com.cooliris.media</item>
+        <item>com.yulong.providers.fack</item>
+        <item>com.android.coolwind</item>
+        <item>com.icoolme.android.upgrade</item>
+        <item>com.android.mms</item>
+        <item>com.yulong.android.bugreport.client</item>
+    </string-array>
+    <string-array name="info_list_sys_apps">
+        <item>com.yulong.android.coolshow</item>
+        <item>com.yulong.ttwindow</item>
+    </string-array>
+    <string-array name="question_items">
+        <item>Номер начальной школы</item>
+        <item>Номер средней школы</item>
+        <item>Название ВУЗа</item>
+        <item>Любимый спорт</item>
+        <item>Пользовательская подсказка</item>
+    </string-array>
+    <string-array name="password_look_for_method">
+        <item>Телефонный номер</item>
+        <item>Адрес эл. почты</item>
+        <item>Подсказка</item>
+    </string-array>
+    <string-array name="sorted_app_names">
+        <item>Защита данных</item>
+        <item>Доступ к сети</item>
+        <item>Трафик</item>
+        <item>Антивор</item>
+        <item>Антиищейка</item>
+        <item>Антипрослушка</item>
+        <item>Управление приложениями</item>
+        <item>Оптимизация</item>
+        <item>Безопасность</item>
+    </string-array>
+    <string-array name="not_killed_apps">
+        <item>com.android.mms</item>
+        <item>com.yulong.android.callhistory</item>
+        <item>com.android.email</item>
+        <item>com.yulong.email</item>
+        <item>com.android.browser</item>
+        <item>com.yulong.android.contacts</item>
+        <item>com.yulong.android.guard</item>
+        <item>com.yulong.android.launcher</item>
+        <item>com.yulong.android.launcher1</item>
+        <item>com.yulong.android.launcher2</item>
+        <item>com.yulong.android.launcher3</item>
+        <item>system_process</item>
+        <item>system</item>
+        <item>android</item>
+        <item>com.yulong.android.settings</item>
+        <item>com.android.phone</item>
+        <item>com.yulong.android.videophone</item>
+        <item>com.yulong.android.launcher.watchservice</item>
+        <item>com.yulong.android.seccenter</item>
+        <item>com.yulong.android.cp_utk</item>
+        <item>com.android.stk</item>
+        <item>com.yulong.android.backup</item>
+        <item>com.yulong.android.taskmanager</item>
+        <item>com.yulong.android.privatemode.activity</item>
+        <item>com.yulong.android.dev.gcoption</item>
+        <item>com.yulong.android.keyguard</item>
+        <item>com.yulong.android.factorypattern</item>
+        <item>lthj.exchangestock</item>
+        <item>com.android.alarmclock</item>
+        <item>com.android.systemui</item>
+        <item>com.yulong.android.coolpadime</item>
+        <item>com.android.coolpadime</item>
+        <item>com.yulong.android.yulongime</item>
+        <item>com.svox.pico</item>
+        <item>com.android.defcontainer</item>
+        <item>com.yulong.android.net</item>
+        <item>com.yulong.android.cooperation</item>
+        <item>android.process.acore</item>
+        <item>android.process.media</item>
+        <item>com.yulong.android.calendar</item>
+        <item>com.android.providers.calendar</item>
+        <item>com.android.calendar.providers</item>
+        <item>com.yulong.android.dev.gcoption</item>
+        <item>com.android.bluetooth</item>
+        <item>com.yulong.android.blacklist</item>
+        <item>com.yulong.android.savepowermanager</item>
+        <item>com.android.settings</item>
+        <item>com.yulong.android.netusermgr</item>
+        <item>com.yulong.android.securitymanager</item>
+        <item>Gsm0710muxd</item>
+        <item>PhoneSlotService</item>
+        <item>Rild</item>
+        <item>com.ti.bluetoothSCOapp</item>
+        <item>com.android.settings.bluetooth</item>
+        <item>com.yulong.android.cp_engmod</item>
+        <item>com.android.android.cp_utk</item>
+        <item>com.android.settings.wifi</item>
+        <item>com.yulong.android.settings.wifi</item>
+        <item>ccom.yulong.android.wifihelper</item>
+        <item>com.android.providers.telephony</item>
+        <item>com.yulong.android.modemclient</item>
+        <item>com.yulong.android.cp_engmode</item>
+        <item>com.yulong.android.ota</item>
+        <item>com.yulong.android.privatemode</item>
+        <item>com.lsy.logredirect</item>
+        <item>com.yulong.android.worldclock</item>
+        <item>com.android.coolwind</item>
+        <item>com.android.pushclient</item>
+        <item>com.icoolme.android.weather</item>
+        <item>com.icoolme.android.usermgr</item>
+        <item>com.chinatelecom.bestpayclient</item>
+        <item>com.yulong.providers.fack</item>
+        <item>com.svox.pico</item>
+        <item>com.android.nfc3</item>
+        <item>com.yulong.logredirect</item>
+        <item>com.yulong.android.dm</item>
+        <item>com.icoolme.android.upgrade</item>
+        <item>com.android.wallpaper.livepicker</item>
+        <item>com.yulong.android.softmanager</item>
+        <item>com.android.usbui</item>
+        <item>com.yulong.android.xtime</item>
+        <item>com.yulong.android.xtimewidget</item>
+        <item>com.android.smspush</item>
+        <item>com.android.contacts</item>
+        <item>com.android.packageinstaller</item>
+        <item>com.android.keychain</item>
+        <item>com.yulong.android.sns</item>
+        <item>com.yulong.android.sns.service</item>
+        <item>com.yulong.android.sns.account</item>
+        <item>com.yulong.android.sns.widget</item>
+        <item>com.yulong.android.scenemode</item>
+        <item>com.yulong.android.weatherwidget</item>
+        <item>com.yulong.android.season.widget</item>
+        <item>com.icoolme.android.weather_widget</item>
+        <item>com.google</item>
+        <item>com.android.quicksearchbox</item>
+        <item>com.android.camera</item>
+        <item>com.android.music</item>
+        <item>com.android.musicfx</item>
+        <item>com.yulong.android.app3rd2sd</item>
+        <item>com.android.exchange</item>
+        <item>com.yulong.exchange</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.android.providers.drm</item>
+        <item>com.android.providers.applications</item>
+        <item>com.android.exchange</item>
+        <item>com.icoolme.android.usermgr</item>
+        <item>.WeiboWidgetService</item>
+        <item>com.sina.weibo</item>
+        <item>com.qualcomm.wiper</item>
+        <item>com.qualcomm.privinit</item>
+        <item>com.redstone.dm</item>
+        <item>com.yulong.android.bugreport.client</item>
+        <item>com.broadcom.bt.app.system</item>
+        <item>cn.imolo.service</item>
+        <item>com.yulong.android.soundrecorder</item>
+        <item>com.google.android.setupwizard</item>
+        <item>com.yulong.android.setupwizard</item>
+        <item>com.baidu.map.location</item>
+        <item>com.baidu.map.location:remote</item>
+    </string-array>
+    <string-array name="not_list_apps">
+        <item>com.arcsoft.mediasee</item>
+        <item>com.android.arcsoft.ArcSoftDMS</item>
+        <item>com.baidu.map.location</item>
+    </string-array>
+    <string-array name="password_hint_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="no_money_deduct_sms">
+        <item>110</item>
+        <item>119</item>
+        <item>120</item>
+        <item>122</item>
+        <item>12110</item>
+        <item>12395</item>
+        <item>12121</item>
+        <item>12117</item>
+        <item>95119</item>
+        <item>999</item>
+        <item>95555</item>
+        <item>95566</item>
+        <item>95533</item>
+        <item>95588</item>
+        <item>95558</item>
+        <item>95599</item>
+        <item>95595</item>
+        <item>95559</item>
+        <item>95508</item>
+        <item>95528</item>
+        <item>95501</item>
+        <item>95577</item>
+        <item>95561</item>
+        <item>10086</item>
+        <item>10010</item>
+        <item>10000</item>
+        <item>17951</item>
+        <item>17900</item>
+        <item>114</item>
+        <item>95598</item>
+        <item>12318</item>
+        <item>12315</item>
+        <item>12358</item>
+        <item>12365</item>
+        <item>12310</item>
+        <item>12369</item>
+        <item>12333</item>
+        <item>12366</item>
+        <item>95518</item>
+        <item>95519</item>
+        <item>95511</item>
+        <item>95500</item>
+        <item>95522</item>
+        <item>95567</item>
+    </string-array>
+    <string-array name="remaining_out_of_memory_remind">
+        <item>OFF</item>
+        <item>20M</item>
+        <item>40M</item>
+        <item>80M</item>
+        <item>100M</item>
+        <item>120M</item>
+        <item>150M</item>
+    </string-array>
+    <string-array name="trash_memory_removal">
+        <item>OFF</item>
+        <item>50M</item>
+        <item>150M</item>
+        <item>300M</item>
+        <item>500M</item>
+    </string-array>
+    <string-array name="regular_check_remind">
+        <item>OFF</item>
+        <item>3 дня</item>
+        <item>1 неделя</item>
+        <item>2 недели</item>
+        <item>1 месяц</item>
+    </string-array>
+    <string-array name="fake_password_type">
+        <item>Нет</item>
+        <item>Любой символ</item>
+        <item>Пользовательский</item>
+    </string-array>
+    <string-array name="permission_multioperations">
+        <item>Разрешить все</item>
+        <item>Уведомлять все</item>
+        <item>Запретить все</item>
+    </string-array>
+    <string-array name="adv_multioperations">
+        <item>Разрешить все</item>
+        <item>Запретить все</item>
+    </string-array>
+    <string-array name="adv_multioperations1">
+        <item>Разрешить все</item>
+        <item>Скрыть вс</item>
+        <item>Запретить все</item>
+    </string-array>
+    <string-array name="appprotect_prefered_apps">
+        <item>com.yulong.android.contacts</item>
+        <item>com.android.mms</item>
+        <item>com.yulong.android.callhistory</item>
+        <item>com.yulong.android.quickdial</item>
+        <item>com.android.gallery3d</item>
+        <item>com.yulong.android.soundrecorder</item>
+        <item>com.android.music</item>
+        <item>com.yulong.android.filebrowser</item>
+        <item>com.yulong.android.backup</item>
+        <item>com.android.email</item>
+        <item>com.yulong.email</item>
+        <item>com.yulong.android.calendar</item>
+        <item>com.yulong.android.memo</item>
+    </string-array>
+    <string-array name="appprotect_not_display">
+        <item>com.yulong.android.seccenter</item>
+        <item>com.yulong.android.contacts.dial</item>
+        <item>com.yulong.android.backup</item>
+    </string-array>
+    <string-array name="enterprise_version_appprotect_not_display">
+        <item>com.yulong.android.seccenter</item>
+        <item>com.yulong.android.contacts.dial</item>
+        <item>com.yulong.android.backup</item>
+        <item>com.android.mms</item>
+        <item>com.yulong.android.filebrowser</item>
+        <item>com.android.gallery3d</item>
+        <item>com.yulong.android.soundrecorder</item>
+        <item>com.yulong.android.videoplayer</item>
+    </string-array>
+    <string-array name="attach">
+         <item> Цзянсу</item>
+         <item> Фуцзянь</item>
+         <item> Цзилинь</item>
+         <item> Чжэцзян</item>
+         <item> Хайнань</item>
+         <item> Хунань</item>
+         <item> Шаньси</item>
+         <item> Внутренняя Монголия</item>
+         <item> Хубэй</item>
+         <item> Хэбэй</item>
+         <item> Тяньцзинь</item>
+         <item> Шэньси</item>
+         <item> Ляонин</item>
+         <item> Пекин</item>
+         <item> Шанхай</item>
+         <item> Гуйчжоу</item>
+         <item> Гуандун</item>
+         <item> Чунцин</item>
+         <item> Аньхой</item>
+         <item> Ганьсу</item>
+         <item> Гуанси</item>
+         <item> Хэнань</item>
+         <item> Хэйлунцзян</item>
+         <item> Цзянси</item>
+         <item> Нинся</item>
+         <item> Цинхай</item>
+         <item> Сычуань</item>
+         <item> Шаньдун</item>
+         <item> Синьцзян</item>
+         <item> Юньнань</item>
+    </string-array>
+    <string-array name="low_mem_not_killed_apps">
+        <item>com.android.mms</item>
+        <item>com.yulong.android.contacts</item>
+        <item>com.yulong.android.guard</item>
+        <item>com.yulong.android.launcher</item>
+        <item>com.yulong.android.launcher1</item>
+        <item>com.yulong.android.launcher2</item>
+        <item>com.yulong.android.launcher3</item>
+        <item>com.android.email</item>
+        <item>com.yulong.email</item>
+        <item>system_process</item>
+        <item>system</item>
+        <item>android</item>
+        <item>com.android.phone</item>
+        <item>com.yulong.android.launcher.watchservice</item>
+        <item>com.yulong.android.seccenter</item>
+        <item>com.yulong.android.cp_utk</item>
+        <item>com.android.stk</item>
+        <item>com.yulong.android.backup</item>
+        <item>com.yulong.android.dev.gcoption</item>
+        <item>com.yulong.android.keyguard</item>
+        <item>com.yulong.android.factorypattern</item>
+        <item>lthj.exchangestock</item>
+        <item>com.android.alarmclock</item>
+        <item>com.android.systemui</item>
+        <item>com.yulong.android.coolpadime</item>
+        <item>com.android.coolpadime</item>
+        <item>com.yulong.android.yulongime</item>
+        <item>com.svox.pico</item>
+        <item>com.android.defcontainer</item>
+        <item>com.yulong.android.net</item>
+        <item>com.yulong.android.cooperation</item>
+        <item>android.process.acore</item>
+        <item>android.process.media</item>
+        <item>com.yulong.android.dev.gcoption</item>
+        <item>com.android.bluetooth</item>
+        <item>com.yulong.android.netusermgr</item>
+        <item>com.yulong.android.securitymanager</item>
+        <item>Gsm0710muxd</item>
+        <item>PhoneSlotService</item>
+        <item>Rild</item>
+        <item>com.ti.bluetoothSCOapp</item>
+        <item>com.android.settings.bluetooth</item>
+        <item>com.yulong.android.cp_engmod</item>
+        <item>com.android.android.cp_utk</item>
+        <item>com.yulong.android.settings.wifi</item>
+        <item>ccom.yulong.android.wifihelper</item>
+        <item>com.android.providers.telephony</item>
+        <item>com.yulong.android.modemclient</item>
+        <item>com.yulong.android.cp_engmode</item>
+        <item>com.yulong.android.ota</item>
+        <item>com.yulong.android.privatemode</item>
+        <item>com.lsy.logredirect</item>
+        <item>com.yulong.android.worldclock</item>
+        <item>com.android.pushclient</item>
+        <item>com.icoolme.android.weather</item>
+        <item>com.icoolme.android.usermgr</item>
+        <item>com.chinatelecom.bestpayclient</item>
+        <item>com.yulong.providers.fack</item>
+        <item>com.svox.pico</item>
+        <item>com.android.nfc3</item>
+        <item>com.yulong.logredirect</item>
+        <item>com.yulong.android.dm</item>
+        <item>com.icoolme.android.upgrade</item>
+        <item>com.android.wallpaper.livepicker</item>
+        <item>com.android.usbui</item>
+        <item>com.yulong.android.xtime</item>
+        <item>com.yulong.android.xtimewidget</item>
+        <item>com.android.smspush</item>
+        <item>com.android.contacts</item>
+        <item>com.android.packageinstaller</item>
+        <item>com.android.keychain</item>
+        <item>com.yulong.android.sns</item>
+        <item>com.yulong.android.sns.service</item>
+        <item>com.yulong.android.sns.widget</item>
+        <item>com.yulong.android.scenemode</item>
+        <item>com.yulong.android.weatherwidget</item>
+        <item>com.yulong.android.season.widget</item>
+        <item>com.icoolme.android.weather_widget</item>
+        <item>com.google</item>
+        <item>com.android.coolwind</item>
+        <item>com.android.pushclient</item>
+        <item>com.android.quicksearchbox</item>
+        <item>com.yulong.android.app3rd2sd</item>
+        <item>com.android.exchange</item>
+        <item>com.yulong.exchange</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.android.providers.drm</item>
+        <item>com.android.providers.applications</item>
+        <item>com.android.exchange</item>
+        <item>com.icoolme.android.usermgr</item>
+        <item>.WeiboWidgetService</item>
+        <item>com.sina.weibo</item>
+        <item>com.qualcomm.wiper</item>
+        <item>com.qualcomm.privinit</item>
+        <item>com.redstone.dm</item>
+        <item>com.yulong.android.bugreport.client</item>
+    </string-array>
+    <string-array name="check_regular">
+        <item>Ежедневно</item>
+        <item>Еженедельно</item>
+        <item>Без проверки по расписанию</item>
+    </string-array>
+    <string-array name="check_week">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <string-array name="switch_check">
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+    <string-array name="ntf_nohide_whitelist">
+        <item>com.wuba</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.alipay.android.app</item>
+        <item>com.androidesk</item>
+        <item>com.iyd.reader.ReadingJoy</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>cn.jingling.motu.photowonder</item>
+        <item>com.baidu.searchbox_coolpad</item>
+        <item>com.ting.mp3.oemc.android</item>
+        <item>com.intsig.BizCardReader</item>
+        <item>com.dianping.v1</item>
+        <item>com.duomi.android</item>
+        <item>org.cocos2dx.FishingJoy2</item>
+        <item>com.soco.growaway_snow_yulongIN</item>
+        <item>com.chaozh.iReader</item>
+        <item>com.autonavi.minimap.coolpad</item>
+        <item>com.tencent.qqpimsecure</item>
+        <item>com.tencent.mobileqq</item>
+        <item>cn.wps.moffice</item>
+        <item>com.pip.android</item>
+        <item>com.netease.newsreader.activity</item>
+        <item>com.android.iswdot</item>
+        <item>com.android.iswdotexp</item>
+        <item>com.qiyi.video</item>
+        <item>com.tencent.qqgame</item>
+        <item>com.tencent.mtt</item>
+        <item>com.sina.weibo</item>
+        <item>com.sohu.newsclient</item>
+        <item>com.sohu.sohuvideo</item>
+        <item>com.taobao.taobao</item>
+        <item>com.sds.android.ttpod</item>
+        <item>com.tmall.wireless</item>
+        <item>com.taobao.trip</item>
+        <item>com.mapbar.android.mapbarmap1</item>
+        <item>com.tudou.android</item>
+        <item>com.UCMobile</item>
+        <item>viva.reader</item>
+        <item>com.tencent.mm</item>
+        <item>cn.koogame.Fighter</item>
+        <item>com.tencent.news</item>
+        <item>cn.amazon.mShop.android</item>
+        <item>cn.douwan.game</item>
+        <item>com.coolpad.appstore</item>
+        <item>com.mjiudian.hoteldroidcp</item>
+        <item>com.tadu.android</item>
+        <item>com.tencent.qqgame_buildin</item>
+        <item>com.imangi.templerun2.paid</item>
+        <item>com.baidu.appsearch</item>
+        <item>com.playcrab.ares</item>
+        <item>com.baidu.browser.apps</item>
+        <item>com.baidu.news</item>
+        <item>com.baidu.tieba_mini</item>
+        <item>com.mapbar.rainbowbus</item>
+        <item>com.baidu.video</item>
+        <item>com.MyGame.Midlet</item>
+        <item>com.lashou.groupurchasing</item>
+        <item>com.disney.troz</item>
+        <item>com.iflytek.viafly</item>
+        <item>com.yulong.android.coolmart</item>
+        <item>com.soco.veggies2_yulongIN</item>
+        <item>com.melot.meshow</item>
+        <item>com.baidu.hao123</item>
+        <item>com.iflytek.cmcc</item>
+        <item>com.letv.android.client</item>
+        <item>com.gome.eshopnew</item>
+        <item>com.diandao</item>
+        <item>com.mt.mtxx.mtxx</item>
+        <item>com.dp.android.elong.tianyu</item>
+        <item>com.yulong.android.gamecenter</item>
+        <item>com.tencent.qqlive</item>
+        <item>com.rakutec.android.iweekly</item>
+        <item>com.dili360</item>
+        <item>com.tripadvisor.tripadvisor.daodao</item>
+        <item>com.gameloft.android.ANMP.GloftA8CN</item>
+        <item>com.qihoo.browser</item>
+        <item>cn.kuwo.player</item>
+        <item>com.android.coolwind</item>
+    </string-array>
+    <string-array name="whitelist_pugforbid">
+        <item>com.baidu.searchbox_coolpad</item>
+        <item>com.tencent.mm</item>
+        <item>im.yixin</item>
+        <item>com.dianping.v1</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.baidu.navi</item>
+        <item>com.google.android.apps.maps</item>
+        <item>cld.navi.mainframe</item>
+        <item>cld.navi.cm</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.autonavi.xmgd.navigator</item>
+        <item>com.autonavi.xmgd.navigator.toc</item>
+        <item>com.autonavi.minimap.coolpad</item>
+    </string-array>
+</resources>
