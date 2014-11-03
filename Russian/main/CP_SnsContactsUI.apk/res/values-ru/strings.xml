@@ -1313,6 +1313,8 @@
     <string name="import_from_bluetooth_description">Импорт контактов из другого телефона через Bluetooth</string>
     <string name="import_from_coolcloud">Облачная синхронизация</string>
     <string name="import_from_coolcloud_description">Использовать Облако для синхронизации контактов</string>
+    <string name="import_from_opendomain">Open Domain Импорт</string>
+    <string name="import_from_opendomain_description">Импорт контактов с Open Domain на Secure Domain</string>
     <string name="contacts_delete_duplicate">Удалить дубликаты</string>
     <string name="contacts_delete_duplicate_description">Найти и удалить дубликаты контактов</string>
     <string name="contacts_delete_duplicate_confirm">Удалить дубликаты контактов?</string>
@@ -1345,6 +1347,7 @@
     <string name="startup_import_contacts_coolwind">Облачная синхронизация</string>
     <string name="startup_import_contacts_backup">Восстановление сохраненных контактов</string>
     <string name="startup_import_contacts_no_contacts">Нет данных</string>
+    <string name="startup_import_card_contacts">Импорт контактов на карте</string>
     <string name="search_adscription_hint">Введите код города или название</string>
     <string name="search_by_all">Поиск по контактной информации</string>
     <string name="search_by_adscription">Поиск по местоположению</string>
@@ -1393,6 +1396,8 @@
     <string name="dialog_save_group_message">Сохранить группу?</string>
     <string name="dialog_delete_group_title">Удаление группы</string>
     <string name="dialog_delete_group_message">Удалить группу?</string>
+    <string name="dialog_delete_calllog_title">Удаление журнала вызовов</string>
+    <string name="dialog_delete_calllog_message">Удалить журнал вызовов?</string>
     <string name="dialog_save_contacts_title">Замена файла</string>
     <string name="dialog_save_contacts_message">Файл будет перезаписан. Продолжить?</string>
     <string name="dialog_button_replace">ЗАмена</string>
@@ -1424,6 +1429,21 @@
     <string name="confirm_update_photo">Изменить фото?</string>
     <string name="combineHeadProfile">Профиль</string>
     <string name="yellowPage">Желтые старницы</string>
+    <string name="set_default_number">Задать как номер по умолчанию</string>
+    <string name="set_default_number_success">Задано успешно</string>
+    <string name="set_default_number_fail">Не удалось задать</string>
+    <string name="contacts_setting_photo_fail">Не удалось получить данные фото</string>
+    <string name="contacts_saving_people">Сохранение...</string>
+    <string name="people_yellowpage_update">Есть новая версия Желтых страниц, нажмите для бесплатного обновления</string>
+    <string name="people_yellowpage_prepare_data">Подготовка данных...</string>
+    <string name="people_yellowpage_prepare_data_error">Подготовка данных не удалась, недостаточно свободного места</string>
+    <string name="people_yellowpage_install">Установка</string>
+    <string name="people_yellowpage_description">Поиск информации о ресторанах или сервисах поблизости</string>
+    <string name="people_yellowpage_send_message_successful">Сообщение успешно отправлено</string>
+    <string name="people_yellowpage_send_message_fail">Не удалось отправить сообщение</string>
+    <string name="sed_spinner_account_contacts">Контакты Secure Domain</string>
+    <string name="sed_spinner_account_description">Контакты Secure Domain</string>
+    <string name="sed_create_contacts">Созать контакты  Secure Domain</string>
     <string name="phone_sum">2</string>
     <string name="email_sum">1</string>
 </resources>

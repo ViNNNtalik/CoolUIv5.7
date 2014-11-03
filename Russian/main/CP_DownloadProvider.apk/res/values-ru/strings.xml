@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_label">Диспетчер загрузки</string>
+    <string name="app_label">Загрузки</string>
     <string name="permlab_downloadManager">Доступ к менеджеру загрузок</string>
     <string name="permdesc_downloadManager">Приложение получит доступ к менеджеру загрузок и сможет загружать файлы через него. Вредоносные приложения смогут таким образом прерывать загрузки и просматривать личную информацию</string>
     <string name="permlab_downloadManagerAdvanced">Расширенные функции менеджера загрузок</string>
@@ -16,8 +16,6 @@
     <string name="permlab_accessAllDownloads">Доступ ко всем загрузкам</string>
     <string name="permdesc_accessAllDownloads">Приложение сможет открывать и изменять загрузки независимо от того, через какое приложение они были загружены</string>
     <string name="download_unknown_title">&lt;Без названия></string>
-    <string name="notification_filename_separator">", "</string>
-    <string name="notification_filename_extras">" и ещё %d"</string>
     <string name="notification_download_complete">Загрузка завершена</string>
     <string name="notification_download_failed">Не удалось загрузить файл</string>
     <string name="notification_need_wifi_for_size">Загрузка только по Wi-Fi</string>
@@ -34,5 +32,38 @@
     <string name="button_cancel_download">Отмена</string>
     <string name="button_start_now">Запустить</string>
     <string name="download_percent">%d%%</string>
+    <string name="download_remaining">Осталось: %s</string>
+    <string name="download_no_application_title">Не удается открыть файл</string>
+    <string name="root_downloads">Загрузки</string>
+    <string name="download_queued">В очереди</string>
+    <string name="download_running">Загружается</string>
+    <string name="download_error">Сбой</string>
+    <string name="download_running_percent">Скачано: %d%%</string>
+    <string name="download_menu_paused">Пауза</string>
+    <string name="download_waiting">Ожидание</string>
+    <string name="download_unknown_filename">&lt;Неизвестно></string>
+    <string name="download_pending">Начало загрузки…</string>
+    <string name="download_running_paused">На паузе</string>
+    <string name="download_pending_network">Подготовка к подключению…</string>
+    <string name="download_not_acceptable">Нельзя загрузить содержимое, так как устройство не поддерживается</string>
+    <string name="download_length_required">Нельзя загрузить содержимое с неопределенным размером</string>
+    <string name="download_precondition_failed">Не удается продолжить загрузку</string>
+    <string name="download_canceled">Отменено</string>
+    <string name="download_insufficient_space_error">Не удается завершить загрузку из-за нехватки места</string>
+    <string name="download_file_error">Ошибка загрузки файла. Попробуйте еще раз</string>
+    <string name="download_device_aborted">Нет подходящего накопителя</string>
+    <string name="notify_text_download">"Данные сохранены в:
+"</string>
+    <string name="download_file_removed">Файл удален или недоступна SD-карта</string>
+    <string name="download_no_application">Нет приложений для открытия файла</string>
+    <string name="download_file_error_dlg_msg2">"Ошибка загрузки файла.
+Попробуйте позже"</string>
+    <string name="dowing_tab">Загрузка</string>
+    <string name="complete_tab">Завершено</string>
+    <string name="download_success">Загрузка завершена</string>
+    <string name="ok">ОК</string>
+    <string name="retry">Повтор</string>
+    <string name="bat_operation">Групповые операции</string>
+    <string name="exit_bat">Выход</string>
     <string name="download_scan_dir">Мои загрузки</string>
 </resources>

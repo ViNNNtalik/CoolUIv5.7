@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="matches_found">
+    <plurals name="browser_matches_found">
         <item quantity="other">Соответствий: %d</item>
         <item quantity="zero">Соответствий нет</item>
         <item quantity="one">1 соответствие</item>

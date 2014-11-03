@@ -163,6 +163,9 @@
     <string name="widget_reco2">Горячие песни</string>
     <string name="widget_reco3">Жанры</string>
     <string name="widget_reco4">Hi-Fi</string>
+    <string name="desk_lrc_close">Настольная лирика закрыта. Вы можете включить ее в настройках</string>
+    <string name="desk_lrc_lock">Настольная лирика заблокирована. Вы можете разблокировать ее в настройках</string>
+    <string name="desk_lrc_unlock">Настольная лирика разблокирована</string>
     <string name="choice_love">Избранное</string>
     <string name="choice_download">Загрузка</string>
     <string name="choice_delete">Удаление</string>
@@ -179,7 +182,7 @@
     <string name="songs_download_fail">Не удалось загрузить</string>
     <string name="songs_download_success">Загружено</string>
     <string name="songs_download_add_to_list">Добавлено в список загрузки</string>
-    <string name="no_lyric">Нет текста</string>
+    <string name="no_lyric">Нет лирики</string>
     <string name="setting_call_sound_1">Задать как мелодия SIM1</string>
     <string name="setting_call_sound_2">Задать как мелодия SIM2</string>
     <string name="setring_success">Мелодия вызова установлена</string>
@@ -301,7 +304,7 @@ Dolby Плюс включает звук стандарта 7.1 и позвол�
     <string name="msg_music_title">Добро пожаловать в Музыку Coolpad</string>
     <string name="msg_function_toast">Приложение потребляет мобильный трафик для обеспечения онлайн прослушивания музыки</string>
     <string name="msg_not_toast_again">Не показывать снова</string>
-    <string name="loading_lyric">Загрузка текста песен...</string>
+    <string name="loading_lyric">Загрузка лирики...</string>
     <string name="setting_wifi_msg">Текущий режим разрешает подключение к сети только по Wi-Fi. Продолжить и выключить этот режим?</string>
     <string name="choice_addlist">Добавить список</string>
     <string name="batch_menu_remove">Убрать</string>
@@ -350,6 +353,7 @@ Dolby Плюс включает звук стандарта 7.1 и позвол�
     <string name="playback_addto_notexist_toast">Плейлист искусственно изменен. Нельзя добавить в плейлист</string>
     <string name="playback_loved_notexist_toast">Плейлист искусственно изменен. Нельзя добавить в избранное</string>
     <string name="str_silence_mode">Тихий режим, нельзя настроить громкость!</string>
+    <string name="meeting_mode">Режим совещания, нельзя настроить громкость!</string>
     <string name="playservice_tryonline">Попытка воспроизведения онлайн-музыки, ожидайте</string>
     <string name="playservice_erroronline">Ошибка, нельзя воспроизвести</string>
 
@@ -357,6 +361,29 @@ Dolby Плюс включает звук стандарта 7.1 и позвол�
     <string name="setting_notexist_external">Нет SD-карты, используется внутр.хранилище</string>
     <string name="music_downloadpath_sizetip">(всего %1$s, своб. %2$s)</string>
     <string name="playservice_retry_later">Плохое подключение, попробуйте позже</string>
+
+    <string name="mmmusic_setting_allow_mobile">Загрузка и воспроизведение по сети</string>
+    <string name="mmmusic_check_mobile_setting">"Нет подключения. Проверьте настройки приложения"</string>
+    <string name="mmmusic_allow_mobile_dialogknow">Ясно</string>
+    <string name="mmmusic_mini_toast_network_3g">#3G потребляет много трафика. Рекомендуется подключитение по Wi-Fi</string>
+    <string name="mmmusic_mobile_close_stop_toast">Закрытие приведет к остановке воспроизведения</string>
+    <string name="mmmusic_mobile_close_cancel_toast">Закрытие приведет к отмене загрузки</string>
+    <string name="mmmusic_mobile_close_andcancel_toast">и загрузки</string>
+    <string name="mmmusic_olderplaylist_changed">Список вопроизведения изменен</string>
+    <string name="mmmusic_pulltorefresh_label">Отпустите для обновления</string>
+    <string name="mmmusic_releasetorefresh_label">Отпустите для обновления</string>
+    <string name="mmmusic_loading_label">Сканирование...</string>
+    <string name="mmmusic_scanfinish_label">Завершено. Получено %1$d песен</string>
+    <string name="mmmusic_scanfilter_label">Фильтр %1$d небольших аудио</string>
+    <string name="setting_desklyric_title">Настольная лирика</string>
+    <string name="desklyric_lock">Блокировка настольной лирики</string>
+    <string name="desklyric_unlock">Нажмите, чтобы разблокировать настольную лирику</string>
+    <string name="desklyric_unfixed">Настольная лирика разблокирована</string>
+    <string name="desklyric_fixed">Настольная лирика заблокирована</string>
+    <string name="desklyric_nolyric">Нет лирики</string>
+    <string name="desklyric_nolyric_title">Музыка Coolpad</string>
+    <string name="mmmusic_copyright_downloadfail">Невозможно загрузить в соответствии с правами пользования</string>
+    <string name="music_2g3g_tosttitle">Подсказка</string>
 
 
 
@@ -371,7 +398,6 @@ Dolby Плюс включает звук стандарта 7.1 и позвол�
     <string name="online_header_line2_format">Номер песен %1$s</string>
     <string name="str_btn_search_voice">Повтор</string>
     <string name="choice_repeat">Порядок воспроизведения</string>
-    <string name="setting_desklyric_title">Текст песни</string>
-    <string name="setting_desklyric_summary">Текст песни</string>
+    <string name="setting_desklyric_summary">Лирика</string>
     <string name="set_ring_fail">Установить не удалось</string>
 </resources>

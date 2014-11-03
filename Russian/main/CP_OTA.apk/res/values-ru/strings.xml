@@ -5,6 +5,8 @@
 
 
 
+
+
     <string name="COTA_HISTORY_UPDTAE">Обновить</string>
     <string name="COTA_HISTORY_NO_FILE">Нет файла</string>
     <string name="COTA_HISTORY_CLAER">Очистить</string>
@@ -48,6 +50,8 @@
  Запрос: Автомат. проверка обновлений потребляет незначительное количество трафика
 "</string>
     <string name="dlg_title_autoupdate">Автомат. провека обновления</string>
+    <string name="reboot_to_update_system">Запрос перезагрузки при обновлении</string>
+    <string name="show_dialog_when_reboot_to_update">Обновление системы требует перезагрузки Вашего устройства</string>
     <string name="dlg_btn_positive_download">Загрузка</string>
     <string name="dlg_btn_backup_download">Загрузка</string>
     <string name="dlg_btn_negative_download">Отмена</string>
@@ -72,6 +76,7 @@
 Не выключайте устройство во время обновления
 "</string>
     <string name="dlg_title_update">Обновление прошивки</string>
+    <string name="toast_package_downloading_in_background">Пакет обновления загружается в фоне</string>
     <string name="toast_no_available_update">Ваша прошивка самая последняя!</string>
     <string name="toast_server_not_available">Ваша прошивка самая последняя!</string>
     <string name="toast_in_update">Ваше устройство обновляется. Попробуйте позже</string>
@@ -96,6 +101,7 @@
     <string name="title_update_optional">Обновление дополнительного пакета</string>
     <string name="title_putin_password">Введите пароль</string>
     <string name="login_password_hit">Введите пароль</string>
+
     <string name="password_error">Ошибка пароля</string>
     <string name="network_error">Ошибка сети</string>
     <string name="password_is_null">Пароль недоступен</string>
@@ -162,7 +168,7 @@
     <string name="system_property_value_null">Не определено (Сервер по умолчанию зависит от DM-тега)</string>
     <string name="ota_test_button">Тест OTA</string>
     <string name="ota_settings">Настройки обновления прошивки</string>
-    <string name="ota_check_update">Проверка обновления</string>
+    <string name="ota_check_update">Проверка</string>
     <string name="ota_check_update_for_result">Проверка новой версии прошивки</string>
     <string name="auto_update_checked_on">Система проверяет обновления раз в 3 дня</string>
     <string name="auto_update_checked_off">Система не проверяет обновления</string>
@@ -201,13 +207,28 @@
     <string name="toast_in_downloading">Загрузка пакета обновления. Делали можно просмотреть в панели уведомлений</string>
     <string name="message_no_history">Нет обновления</string>
     <string name="toast_show_dialog_again12">Этот диалог появится снова после %s</string>
-    <string name="coolmini_register_failed">Регистрация Сoolmini не удалась!</string>
-    <string name="coolmini_no_update">Нет обновлений Coolmini!</string>
-    <string name="message_coolmini_detail">Инофрмация Coolmini</string>
     <string name="address_pretest">Адрес пре-теста</string>
     <string name="toast_ota_in_preTest_server">Ваш адрес сервера совпадает с пре-тестовым сервером</string>
+    <string name="toast_ota_swith_preTest_server">Переключение Вашего сервера на пре-тестовый сервер!</string>
+    <string name="toast_ota_swith_internal_server">Переключение Вашего сервера на тестовый сервер!</string>
+    <string name="toast_ota_swith_external_server">Переключение Вашего сервера на общий сервер!</string>
     <string name="welcome_use_ota">Добро пожаловать в OTA</string>
     <string name="user_confirm_message">OTA генерирует трафик для загрузки пакетов обновлений</string>
     <string name="no_confirm_next_time">Больше не напоминать</string>
+    <string name="hold_on_while_checking">Идет проверка, ожидайте...</string>
+    <string name="message_new_version">Новая версия</string>
+    <string name="message_cur_version">Текущая версия</string>
+    <string name="hold_on_while_downloading">Ожидайте, пока пакет обновления загружается...</string>
+    <string name="message_new">Найдена новая версия!</string>
+    <string name="message_new_version_find">Новая версия: %s</string>
+    <string name="begin_update">Начать обновление</string>
+    <string name="update_need_to_reboot">Обновление требует перезагрузки системы</string>
+    <string name="ok_to_reboot">Перезагрузить сейчас</string>
+    <string name="later_to_reboot">Перезагрузить позже</string>
+    <string name="progress_text">%1$s Мб / %2$s Мб</string>
+    <string name="update_package_size_text">Размер пакета: %s Мб</string>
+    <string name="address_server">Значение предоставлено сервером</string>
+    <string name="system_update">Обновление системы</string>
+    <string name="application_update">Обновление приложений</string>
     <string name="message_sending_file">Загрузка завершена. Отправка файла через Центр синхронизации</string>
 </resources>

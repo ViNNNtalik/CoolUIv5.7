@@ -1,17 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="button_ok_text">ОК</string>
+    <string name="button_cancel_text">Отмена</string>
+    <string name="button_yes_text">Да</string>
+    <string name="button_no_text">Нет</string>
+    <string name="button_abort_text">Отмена</string>
+    <string name="button_retry_text">Повтор</string>
+    <string name="button_ignore_text">Игнорировать</string>
+    <string name="button_delete_text">Удалить</string>
+    <string name="button_set_text">Задать</string>
+    <string name="button_save_text">Сохранить</string>
+    <string name="button_exit_text">Выход</string>
+    <string name="switch_button_text_on">Вкл.</string>
+    <string name="switch_button_text_off">Выкл.</string>
+    <string name="adscription_unknow">Неизв.</string>
+    <string name="cooperation_exception">Исключение</string>
+    <string name="password_hint">Подсказка</string>
+    <string name="password_maxlength">32</string>
+    <string name="title">Введите пароль от Менеджера</string>
+    <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
+    <string name="login_password_error_dialog_msg">Неправильный пароль Менеджера. Введите заново</string>
+    <string name="set_question_title">Вопрос</string>
+    <string name="set_answer_title">Ответ</string>
+    <string name="need_set_answer_dialog_msg">Введите ответ</string>
+    <string name="answer_maxlength">28</string>
+    <string name="answer_error_dialog_msg">Неправильный ответ</string>
+    <string name="password_hint_title">Подсказка</string>
+    <string name="your_password_is_dialog_msg">Ваш пароль</string>
+    <string name="recipeint">Адресат</string>
+    <string name="selectAll">Выбрать все</string>
+    <string name="paste">Вставить</string>
+    <string name="inputMethod">Метод ввода</string>
+    <string name="select">Выбор</string>
+    <string name="cut">Вырезать</string>
+    <string name="copy">Копировать</string>
+    <string name="share">Поделиться</string>
+    <string name="search">Baidu-поиск</string>
+    <string name="clipboard">Буфер обмена</string>
+    <string name="hanzitopinyin">pinyin</string>
+    <string name="stringtopinyinhint">Не распознано</string>
+    <string name="time_picker_dialog_title">Задать время</string>
+    <string name="date_year_toggle">Год</string>
+    <string name="textOverMaxLengthWarnning">максимальная длина</string>
+    <string name="copy_hint_text">Копирование завершено</string>
+    <string name="delOne">Удалить из буфера обмена</string>
+    <string name="delAll">Очистить буфера обмена</string>
+    <string name="clipboardOper">Операции с буфером обмена</string>
+    <string name="cansell">Отмена</string>
+    <string name="openClipboardSound">Вкл. тон клавиш</string>
+    <string name="closeClipboardSound">Выкл. тон клавиш</string>
+    <string name="char_append">или</string>
+    <string name="lookup_tel_details_en">Просмотр деталей</string>
+    <string name="lookup_tel_details_cn">Просмотр деталей</string>
+    <string name="lookup_tel_details_tw">Просмотр деталей</string>
+    <string name="dialog_title_choose_tel">Выбор контакта для просмотра деталей</string>
+    <string name="lunar_calendar_show">Лунный календарь</string>
+    <string name="image_cooperation_title">Опции приложения</string>
+    <string name="date_picker_dialog_title">Задать дату</string>
+    <string name="date_picker_year_checkbox_text">Год</string>
+    <string name="date_picker_lunar_checkbox_text">Лунный</string>
+    <string name="date_picker_allday_checkbox_text">Весь день</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="unSelect_all">Снять выделение</string>
+    <string name="list_action_mode_selected">"Выбрано "</string>
+
+    <string name="list_action_mode_total">"Всего "</string>
+    <string name="actionbar_mainmenu_text">Меню</string>
+    <string name="action_mode_item_more">Еще</string>
+
+    <string name="search_hint_text">Введите ключевые слова</string>
+    <string name="contact_chooser_text">Контакты</string>
+    <string name="clipboard2_title">Буфер обмена</string>
+    <string name="clipboard2_operate_dialog_title">Операции с буфером обмена</string>
+    <string name="clipboard2_operate_delete">Удаление из буфера обмена</string>
+    <string name="clipboard2_operate_lock">Блокировать</string>
+    <string name="clipboard2_operate_unlock">Разблокировать</string>
+    <string name="clipboard2_operate_cancel">Отмена</string>
+    <string name="clipboard2_clear_dialog_title">Информация</string>
+    <string name="clipboard2_clear_dialog_main_content">Очистить буфер обмена?</string>
+    <string name="clipboard2_clear_dialog_sub_content">(заблокированный элемент не будет удален)</string>
+    <string name="clipboard2_clear_dialog_ok">ОК</string>
+    <string name="clipboard2_clear_dialog_cancel">Отмена</string>
+    <string name="time_picker_separator">:</string>
     <string name="app_name">Проводник</string>
     <string name="root_directory_already">Это корневая директория</string>
     <string name="onCreate">onCreate</string>
     <string name="filelatestIconLabel">Загрузка</string>
-    <string name="filesortIconLabel">Сортировка</string>
+    <string name="filesortIconLabel">Группы</string>
     <string name="udiskIconLabel">Устройство</string>
-    <string name="intsd_label_abbreviation">Устройство</string>
+    <string name="intsd_label_abbreviation">Устр-во</string>
     <string name="sdcardIconLabel">SD-карта</string>
     <string name="internal_sdcard">Внутренняя SD-карта</string>
     <string name="external_sdcard">Внешняя SD-карта</string>
     <string name="phone_space">Внутреннее хранилище</string>
-    <string name="networkIconLabel">Облачный диск</string>
+    <string name="sed_phone_space">SED диск</string>
+    <string name="networkIconLabel">Облако</string>
     <string name="input_pass_hint">Введите пароль</string>
     <string name="login_button">Логин</string>
     <string name="wizid_onkey_activite">Регистрация</string>
@@ -117,10 +200,13 @@
     <string name="safebox">Сейф</string>
     <string name="ftpServer">FTP</string>
     <string name="safebox_filemanager">Все файлы</string>
+    <string name="safebox_pwbox">Пароль Сейфа</string>
     <string name="remove_path">Все файлы</string>
     <string name="allfiles">Все файлы</string>
     <string name="app">"Прилож. "</string>
     <string name="system">"Система "</string>
+    <string name="system_ppd">PPD система</string>
+    <string name="system_sed">SED система</string>
     <string name="other">"Прочее "</string>
     <string name="success">Успешно</string>
     <string name="failed">Не удалось</string>
@@ -281,6 +367,8 @@
     <string name="space_available">"Доступно: "</string>
     <string name="udisk_total_space">"Диск: "</string>
     <string name="system_total_space">"Система: "</string>
+    <string name="system_total_space_ppd">PPD система:</string>
+    <string name="system_total_space_sed">SED система:</string>
     <string name="file_scan_ending">Файлы проверены</string>
     <string name="sort_picture_fileinfo">Получение информации об изображениях</string>
     <string name="sort_audio_fileinfo">Получение информациио об аудио</string>
@@ -621,7 +709,11 @@
     <string name="translated_catelog_wallpaper">Обои</string>
     <string name="translated_catelog_memo">Заметки</string>
     <string name="translated_catelog_music">Музыка</string>
+    <string name="translated_catelog_movies">Фильмы</string>
     <string name="translated_catelog_album">Альбомы</string>
+    <string name="translated_catelog_coolmart">Маркет Coolpad</string>
+    <string name="translated_catelog_videoplayer">Видеоплеер</string>
+    <string name="translated_catelog_ttwindow">Китайскик новости</string>
     <string name="translated_catelog_theme">Темы</string>
     <string name="translated_catelog_saved_images">Изображения</string>
     <string name="translated_catelog_saved_video">Видео</string>
@@ -642,6 +734,283 @@
     <string name="translated_catelog_collectted_music">Музыка</string>
     <string name="translated_catelog_collectted_video">Видео</string>
     <string name="translated_catelog_collectedimages">Изображения</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <string name="list_key_group">Группа</string>
     <string name="list_key_child">Ребенок</string>
     <string name="menu_item_add2favorite">Избранное</string>
@@ -661,8 +1030,10 @@
     <string name="menu_item_move2safebox">В Сейф</string>
     <string name="menu_item_upload2clouddisk">Выгрузка в Облако</string>
     <string name="menu_item_detail">Детали</string>
+    <string name="menu_item_headtoloaction">Открыть папку</string>
     <string name="menu_item_shortcut">Добавить ярлык на дом.экран</string>
     <string name="alart_welcome_title">Добро пожаловать в Проводник Coolpad!</string>
     <string name="alart_welcome_info">Это приложение может потреблять мобильный трафик для связи с Облаком</string>
-    <string name="alart_welcome_cb_info">Не показывать снова</string>
+    <string name="onekey_activite_info">Заметка: Это сообщение будет отослано при регистрации</string>
+    <string name="alart_welcome_cb_info">Больше не показывать</string>
 </resources>

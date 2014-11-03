@@ -99,6 +99,9 @@
         <item>Сходящие</item>
         <item>Карта</item>
     </string-array>
+    <string-array name="array_sms_setting_store_security">
+        <item>Входящие</item>
+    </string-array>
     <string-array name="array_sms_setting_validate">
         <item>1 час</item>
         <item>6 часов</item>

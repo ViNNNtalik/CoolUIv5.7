@@ -1254,7 +1254,8 @@
     <string name="set_as_default">Установить по умолчанию</string>
     <string name="set_as_default_tips">Можно изменить в меню Настройки> Основные настройки</string>
     <string name="s_menu_batch_forward_chat">Групповая пересылка</string>
-    <string name="menu_deletesms">Удалить все сообщения</string>
+    <string name="menu_deletesms">Удалить все SMS</string>
+    <string name="delete_all_sms">Удалить все SMS</string>
     <string name="sure_to_delete_all_sms">Навсегда удалить все SMS?</string>
     <string name="recipient_is_empty_discard_msg">Сообщение не будет отправлено из-за отсутствия получателей. Продолжить?</string>
     <string name="content_is_empty_discard_msg">Нет содержимого. Сообщение не будет отправлено. Продолжить?</string>
@@ -1451,7 +1452,7 @@
     <string name="default_enable_chat_icon">Показать иконки</string>
     <string name="default_message_enable_lcd">Вспышка для нового сообщения</string>
     <string name="default_message_enable_coolwind">Отправка через Cообщ. Coolpad</string>
-    <string name="default_message_old_mode">Сообщение старого формата</string>
+    <string name="default_message_old_mode">Пожилой режим</string>
     <string name="date_format">dd MMMM yyyy г.</string>
     <string name="Sum">Воскресенье</string>
     <string name="Mon">Понедельник</string>
@@ -1522,6 +1523,21 @@
     <string name="send_by_card1_label">Отправить через SIM1</string>
     <string name="send_by_card2_label">Отправить через SIM2</string>
     <string name="toast_select_sms_too_much">Выбрано слишком много SMS!</string>
-    <string name="toast_elderly_mode_not_support_mms">В старом режиме не поддерживаются MMS</string>
+    <string name="toast_elderly_mode_not_support_mms">В пожилом режиме не поддерживаются MMS</string>
+    <string name="toast_string_sms_max_to_limit">Превышено количество символов</string>
+    <string name="add_to_contacts">Добавить в контакты</string>
+    <string name="checkbox_tips_not_ask">Больше не спрашивать</string>
+    <string name="encrypt_sms">Зашифрованное сообщение</string>
+    <string name="burn_after_read">Сообщение \"Я шпион!\"</string>
+    <string name="set_encrypt_sms">Установить зашифрованное сообщение</string>
+    <string name="cancel_encrypt_sms">Отмена зашифрованного сообщения</string>
+    <string name="set_burn_after_read">Установить сообщение \"Я шпион!\"</string>
+    <string name="cancel_burn_after_read">Отмена сообщения \"Я шпион!\"</string>
+    <string name="encrypt_sms_tip">Сторонние приложения не могут прочесть зашифрованное сообщение. Будет показана абракадабра, и только устройство Coolpad с аналогичными опциями сможет показать нормальный текст сообщения</string>
+    <string name="burn_after_read_tip">Получатель сможет увидеть сообщение \"Я шпион!\" только один раз. Опция осуществима только между двумя устройствами Coolpad</string>
+    <string name="encrypt_sms_snippet">(зашифр. сообщение)</string>
+    <string name="burn_after_read_snippet">(сообщение \"Я шпион!\")</string>
+    <string name="burn_encrypt_sms_snippet">(зашифр. сообщение \"Я шпион!\")</string>
+    <string name="burn_after_read_body">(сообщение \"Я шпион!\"). Сообщение прочитано и уничтожено</string>
     <string name="copy_msg_text">Скопировать сообщение</string>
 </resources>
