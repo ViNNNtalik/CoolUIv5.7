@@ -12,6 +12,8 @@
     <string name="mtk_se_na">Нет доступных элементов безопасности. Эмуляция NFC-карты будет выключена</string>
     <string name="mtk_se_alt">" не доступно. Переключиться на "</string>
     <string name="mtk_nfc_card_emulation">Эмуляция NFC-карты</string>
+    <string name="mtk_disallow_in_wfd">Операция не может быть завершена при включенном Wi-Fi-дисплее</string>
+    <string name="mtk_disallow_in_wfd_KK">Операция не может быть завершена при включенном Cast Screen</string>
     <string name="app_name">Служба NFC</string>
     <string name="nfcUserLabel">NFC</string>
     <string name="inbound_me_profile_title">Контактные данные получены через NFC</string>
@@ -21,12 +23,14 @@
     <string name="accessibility_nfc_enabled">NFC включено</string>
     <string name="touch">Прикоснитесь, чтобы передать</string>
     <string name="beam_progress">Входящая передача…</string>
+    <string name="beam_outgoing">Передача...</string>
     <string name="beam_complete">Передача завершена</string>
     <string name="beam_failed">Передача не выполнена</string>
     <string name="beam_canceled">Передача отменена</string>
     <string name="cancel">Отмена</string>
     <string name="beam_touch_to_view">Нажмите для просмотра</string>
     <string name="beam_handover_not_supported">Устройство получателя не поддерживает передачу больших объемов данных через Android Beam</string>
+    <string name="beam_try_again">Соедините устройства еще раз</string>
     <string name="connecting_headset">Подключение</string>
     <string name="connected_headset">Устройство подключено</string>
     <string name="connect_headset_failed">Сбой подключения к устройству</string>
@@ -38,4 +42,11 @@
     <string name="confirm_pairing">Подключить устройство Bluetooth %1$s?</string>
     <string name="pair_yes">Да</string>
     <string name="pair_no">Нет</string>
+    <string name="tap_again_to_pay">Нажмите еще раз для платежа с %1$s</string>
+    <string name="tap_again_to_complete">Нажмите еще раз для завершения с %1$s</string>
+    <string name="transaction_failure">"Этот перевод не может быть завершен с %1$s"</string>
+    <string name="could_not_use_app">"Нельзя использовать %1$s"</string>
+    <string name="pay_with">Оптатить через</string>
+    <string name="complete_with">Завершено через</string>
+    <string name="default_pay_app_removed">Ваш используемый сервис для платежей удален. Выбрать другой?</string>
 </resources>

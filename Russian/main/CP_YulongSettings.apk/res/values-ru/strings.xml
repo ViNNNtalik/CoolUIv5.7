@@ -234,7 +234,7 @@
     <string name="restore_wallpaper_title">Восстановить обои по умолчанию</string>
     <string name="resetwallpapertoast">Обои по умолчанию восстановлены</string>
     <string name="notificationpanel">Настройки панели уведомлений</string>
-    <string name="view_window_settings">Настройки окна</string>
+    <string name="view_window_settings">Настройки обложки</string>
     <string name="idlescreenlock">Настройки локскрина</string>
     <string name="statusbar">Строка состояния</string>
     <string name="statusbar_summary">Показывать строку состояния</string>
@@ -615,4 +615,6 @@ SMS/MMS
     <string name="audience_lockvoiceprint_confirm_button">ОК</string>
     <string name="audience_record_success_tip1">Образец голоса записан</string>
     <string name="audience_record_success_tip2">Задайте PIN-код для помощи в разблокировке</string>
+    <string name="screenshot_chord">Три скриншота</string>
+    <string name="screenshot_chord_summary" />
 </resources>

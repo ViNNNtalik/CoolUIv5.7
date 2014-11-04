@@ -492,6 +492,8 @@
     <string name="today">Сегодня</string>
     <string name="yesterday">Вчера</string>
     <string name="to">В</string>
+    <string name="select">Выбор</string>
+    <string name="deselect">Отмена</string>
     <string name="no_storage">Нет места для хранения</string>
     <string name="crop_save_text">ОК</string>
     <string name="details">Сведения</string>

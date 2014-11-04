@@ -175,6 +175,7 @@
     <string name="pref_camera_picturesize_entry_1280x768">1 МП</string>
     <string name="pref_camera_picturesize_entry_2560x1440">4 МП</string>
     <string name="pref_camera_picturesize_entry_3328x1872">6 МП</string>
+    <string name="pref_camera_picturesize_entry_3840x2160">8 МП</string>
     <string name="pref_camera_picturesize_entry_1664x1248">2 МП</string>
     <string name="pref_camera_picturesize_entry_3072x1728">5 МП</string>
     <string name="pref_camera_picturesize_entry_4864x2736">13 МП</string>
@@ -315,6 +316,10 @@
 
     <string name="pref_camera_voice_entry_off">Выкл</string>
     <string name="pref_camera_voice_entry_on">Вкл</string>
+    <string name="pref_camera_time_watermark_title">Водяной знак со временем</string>
+
+    <string name="pref_camera_time_watermark_off">Выкл</string>
+    <string name="pref_camera_time_watermark_on">Вкл</string>
     <string name="pref_camera_storage_path_title">Место сохранения</string>
 
     <string name="pref_camera_storage_path_entry_internal">Внутреннее хранилище</string>

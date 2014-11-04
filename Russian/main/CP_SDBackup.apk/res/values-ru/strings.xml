@@ -396,4 +396,9 @@
     <string name="jiami_tip_one">Зашифровать и сделать бэкап данных на SD-карту</string>
     <string name="not_jiami_tip_one">Бэкап plaintext-данные на SD-карту</string>
     <string name="my_backup_name_edit">Отредактируйте имя бэкапа</string>
+    <string name="backup_path">Подсказка: бэкап будет сохранен в</string>
+    <string name="backup_local_path">Внутр. хранилище</string>
+    <string name="backup_sdcard_path">SD-карта</string>
+    <string name="backup_path_1">>COOLPAD>BACKUPSD</string>
+    <string name="backup_path_2">"Путь: "</string>
 </resources>
