@@ -215,7 +215,7 @@
 
     <string-array name="preferences_alert_type_labels">
         <item>Оповещение</item>
-        <item>Уведомление статусбара</item>
+        <item>Уведомление строки состояния</item>
         <item>Выкл.</item>
     </string-array>
 

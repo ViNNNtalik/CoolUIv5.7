@@ -12,17 +12,17 @@
     <string name="radioInfo_data_connected">Подключено</string>
     <string name="radioInfo_data_suspended">Приостановлено</string>
     <string name="radioInfo_unknown">Неизвестно</string>
-
+    <string name="radioInfo_display_dbm">dBm</string>
     <string name="radioInfo_display_asu">блок квитирования</string>
     <string name="sim_bad_pin">Неверный PIN-код</string>
     <string name="device_info_not_available">Недоступно</string>
     <string name="device_status_activity_title">Общая информация</string>
-
-
+    <string name="status_imei">IMEI</string>
+    <string name="status_imei_sv">IMEI SV</string>
     <string name="status_number">Мой номер телефона</string>
-
+    <string name="status_min_number">MIN</string>
     <string name="status_prl_version">Версия PRL</string>
-
+    <string name="status_meid_number">MEID</string>
     <string name="status_network_type">Тип мобильной сети</string>
     <string name="status_data_state">Мобильная передача данных</string>
     <string name="status_service_state">Статус сети</string>
@@ -64,8 +64,8 @@
     <string name="friday">Пт</string>
     <string name="saturday">Сб</string>
     <string name="sunday">Вс</string>
-
-
+    <string name="weekly">%s</string>
+    <string name="comma">,</string>
     <string name="alarm_alert_shutdown_now">Выключение</string>
     <string name="alarm_alert_cancel_text">Отмена</string>
     <string name="alarm_shut_down_wait_text">Система выключится через %1$ds. Нажмите \"Отмена\" для остановки</string>
@@ -101,12 +101,12 @@
     <string name="telecom_ok">ОК</string>
     <string name="cancel">Отмена</string>
     <string name="card_type_no">Вставьте UIM-карту</string>
-
-
-
+    <string name="china_telecom">China Telecom</string>
+    <string name="china_mobile">China Mobile</string>
+    <string name="china_unicom">China Unicom</string>
     <string name="status_evdoe_strength">Сила сигнала EVDO</string>
     <string name="dial_key_press_tone_title">Тон клавиатуры</string>
-
+    <string name="usage_stat_t_card">USIM</string>
     <string name="usage_stat_call_log_t_all">Время вызовов по TD-SCDMA</string>
     <string name="usage_stat_call_log_t_dial">Набрано через TD-SCDMA</string>
     <string name="usage_stat_call_log_t_receive">Отвечено через TD-SCDMA</string>
@@ -114,9 +114,9 @@
     <string name="usage_stat_phone">Телефон</string>
     <string name="usage_stat_group">Группа</string>
     <string name="usage_stat_card">Карточка</string>
-
-
-
+    <string name="usage_stat_c_card">UIM</string>
+    <string name="usage_stat_w_card">SIM</string>
+    <string name="usage_stat_g_card">SIM</string>
     <string name="usage_stat_1_card">SIM1</string>
     <string name="usage_stat_2_card">SIM2</string>
     <string name="usage_stat_call_log_total">Всего</string>
@@ -141,9 +141,9 @@
     <string name="usage_stat_mail_total_title">Всего</string>
     <string name="usage_stat_mail_size_title">Размер</string>
     <string name="usage_stat_two_column_summary">"Всего     %1$s записей            Свободно    %2$s записей"</string>
-
-
-
+    <string name="usage_stat_time_count_summary">%1$s: %2$s: %3$s</string>
+    <string name="usage_stat_fixed_char">0</string>
+    <string name="usage_stat_mail_count_summary">%s entries</string>
     <string name="sim_lock_title">Настройки блокировки</string>
     <string name="cdma_lock_title">Настройки CDMA</string>
     <string name="wcdma_lock_title">Настройки WCDMA</string>
@@ -171,10 +171,10 @@
     <string name="mode">Режим A-GPS</string>
     <string name="startmode">Режим запуска</string>
     <string name="netcfg">Настройки сервера</string>
-
+    <string name="apid">APID</string>
     <string name="serid">ID сервера</string>
     <string name="sername">Имя сервера</string>
-
+    <string name="apn">APN</string>
     <string name="apn1">Другой опциональный APN</string>
     <string name="ip">Сервер</string>
     <string name="port">Порт</string>
@@ -194,8 +194,8 @@
     <string name="data_connection_prompt">Подтверждение соединения</string>
     <string name="network_prompt_title">"Дорогой Coolpad-пользователь:   
 "</string>
-    <string name="network_prompt_text">\u0009 Android-смартфон. Рекомендуется настроить тарифный план</string>
-    <string name="network_prompt_text_chinamobile">\u0009 Android-смартфон. Рекомендуется настроить тарифный план</string>
+    <string name="network_prompt_text">\u0009 Android-устройство. Рекомендуется настроить тарифный план</string>
+    <string name="network_prompt_text_chinamobile">\u0009 Android-устройство. Рекомендуется настроить тарифный план</string>
     <string name="wireless_networks_settings_title">Беспроводные сети</string>
     <string name="wifi_in_airplane_mode">Режим полета</string>
     <string name="save_mode">В режиме экономии заряда!</string>
@@ -226,74 +226,74 @@
     <string name="hint_for_roam_setting_checkbox">Больше не показывать</string>
     <string name="hint_for_roam_setting_ok">ОК</string>
     <string name="hint_for_roam_setting_cancel">Отмена</string>
-
-
-
-
+    <string name="mcc_title">MCC</string>
+    <string name="mnc_title">MNC</string>
+    <string name="sid_title">SID</string>
+    <string name="nid_title">NID</string>
     <string name="mms_number_title">Номер центра MMS</string>
     <string name="restore_wallpaper_title">Восстановить обои по умолчанию</string>
     <string name="resetwallpapertoast">Обои по умолчанию восстановлены</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="smartcontrol">Смарт-контроль</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="notificationpanel">Настройки панели уведомлений</string>
+    <string name="view_window_settings">Настройки окна</string>
+    <string name="idlescreenlock">Настройки локскрина</string>
+    <string name="statusbar">Строка состояния</string>
+    <string name="statusbar_summary">Показывать строку состояния</string>
+    <string name="carrier_name">Оператор</string>
+    <string name="carrier_name_summary">Имя оператора на локскрине</string>
+    <string name="smallcomponent">Прозрачность фона виджета</string>
+    <string name="smallcomponent_summary">Настройка прозрачность фона для соответствия обоям</string>
+    <string name="lockscreen_shortcut_key">Комбинация клавиш для локскрина</string>
+    <string name="lockscreen_shortcut_key_summary">Настройка комбинаций клавиш для локскрина</string>
+    <string name="twofinger_gesture">Жесты двумя пальцами</string>
+    <string name="twofinger_gesture_summary">Провести двумя пальцами вниз для быстрых настроек</string>
+    <string name="show_notification_icon">Иконка уведомления</string>
+    <string name="show_notification_icon_summary">Отображать иконку приложения в строке состояния при появлении нового уведомления</string>
+    <string name="reject_notification">Блокировка уведомлений</string>
+    <string name="reject_notification_summary">Блокировать уведомления в панели уведомлений</string>
+    <string name="show_remain_powerpercent">Процент зарядки</string>
+    <string name="show_remain_powerpercent_summary">Отображать процент зарядки батареи в строке состояния</string>
+    <string name="wifi_not_exist">Нет приложения для Wi-Fi</string>
+    <string name="lockscreenbrightnessequalsystem">Системная яркость и локскрин</string>
+    <string name="lockscreenbrightnessequalsystem_summary">Яркость локскрина будет на максимальном значении с 08:00 до 22:00, если эта опция не выбрана</string>
+    <string name="auto_unlock">Автоматическая разблокировка</string>
+    <string name="auto_unlock_summary">Автоматическая разблокировка экрана при его раскрытии</string>
+    <string name="view_window_background">Фон</string>
+    <string name="view_window_stay">Выключение экрана</string>
+    <string name="view_window_stay_summary">Через %1$s бездействия</string>
+    <string name="alerm_no_apn_dialog_title">Нет подходящего APN. Добавить?</string>
+    <string name="alarm_no_apn_dialog_ok">Добавить</string>
+    <string name="alarm_no_apn_dialog_cancel">Отмена</string>
+    <string name="smartcontrol">Умный контроль</string>
+    <string name="smartpause_title">Умная пауза</string>
+    <string name="smartpause_summary">Отведите глаза от видео для постановки его на паузу</string>
+    <string name="smartpause_help_summary">"Фронтальная камера может отслеживать Ваш взгляд:
+Когда Вы отводите глаза экрана,  видео ставится на паузу
+Когда Вы вы опять смотрите на экран, продолжается воспроизведение"</string>
+    <string name="smartscroll_title">Умная прокрутка</string>
+    <string name="smartstay_title">Умный экран</string>
+    <string name="smartstay_summary">Экран не выключается, когда Вы смотрите на него</string>
+    <string name="smartstay_help_summary">Фронтальная камера может отслеживать Ваш взгляд. Экран не выключается, когда Вы смотрите на него</string>
+    <string name="lte_singnal">Сила сигнала LTE</string>
+    <string name="multiwindow_settings">Мультиокно</string>
+    <string name="multiwindow_settings_summary">Разделение экрана на два независимых приложения</string>
+    <string name="shrinkage_screen_settings">Умное окно</string>
+    <string name="shrinkage_screen_settings_summary">Изменение размера окна приложения для удобства пользования одной рукой</string>
+    <string name="shrinkage_screen_settings_detail">Проведите от края экрана к середине и наоборот для уменьшения окна приложения</string>
     <string name="glove_settings">Набор в перчатках</string>
     <string name="glove_settings_summary">Повышенная чувствительность экрана для возможности работы в перчатках</string>
-
-
-
-
-
-
-
-
-
-
-
-
-    <string name="smartscreen">Смарт-контроль</string>
+    <string name="action_settings">Действия</string>
+    <string name="action_settings_summary">Такие действия, как поднимание устройства и его всряхивание могут управлять устройством</string>
+    <string name="mistouch_prevention_title">Предотвращение ошибочных касаний</string>
+    <string name="mistouch_prevention_summary">Когда устройство неожиданно включится в Вашем кармане, эта опция заблокирует выполнение любых действий</string>
+    <string name="smartscroll_head_summary">"TФронтальная камера может отслеживать Ваш взгляд:
+Страница проматывается вниз, когда вы смотрите вверх 
+Страница проматывается вверх, когда вы смотрите вниз ."</string>
+    <string name="smartscroll_device_summary">"G-сенсор может определять угол наклона устройства:
+Страница автоматически прокручивается, когда Вы наклоняете устройство вверх или вниз
+Страницы переключаются, когда Вы наклоняете устройство вправо или влево"</string>
+    <string name="smartscroll_help_tip">Эта функция может не работать при слабом освещении или включенной камере</string>
+    <string name="smartscroll_once_tip">Не показывать снова</string>
+    <string name="smartscreen">Умный контроль</string>
     <string name="one_hand_operation">Управление одной рукой</string>
     <string name="one_hand_dial">Набор</string>
     <string name="one_hand_dial_summary">Настройка наборной клавиатуры для удобства пользования одной рукой</string>
@@ -310,7 +310,7 @@
     <string name="double_click_wake_detail">При выключенном экране двойной тап пробуждает экран</string>
     <string name="motioncall_title">Прямой ответ и вызов</string>
     <string name="motioncall_summary">Поднесите устройство к уху для вызова или ответа</string>
-    <string name="judge_hall_sensor_title">Смарт-обложка</string>
+    <string name="judge_hall_sensor_title">Умная обложка</string>
     <string name="judge_hall_sensor_summary">Отображение маленького экрана после закрытия чехлом</string>
     <string name="smartrotation">Умный автоповорот</string>
     <string name="smartrotation_summary">Экран остается в режиме портрета, пока Вы смотрите на экран</string>
@@ -333,13 +333,13 @@
     <string name="totalmemory">"Всего "</string>
     <string name="availablememory">", доступно "</string>
     <string name="device_name">Имя устройства</string>
-
-
+    <string name="device_name_9190L">S6</string>
+    <string name="status_cell_id">CELL ID</string>
     <string name="status_plmn">Версия предпочтительных PLMN</string>
     <string name="status_plmn_gsm">"GSM (WCDMA)
 Версия предпочтительных PLMN"</string>
-
-
+    <string name="status_comma">", "</string>
+    <string name="status_colon">:</string>
     <string name="reset_accelerometer_title">Калибровка G-сенсора</string>
     <string name="reset_accelerometer_description">Поместите устройство на горизонтальную поверхность для калибровки</string>
     <string name="during_reset_accelerometer_description">Калибровка...Не трогайте устройство</string>
@@ -387,49 +387,49 @@
     <string name="d_start_camera">Слайд для запуска Камеры</string>
     <string name="d_start_camera_summary">При выключенном экране слайд по экрану сверху вниз запускает Камеру</string>
     <string name="d_start_camera_detail">При выключенном экране слайд по экрану сверху вниз запускает Камеру</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="pick_up_category">Подбор</string>
+    <string name="action_motionlightscreen">Прямое пробуждение</string>
+    <string name="action_motionlightscreen_summary">При наличии полученных SMS/MMS или пропущенных вызовов кран автоматически включится, когда вы возьмете устройство в руки</string>
+    <string name="action_shake_category">Встряска </string>
+    <string name="action_intelligent_call_recording">Встряска  для записи</string>
+    <string name="action_intelligent_call_recording_summary">Встряхните устройство во время вызова для записи разговора</string>
+    <string name="action_akey_to_accelerate">Очистка</string>
+    <string name="action_akey_to_accelerate_summary">Встряхните устройство на рабочем столе для очистки памяти</string>
+    <string name="action_file_cleanup">Очистка файлов</string>
+    <string name="action_file_cleanup_summary">В приложении Проводник встяска устройства приведет к очистке файлов</string>
+    <string name="action_back_to_home">Домой</string>
+    <string name="action_back_to_home_summary">Встряхните устройство в приложении Интернет для возврата на домашнюю страницу</string>
+    <string name="action_turn_category">Переворот</string>
+    <string name="action_flip_mute">Переворот для выключения звука</string>
+    <string name="action_flip_mute_summary">Переворот устройства выключает звук уведомления</string>
+    <string name="action_flip_mute_desc">"Переворот устройства выключает все звуки (музыка и видео будут остановлены)
+Будильник
+Календарь"</string>
+    <string name="action_flip_pause_playback">Переворот для паузы</string>
+    <string name="action_flip_pause_playback_summary">Переворот устройства останавливает музыку и видео</string>
+    <string name="action_lashing_category">Резкое качание</string>
+    <string name="action_swinging_share">Делиться данными при резком качании</string>
+    <string name="action_swinging_share_summary">Выберите фото или файл, а затем резко качните устройство вверх, чтобы поделиться фото или файлом</string>
+    <string name="action_swinging_share_desc">"Выберите фото или файл, а затем резко качните устройство вверх, чтобы поделиться фото или файлом
+Галерея
+Проводник"</string>
+    <string name="action_swinging_switch">Резкое качание для переключения</string>
+    <string name="action_swinging_switch_summary">Когда открыто фото или экран музыки, резко качните устройство влево или вправо для пролистывания фото или переключения песни</string>
+    <string name="action_swinging_switch_desc">"Когда открыто фото или экран музыки, резко качните устройство влево или вправо для пролистывания фото или переключения песни
+Галерея
+Музыка
+SMS/MMS
+Эл. почта
+Заметки"</string>
+    <string name="chinamobile_after_sale_service">Расширенный послепродажный сервис China Mobile</string>
+    <string name="chinamobile_after_sale_service_autorun">Автозапуск при включении устройства</string>
+    <string name="capital_on">Вкл</string>
+    <string name="capital_off">Выкл</string>
+    <string name="welcome_tip">Скажите \"Hello, Coolpad\"</string>
+    <string name="record_status">Необходимо записать %1$d раз. Завершено %2$d раз</string>
+    <string name="unlock_set_voiceprint">Разблокировка голосом</string>
+    <string name="voice_unlock_other_method_tip">Не удалось пробудить голосом, Вы можете использовать PIN-код для разблокировки</string>
+    <string name="developing_toast">Другие модули недоступны</string>
     <string name="lockpassword_cancel_label">Отмена</string>
     <string name="lockpassword_password_recently_used">Администратор устройства запрещает использование последнего пароля</string>
     <string name="lockpassword_ok_label">ОК</string>
@@ -452,9 +452,9 @@
     <string name="lockpattern_change_lock_pattern_label">Изменить ключ</string>
     <string name="lockpattern_change_lock_pin_label">Изменить PIN-код разблокировки</string>
     <string name="lockpattern_need_to_unlock">Начертите существующий ключ</string>
-
+    <string name="lockpattern_need_to_unlock_footer" />
     <string name="lockpattern_need_to_unlock_wrong">Повторить:</string>
-
+    <string name="lockpattern_need_to_unlock_wrong_footer" />
     <string name="lockpattern_recording_intro_header">Начертите графический ключ разблокировки</string>
     <string name="lockpattern_recording_intro_footer">Для справки нажмите \"Меню\"</string>
     <string name="lockpattern_recording_inprogress">По завершении отпустите палец</string>
@@ -494,7 +494,7 @@
     <string name="unlock_set_unlock_launch_picker_enable_summary">Выбрать метод блокировки экрана</string>
     <string name="unlock_backup_info_summary">Выберите альтернативный способ разблокировки экрана</string>
     <string name="unlock_set_unlock_off_title">Нет</string>
-
+    <string name="unlock_set_unlock_off_summary" />
     <string name="unlock_set_unlock_none_title">Стандартный экран блокировки</string>
     <string name="unlock_set_unlock_none_summary">Защита отключена</string>
     <string name="unlock_set_unlock_biometric_weak_title">Фейсконтроль</string>
@@ -520,4 +520,99 @@
     <string name="unlock_change_lock_pin_title">Изменить PIN-код разблокировки</string>
     <string name="unlock_change_lock_password_title">Изменить пароль разблокировки</string>
     <string name="lockpassword_pin_recently_used">Администратор устройства запрещает использование последнего PIN-кода</string>
+    <string name="lockvoiceprint_userlist_title" />
+    <string name="lockvoiceprint_voice_recording_title" />
+    <string name="lockvoiceprint_voice_record_success_title" />
+    <string name="change_main_card">Выбранная SIM-карта поддерживает только 2G. Выбрать другую, которая будет поддерживать 3G?</string>
+    <string name="change_main_card_title">Информация</string>
+    <string name="lockpassword_set_your_voice_print_header">Задать пароль разблокировки голосом</string>
+    <string name="lockvoiceprint_cancel_button">Отмена</string>
+    <string name="lockvoiceprint_next_button">Далее</string>
+    <string name="lockvoiceprint_continue_button">Возобновить</string>
+    <string name="lockvoiceprint_confirm_button">ОК</string>
+    <string name="pin_confirm_status_tip">Подтверждение PIN-кода</string>
+    <string name="pin_set_tip">Если не удасться разблокировать голосом, проведите влево и разблокируйте с помощью PIN-кода</string>
+    <string name="recognizing"><font fgcolor="#7f3fc001">Распознавание...</font></string>
+    <string name="record_fail_tip">Не удалось записать образец голоса</string>
+    <string name="record_success_tip">"Образец голоса записан.
+Задайте PIN-код в помощь разблокировке"</string>
+    <string name="record_wait_tip">Запись образца голоса...</string>
+    <string name="recording">Запись звука...</string>
+    <string name="save_mode_name_title">Сохранить вибрацию</string>
+    <string name="pin_set_status_tip">Задать PIN-код для разблокировки</string>
+    <string name="Floating_control_title">Плавающий контроль</string>
+    <string name="Floating_control_summary">Проведите пальцем над экраном для управления устройством</string>
+    <string name="success_setting_tip">Успешно </string>
+    <string name="keyword_tag">Введите ключевое слово</string>
+    <string name="keyword_tag_dialog">Введите ключевое слово</string>
+    <string name="training_num">共 4 次，第 %1$d 次</string>
+    <string name="firmware_dnld_start">Закгрузка прошивки запущена</string>
+    <string name="firmware_dnld_done">Закгрузка прошивки завершена</string>
+    <string name="get_ready">Будьте готовы говорить</string>
+    <string name="speak_now">Говорите сейчас</string>
+    <string name="dnld_bkg_file">Загрузка файлов в фоне</string>
+    <string name="eyes_control_group_title">Управление глазами</string>
+    <string name="eyes_control_group_summary">Обнаружение движения зрачка для соответствующего управления устройством</string>
+    <string name="action_control_group_title">Действие</string>
+    <string name="action_control_group_summary">Поднимайте, трясите или переворачивайте устройство для управления им</string>
+    <string name="suspension_operation_group_title">Плавающий контроль</string>
+    <string name="suspension_operation_group_summary">Проведите пальцем над экраном для управления устройством</string>
+    <string name="wake_up_gesture_group_title">Жесты пробуждения</string>
+    <string name="wake_up_gesture_group_summary">Рисование различных символов на выключенном экране для запуска определенных действий</string>
+    <string name="other_group_title">Разное</string>
+    <string name="other_group_summary">Дополнительные функции, такие как набор в перчатках и т.д.</string>
+    <string name="cover_mute_title">Прикрыть для выключения звука</string>
+    <string name="cover_mute_summary">Прикройте устройство ладонью для выключения звука</string>
+    <string name="cover_mute_detail">Проведите ладонью вверх или вниз на расстоянии 10 см над экраном, чтобы выключить звук или поставить видео на паузу</string>
+    <string name="off_screen_preview_title">Просмотр статуса</string>
+    <string name="off_screen_preview_summary">Когда устройство лежит на столе с выключенным экраном, проведите ладонью над всем устройством для для просмотра информации о статусе</string>
+    <string name="off_screen_preview_detail">Когда устройство лежит на столе с выключенным экраном, проведите ладонью над всем устройством для для просмотра информации о статусе</string>
+    <string name="gesture_move_up_down_title">Проведение ладонью вверх или вниз</string>
+    <string name="gesture_move_up_down_summary">Проведите ладонью вверх или вниз на расстоянии 10 см над экраном для прокручивания веб-страниц, почты и т.д.</string>
+    <string name="gesture_move_up_down_detail">"Проведите ладонью вверх или вниз на расстоянии 10 см над экраном для прокручивания:
+Веб-страниц
+Почты"</string>
+    <string name="gesture_move_left_right_title">Проведение ладонью влево или вправо</string>
+    <string name="gesture_move_left_right_summary">Проведите ладонью влево или вправо на расстоянии 10 см над экраном для переключения страниц</string>
+    <string name="gesture_move_left_right_detail">"Проведите ладонью влево или вправо на расстоянии 10 см над экраном для переключения:
+- Веб-страниц
+- Веб-страниц
+- страниц книги"</string>
+    <string name="gesture_answer_reject_title">Проведение ладонью для ответа</string>
+    <string name="gesture_answer_reject_summary">Проведите ладонью влево или вправо на расстоянии 10 см над экраном для ответа на вызов или его отклонения</string>
+    <string name="gesture_answer_reject_detail">Проведите ладонью влево или вправо на расстоянии 10 см над экраном для ответа на вызов или его отклонения</string>
+    <string name="media_switching_forward_title">Проведение ладонью для мультимедиа</string>
+    <string name="media_switching_forward_summary">Проведите ладонью влево или вправо на расстоянии 10 см над экраном для переключения или быстрой прокрутки</string>
+    <string name="media_switching_forward_detail">Проведите ладонью на расстоянии 10 см над экраном влево для предыдущей песни или вправо - для следующей песни, влево - для перемотки видео назад, вправо - для перемотки видео вперед</string>
+    <string name="extreme_beauty_title">Улучшенная красота</string>
+    <string name="extreme_beauty_summary">Вы можете использовать эту опцию для камеры или видеочатов</string>
+    <string name="extreme_beauty_detail">Запуск опции для камеры или видеочатов</string>
+    <string name="brush_screen_title">Скриншот ладонью</string>
+    <string name="brush_screen_summary">Проведите над экраном от одного края к другому</string>
+    <string name="brush_screen_detail">Проведите над экраном от одного края к другому</string>
+    <string name="touch_pause_title">Прикрыть для выключения звука</string>
+    <string name="touch_pause_summary">Прикройте устройство ладонью для временного выключения звука</string>
+    <string name="touch_pause_detail">"Прикройте устройство ладонью для временного выключения звука:
+Будильника
+Медиа
+Мелодии вызова"</string>
+    <string name="voice_wakeup_password_audience_title">Задать голосовой пароль</string>
+    <string name="voice_wakeup_set_text_password_hint">От 4 до 6 символов</string>
+    <string name="voice_wakeup_set_text_password_tip">Это может активировать режим за рулем</string>
+    <string name="voice_wakeup_set_text_password_error1">Фразы запрещены</string>
+    <string name="voice_wakeup_set_text_password_error2">Минимум 4 символа</string>
+    <string name="voice_wakeup_set_text_password_error3">Максимум 6 символов</string>
+    <string name="voice_wakeup_set_text_password_error4">Пробелы не поддерживаются</string>
+    <string name="voice_wakeup_set_text_password_error5">Пунктуация не поддерживается.</string>
+    <string name="voice_wakeup_set_text_password_error6">Введите от 4 до 6 символов</string>
+    <string name="voice_wakeup_set_text_password_error7">3 или больше одинаковых символов не поддерживается</string>
+    <string name="voice_wakeup_set_text_password_error8">Английские символы не поддерживаются</string>
+    <string name="voice_wakeup_set_text_password_error9">Цифры не поддерживаются</string>
+    <string name="audience_welcome_tip">Говорите  \"%1$s\"</string>
+    <string name="audience_record_status">Необходимо записать %1$d раз. Завершено %2$d раз</string>
+    <string name="audience_recordvoice_unselect_button_text">Нажмите для записи</string>
+    <string name="audience_recordvoice_select_button_text">Отпустите для завершения</string>
+    <string name="audience_lockvoiceprint_confirm_button">ОК</string>
+    <string name="audience_record_success_tip1">Образец голоса записан</string>
+    <string name="audience_record_success_tip2">Задайте PIN-код для помощи в разблокировке</string>
 </resources>

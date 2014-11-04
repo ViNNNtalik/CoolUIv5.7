@@ -106,8 +106,8 @@
     <string name="ok">ОК</string>
     <string name="cancel">Отмена</string>
     <string name="change_to_elder_mode">Перейти в режим для пожилых</string>
-    <string name="elder_dialog_tip_content">Переход в режим для пожилых требует перезагрузки смартфона</string>
-    <string name="elder_dialog_tip_content_regex">Переход в %1$s требует перезагрузки смартфона</string>
+    <string name="elder_dialog_tip_content">Переход в режим для пожилых требует перезагрузки устройства</string>
+    <string name="elder_dialog_tip_content_regex">Переход в %1$s требует перезагрузки устройства</string>
     <string name="elder_dialog_title">Подсказки</string>
     <string name="master_volume_text">Общий звук</string>
     <string name="safety_mode">Режим \"Вечность\"</string>

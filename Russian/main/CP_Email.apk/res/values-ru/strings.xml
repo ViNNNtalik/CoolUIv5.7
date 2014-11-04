@@ -489,7 +489,9 @@
 
 
 
+
     <string name="account_setup_front_other">Прочие</string>
+
 
 
 
@@ -509,7 +511,8 @@
     <string name="account_setup_incoming_port_invalidate">ID порта получения не может быть пустым</string>
     <string name="account_setup_outgoing_server_invalidate">Имя сервера отправления не может быть пустым</string>
     <string name="account_setup_outgoing_port_invalidate">ID порта отправления не может быть пустым</string>
-    <string name="mailbox_name_display_pending">Ожиlание</string>
+    <string name="please_select_Protocal_first">Сначала выберите протокол</string>
+    <string name="mailbox_name_display_pending">Ожидание</string>
     <string name="previous_updated_time">dd.MM.yyyy HH:mm</string>
     <string name="no_new_message">Нет новой почты</string>
     <string name="fetch_new_message">Загрузка...</string>
@@ -713,7 +716,7 @@
     <string name="setup_send_time">Задать время отправления</string>
     <string name="date_year">.</string>
     <string name="date_month">.</string>
-
+    <string name="date_day"></string>
     <string name="select_send_time">dd.MM.yyyy</string>
     <string name="account_setup_failed_server_protocol">Версия протокола обмена не поддерживается</string>
     <string name="resset_stytem_tip">Это удалит аккаунты и данные писем. Продолжить?</string>
@@ -1196,7 +1199,7 @@
     <string name="acquiesce">Согласие</string>
     <string name="bcc_toast_for_log">Копия письма автоматически самому себе. Это позволяет проверить как отправлено вложение</string>
     <string name="account_delete_dlg_instructions_stopsync">Синхронизация будет отменена, если будет удален аккаунт \"%s\". Удалить?</string>
-    <string name="confirm_action">Подтверждение</string>
+    <string name="confirm_action">ОК</string>
     <string name="new_message_notify_sound_title">Уведомление о новом письме</string>
     <string name="new_message_notify_sound_summary">Воспроизведение мелодии при новом письме</string>
     <string name="exchange_service_invalid">Exchange-служба недоступна</string>
@@ -1223,11 +1226,62 @@
     <string name="expire_date">Дата истечения</string>
     <string name="sign">Подпись</string>
     <string name="export_keys">Экспорт ключей</string>
+    <string name="import_keys">Импорт ключей</string>
+    <string name="key_title_type_sign">Подпись</string>
+    <string name="key_title_type_encrypt">Шифрование</string>
+    <string name="key_is_enabled_sign_or_encrypt">Включено</string>
+    <string name="key_is_not_enabled_sign_or_encrypt">Выключено</string>
+    <string name="security_signature_verify_success">Подпись успешно проверена!</string>
+    <string name="security_signature_verify_fail">Ошибка проверки подписи!</string>
+    <string name="security_signature_fail">Подпись эл. письма не удалась!</string>
+    <string name="security_decrypt_email_fail">Дешифрование не удалось!</string>
+    <string name="security_encrypt_email_fail">Шифрование не удалось!</string>
+    <string name="security_select_signature_key">Выбрать ключ с подписью</string>
+    <string name="security_select_encrypt_key">Выбрать ключ шифрования</string>
+    <string name="security_input_key_password">Введите пароль</string>
+    <string name="security_no_signature_key">Нельзя отправить эл. почту. Нет действующего ключа для подписи. Создать?</string>
+    <string name="security_no_encrypt_key">Нельзя отправить эл. почту. Полученный публичный ключ нельзя использовать для шифрования</string>
+    <string name="security_encrypted_message">Зашифрованное эл. письмо</string>
+    <string name="security_decrypt_message">Дешифрование эл. письма</string>
+    <string name="security_is_decrypting_message">Дешифрование ...</string>
+    <string name="security_verify_signature">Проверка подписи</string>
+    <string name="security_incorrect_password">Неверный пароль</string>
+    <string name="security_keys_will_be_deleted">Приватный и публичный ключи будут удалены!</string>
+    <string name="security_keys_is_deleted">Ключи удалены</string>
+    <string name="security_keys_is_exported">Ключи экспортированы в файл:</string>
+    <string name="security_keys_export_fail">Ошибка экспорта ключей!</string>
+    <string name="security_keys_import_fail">Ошибка импорта ключей!</string>
+    <string name="security_invalid_key">Действующий ключ!</string>
+    <string name="security_key_is_overdue">Ключ просрочен!</string>
+    <string name="security_algorithmic_is_not_supported">Алгоритм не поддерживается!</string>
+    <string name="security_input_null_key_name">Имя ключа не может быть пустым!</string>
+    <string name="security_input_null_email_address">Адрес эл. почты не может быть пустым!</string>
+    <string name="security_input_numeric_time">Время окончания должно быть правильным</string>
+    <string name="security_input_differ_password">Пароль должен быть идентичен!</string>
+    <string name="security_input_null_password">Пароль не может быть пустым!</string>
+    <string name="security_create_keypair_success">Пара ключей успешно создана!</string>
+    <string name="security_create_keypair_fail">Ошибка создания пары ключей!</string>
+    <string name="security_keypair_is_exist">Пара ключей уже существует!</string>
+    <string name="security_input_null_filename">Имя файла не может быть пустым!</string>
+    <string name="security_no_export_keys_selected">Выберите ключи для экспорта!</string>
+    <string name="security_no_delete_keys_selected">Выберите ключи для удаления!</string>
+    <string name="security_input_expire_time_too_large">Время окончания слишком большое!</string>
     <string name="folder_not_support_sync">Эта папка не поддерживает синхронизацию!</string>
     <string name="exchange_enabled">Exchange-служба включена</string>
-    <string name="copy">Копирование адресов эл.почты</string>
+    <string name="hide_action">Спрятать</string>
+    <string name="account_setup_basic_tips_text">"Введите информацию о Вашем %1$s ящике: "</string>
+    <string name="general_settings_notify_title">Время уведомления о сообщениях</string>
+    <string name="general_settings_notify_summary">Задать время уведомления о сообщениях</string>
+    <string name="notify_time_all_day_title">Уведомлять весь день</string>
+    <string name="notify_time_all_day_summary">Уведомлять в указанный период времени, если выключено</string>
+    <string name="notify_time_start">Начало</string>
+    <string name="notify_time_end">Конец</string>
+    <string name="get_attachment_info_fail_and_stop_send">Получение информации о вложении не удалось. Отправка невозможна</string>
+    <string name="credentials_configure_lock_screen_hint">Необходимо задать PIN для локскрина или пароль перед использованием защищенного хранилища</string>
+    <string name="fromList_is_empty_description">Пусто</string>
     <string name="more_string">%1$s еще...</string>
     <string name="chips_waiting_for_directory_result">Ожидание контактов</string>
+
     <string name="picasa_default_destination">Альбом выгрузки</string>
     <string name="summary_title_uploading">Выгрузка</string>
     <string name="summary_title_finished">Завершенные</string>
