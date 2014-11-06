@@ -1021,7 +1021,7 @@
     <string name="select_item_title">Опции</string>
     <string name="create_refusephrase">Создать</string>
     <string name="message_overflow_warning">Превышен размер лимита</string>
-    <string name="phrase_sort_order_prompt">Перетащите иконку направо для сортировки записей</string>
+    <string name="phrase_sort_order_prompt">Перетащите иконку справа для сортировки записей</string>
     <string name="only_one_message_warning">Не удается удалить последнее сообщение</string>
     <string name="call_auto_record_enable">Автоматическая запись</string>
     <string name="call_auto_record_scene">объекты записи</string>

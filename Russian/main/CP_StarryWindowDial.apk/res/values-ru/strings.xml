@@ -2,7 +2,7 @@
 <resources>
 
 
-    <string name="app_name">Телефон</string>
+    <string name="app_name">Набор для пожилых</string>
     <string name="title">Набор</string>
     <string name="version_title">Версия</string>
     <string name="phonemode_label">Модель:</string>
@@ -65,7 +65,7 @@
     <string name="ip_2_item_call">IP-вызов 2</string>
     <string name="looking_up_recordings">Записанные вызовы</string>
     <string name="refused_sms_management">SMS с отклонением вызова</string>
-    <string name="call_settings">Настройка вызова</string>
+    <string name="call_settings">Настройка вызовов</string>
     <string name="comm_filter">Черный/белый список</string>
     <string name="name_comm_filter">Перехватчик</string>
     <string name="bug_report">Обратная связь</string>
@@ -110,6 +110,7 @@
     <string name="replace_with">Заменить</string>
     <string name="one_touch_delete">Удалить</string>
     <string name="unknown_number_not_operate">Неизвестные номера не поддерживаются</string>
+    <string name="operate_in_normal_mode">Настройте вначале в обычном режиме!</string>
     <string name="add_contact2">Добавить в Контакты</string>
     <string name="persist_gsm_backdoor_open">Модуль GSM не открыт</string>
     <string name="persist_gsm_backdoor_close">Модуль GSM открыт</string>

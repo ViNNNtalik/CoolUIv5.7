@@ -1311,7 +1311,7 @@
     <string name="import_from_backup_description">Сохранить или восстановить контакты</string>
     <string name="import_from_bluetooth">Импорт по Bluetooth</string>
     <string name="import_from_bluetooth_description">Импорт контактов из другого телефона через Bluetooth</string>
-    <string name="import_from_coolcloud">Облачная синхронизация</string>
+    <string name="import_from_coolcloud">Синхронизация с Облаком</string>
     <string name="import_from_coolcloud_description">Использовать Облако для синхронизации контактов</string>
     <string name="import_from_opendomain">Open Domain Импорт</string>
     <string name="import_from_opendomain_description">Импорт контактов с Open Domain на Secure Domain</string>
@@ -1344,7 +1344,7 @@
     <string name="startup_import_contacts_title">Импорт контактов</string>
     <string name="startup_import_contacts_from_card">Копировать карты контактов в телефон</string>
     <string name="startup_import_contacts_bluetooth">Импорт по Bluetooth</string>
-    <string name="startup_import_contacts_coolwind">Облачная синхронизация</string>
+    <string name="startup_import_contacts_coolwind">Синхронизация с Облаком</string>
     <string name="startup_import_contacts_backup">Восстановление сохраненных контактов</string>
     <string name="startup_import_contacts_no_contacts">Нет данных</string>
     <string name="startup_import_card_contacts">Импорт контактов на карте</string>

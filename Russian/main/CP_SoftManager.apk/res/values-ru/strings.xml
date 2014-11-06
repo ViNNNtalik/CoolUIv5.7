@@ -6,7 +6,7 @@
 
     <string name="installed_soft">Деинсталляция</string>
     <string name="apk_manage">Управление APK</string>
-   <string name="app_recommend">Рекомендуемые приложения</string>
+   <string name="app_recommend">Рекомендуемые</string>
     <string name="soft_change_pos">Перенос</string>
     <string name="not_used_app">Неиспользуемые приложения</string>
     <string name="memory_improve">Ускоритель</string>

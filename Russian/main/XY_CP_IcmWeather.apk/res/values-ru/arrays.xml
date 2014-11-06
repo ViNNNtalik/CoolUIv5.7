@@ -197,5 +197,89 @@
          <item>Слабая метель</item>
          <item>Туман</item>
          <item>Дымка</item>
+    </string-array>
+    <string-array name="week_EEE">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="week_EE">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="week_E">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="week_ee">
+        <item>Воскресенье</item>
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+    <string-array name="week_e">
+        <item>Вс</item>
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="pm_aqi_level">
+         <item>Отличная погода</item>
+         <item>Хорошая погода</item>
+         <item>Умеренная погода</item>
+         <item>Легкое загрязнение</item>
+         <item>Вредный воздух</item>
+         <item>Рискованная погода</item>
+         <item>Опасная погода</item>
+    </string-array>
+    <string-array name="pm_bg_color">
+        <item>\#00a61c</item>
+        <item>\#b2b300</item>
+        <item>\#ff8329</item>
+        <item>\#cc3737</item>
+        <item>\#6800b3</item>
+        <item>\#800000</item>
+        <item>\#400000</item>
+    </string-array>
+    <string-array name="pm_aqi_content">
+        <item>您所在的城市空气质量优质，%1$s空气清新，出去享受下吧！</item>
+        <item>您所在的城市空气质量良好，%1$s空气质量还不错哦，可去户外活动下！</item>
+        <item>您所在的城市空气轻度污染，%1$s空气质量一般，放好心态，健康生活！</item>
+        <item>您所在的城市空气中度污染，%1$s空气质量较差，减少污染，为有蓝天做点贡献！</item>
+        <item>您所在的城市空气重度污染，%1$s空气污染如此严重，受不了！</item>
+        <item>您所在的城市空气严重污染，%1$s空气质量极差，对健康有严重危害！</item>
+        <item>您所在的城市空气污染已经爆表了，%1$s空气质量令人无法呼吸，祈求神来拯救你的城市吧！</item>
+    </string-array>
+    <string-array name="pm_aqi_content_middle">
+        <item>排名第%1$s，</item>
+    </string-array>
+    <string-array name="pm_share_content_add">
+        <item>空气质量优质</item>
+        <item>空气质量良好</item>
+        <item>空气轻度污染</item>
+        <item>空气中度污染</item>
+        <item>空气重度污染</item>
+        <item>空气严重污染</item>
+        <item>空气污染爆表了</item>
      </string-array>
 </resources>

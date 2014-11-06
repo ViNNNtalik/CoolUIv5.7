@@ -402,8 +402,8 @@
     <string name="manual_turn_destroy_ising">Проверка опции \"Я шпион!\"...</string>
     <string name="manual_turn_destroy_abstract">Уничтожение сообщений после прочтения</string>
     <string name="manual_turn_notify_manager_abstract">Блокировка нежелательных уведомлений и рекламы</string>
-    <string name="recent_task_title">Скрытие недавних задач</string>
-    <string name="recent_task_abstract">Не показывать недавние задачи по удержанию клавиши \"Домой\"</string>
+    <string name="recent_task_title">Недавние задачи</string>
+    <string name="recent_task_abstract">Не показывать по удержанию \"Домой\"</string>
     <string name="floating_window_protect">Контроль Поплавка трафика</string>
     <string name="floating_window_protect_abstract">Плавающее окно</string>
     <string name="floating_window_protect_apps">С приложениями</string>

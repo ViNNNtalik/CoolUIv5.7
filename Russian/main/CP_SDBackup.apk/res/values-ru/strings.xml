@@ -50,7 +50,7 @@
     <string name="vcard_tip">Карточки: не выключайте и ничего не удаляйте во время бэкапа</string>
     <string name="vcard_recover_tip">Карточки: не выключайте и ничего не удаляйте во время восстановления</string>
     <string name="recover_tip">Не выключайте и ничего не удаляйте во время восстановления</string>
-    <string name="annex_contact">Объединенние контактов</string>
+    <string name="annex_contact">Объединение контактов</string>
     <string name="have_been_backup_high_version">Сохранена последняя версия</string>
     <string name="have_been_install_high_version">Установлена последняя версия</string>
     <string name="change_sd_to_udisk">Нет места на SD-карте, перенесено в /Coolpad/BACKUPSD</string>
@@ -278,8 +278,8 @@
     <string name="backup_to_cloud">Бэкап в Облако</string>
     <string name="sdcard_file_manager">Локальный бэкап</string>
     <string name="local_cloud_backup">Локальный бэкап</string>
-    <string name="cloud_file_manager">Облачное восстановление</string>
-    <string name="local_recover">Локальное восстановление</string>
+    <string name="cloud_file_manager">Восстановление из Облака</string>
+    <string name="local_recover">Восстановление</string>
     <string name="sdcard_app_manager">Восстановление приложений</string>
     <string name="device_app_manager">Бэкап приложений</string>
     <string name="backup_to_clouds">Синхронизация бэкапа с Облаком</string>

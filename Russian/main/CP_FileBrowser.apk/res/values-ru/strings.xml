@@ -101,7 +101,7 @@
     <string name="username">Логин</string>
     <string name="password">Пароль</string>
     <string name="omitpassword">Забыли пароль?</string>
-    <string name="input_email_or_tel">Введите действующий номер телефона</string>
+    <string name="input_email_or_tel">Введите действующий адрес эл.почты</string>
     <string name="get_data">Получение данных...</string>
     <string name="get_password">Получение пароля</string>
     <string name="set_password">Задать пароль</string>
@@ -447,8 +447,8 @@
     <string name="netdisk_menu_refresh">Обновить</string>
     <string name="dialog_upload_netdisk">Выгрузить в Облако</string>
     <string name="dialog_upload_canNot_contained_dir">Нельзя Выгрузить в Облако</string>
-    <string name="netdisk_upload_list">Лист выгрузки</string>
-    <string name="netdisk_download_list">Лист загрузки</string>
+    <string name="netdisk_upload_list">Список выгрузки</string>
+    <string name="netdisk_download_list">Список загрузки</string>
     <string name="netdisk_toast_task_choose_again">Уже добавлено в задание</string>
     <string name="netdisk_branch_downloaded">Загрузка</string>
     <string name="netdisk_textview_downloaded">Загружено</string>

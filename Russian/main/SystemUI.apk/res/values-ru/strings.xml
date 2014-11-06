@@ -296,8 +296,8 @@
     <string name="brightness_dlg_adjust">(ручн.)</string>
     <string name="brightness_dlg_auto">Авто</string>
     <string name="clear_notify_all_oldman">Очистка уведомлений</string>
-    <string name="other_notification_format">%d прочих уведомлений</string>
-    <string name="other_notification_expand">, нажмите для просмотра</string>
+    <string name="other_notification_format">Прочих уведомлений: %d</string>
+    <string name="other_notification_expand"></string>
     <string name="title_activity_package_list">Настройки</string>
     <string name="title_show_notifcaiton">Показывать уведомления</string>
     <string name="title_show_statusbar">Показывать на панели</string>

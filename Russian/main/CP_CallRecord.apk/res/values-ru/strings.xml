@@ -53,7 +53,7 @@
     <string name="lot_commit">Удалить</string>
     <string name="batch_del_doing">Удаление...</string>
     <string name="hide_dialed_and_answered">Вкладка входящие/исходящие</string>
-    <string name="switch_net_settings">Управление SIM-картами</string>
+    <string name="switch_net_settings">Параметры Dual-SIM</string>
     <string name="automatic_net_settings">Автовыбор: Перезванивать, используя сеть входящего вызова</string>
     <string name="manual_net_settings">Ручной выбор: Вручную выбирать сеть для вызова</string>
     <string name="card_c_net_settings">SIM1 для вызовов</string>
