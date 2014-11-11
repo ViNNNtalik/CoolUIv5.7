@@ -479,7 +479,9 @@
     <string name="store_information_unit_phone">%1$d элем.</string>
     <string name="is_show_vip">Белый список</string>
     <string name="is_hidden_panel_on_scrolling">Скрывать L-панель при прокрутке</string>
+    <string name="people_is_auto_open_panel">Автомат. открытие панели</string>
     <string name="is_show_dial_msg">Значок SMS/MMS</string>
+    <string name="people_is_show_card">Показывать карточку</string>
     <string name="is_show_note">Заметки</string>
     <string name="is_show_relation_map">Связь</string>
     <string name="is_show_letters_navigation_bar">Панель алфавита</string>

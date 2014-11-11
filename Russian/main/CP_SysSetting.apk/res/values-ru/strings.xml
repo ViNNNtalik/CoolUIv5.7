@@ -2544,31 +2544,31 @@
     <string name="capital_on">ВКЛ</string>
     <string name="capital_off">ВЫКЛ</string>
     <string name="unlock_set_voiceprint">Отпечаток голоса</string>
-    <string name="encrypted_category_title">Шифрование</string>
-    <string name="encrypted_preference_sdcard_title">Шифрование SD-карты</string>
+    <string name="encrypted_category_title">Шифрование/дешифрование</string>
+    <string name="encrypted_preference_sdcard_title">Шифрование или дешифрование SD-карты</string>
     <string name="encrypted_sdcard_title">Зашифровать все файлы на SD-карте?</string>
     <string name="encrypted_sdcard_summary">"
-"<li><font size="16">"Нажмите далее для шифрования всех файлов на SD-карте
+"<li><font size="16">"Нажмите \"Далее\" для шифрования всех файлов на SD-карте
 
 "<li>Нажмите \"Назад\" для возращения на предыдущую страницу</li></font></li></string>
-    <string name="unlock_sdcard_title">Расшифровывать все зашифрованные файлы на SD-карте?</string>
+    <string name="unlock_sdcard_title">Дешифровывать все зашифрованные файлы на SD-карте?</string>
     <string name="unlock_sdcard_summary">"
-"<li><font size="16">"Нажмите далее для расшифрования всех файлов на SD-карте
+"<li><font size="16">"Нажмите \"Далее\" для дешифрования всех файлов на SD-карте
 
 "<li>Нажмите \"Назад\" для возращения на предыдущую страницу</li></font></li></string>
     <string name="confirm_encrypted_sdcard_title">Запустить шифрование SD-карты?</string>
-    <string name="confirm_encrypted_sdcard_summary">"
+    <string name="confirm_encrypted_sdcard_summary1">"
 "<li><font size="16">"Все файлы на SD-карте будут зашифрованы
 
 "<li>Все запущеные файлы будут принудительно закрыты</li>"
 
-"<li>Шифрование невозможно, если на SD-карте свободно менее 50% места</li>"
+"<li>Шифрование невозможно, если на SD-карте свободно менее 50% места</li></font></string>
+    <string name="confirm_encrypted_sdcard_summary2">"
+"<li><font size="16">"SD-карта будет недоступна во время шифрования
 
-"<li>SD-карта будет недоступна во время шифрования</li>"
-
-"<li>Шифрование требует большого заряда батареи</li>"
-
-"<li>Только это устройство поддерживает работу с этой зашифрованной SD-картой</li></font></li></string>
+"<li>Шифрование требует большого заряда батареи</li></font></li></string>
+    <string name="confirm_encrypted_sdcard_summary3">"
+"<b><li><font size="16">Только это устройство поддерживает работу с этой зашифрованной SD-картой</font></li></b></string>
     <string name="create_security_password_title"><font size="12">Настройки пароля Менеджера</font></string>
     <string name="create_security_password_summary">"
 
@@ -2585,7 +2585,7 @@
     <string name="no_available_sd_space">Освободите место на SD-карте и попробуйте заново</string>
     <string name="remove_or_unlock_encrypted_sd_folder_title">Выбор опции</string>
     <string name="unclok_encrypted_sdcard_folder_title">Дешифрование SD-карты</string>
-    <string name="unclok_encrypted_sdcard_folder_summary">Дешифрование данных и удаление зашифрованных файлов</string>
+    <string name="unclok_encrypted_sdcard_folder_summary">Удалить все зашифрованные файлы и отменить шифрование, которое не влияет на общие файлы</string>
     <string name="uncloking_encrypted_sdcard_folder_title">Дешифрование...</string>
     <string name="uncloking_encrypted_sdcard_folder_completed">" Данные дешифрованы"</string>
     <string name="uncloking_encrypted_sdcard_folder_summary">"Заметка:
@@ -2618,9 +2618,9 @@
     <string name="custome_music_motor_context_menu_item2">Переименовать</string>
     <string name="encryption_level">Уровень шифрования</string>
     <string name="encryption_normal_title">Общий</string>
-    <string name="encryption_normal_summary">Дешифровать данные на устройствах с аналогичной функцией</string>
+    <string name="encryption_normal_summary">Зашифрованная SD-карта применима ко всем устройствам Coolpad</string>
     <string name="encryption_advanced_title">Расширенный</string>
-    <string name="encryption_advanced_summary">Дешифровать данные только на этом устройстве</string>
+    <string name="encryption_advanced_summary">Зашифрованная SD-карта применима только к этому устройству</string>
     <string name="volume">Громкость</string>
     <string name="quiet_mode">Тихий режим</string>
     <string name="vibrate">Вибрация</string>
@@ -2788,6 +2788,35 @@
     <string name="virtos_master_warning_header">Очистить все данные на устройстве?</string>
     <string name="virtos_master_warning_footer">Заметка: Это действие необратимо</string>
     <string name="system_busy">Система занята. Попробуйте позже</string>
+    <string name="virtual_keys_settings_title">Виртуальные клавиши</string>
+    <string name="sdcard_used_space_less_than_half">Используется менее 50% SD-карты</string>
+    <string name="sdcard_used_space_more_than_half">Используется более 50% SD-карты</string>
+    <string name="confirm_normal_encrypt_sdcard"><font size="16"><b>Зашифровать SD-карту в общем режиме?</b></font></string>
+    <string name="confirm_advance_encrypt_sdcard"><font size="16"><b>Зашифровать SD-карту в расширенном режиме?</b></font></string>
+    <string name="confirm_decrypt_sdcard"><font size="16"><b>Дешифровать SD-карту?</b></font></string>
+    <string name="confirm_remove_encrypted_file"><font size="16"><b>Удалить зашифрованные файлы?</b></font></string>
+    <string name="confirm_decrypted_sdcard_summary1">"
+"<li><font size="16">"Все файлы на SD-карте будут дешифрованы
+
+"<li>Все запущеные файлы будут принудительно закрыты</li>"
+
+"<li>Дешифрование невозможно, если на SD-карте свободно менее 50% места</li></font></string>
+    <string name="confirm_decrypted_sdcard_summary2">"
+"<li><font size="16">"SD-карта будет недоступна во время дешифрования
+
+"<li>Дешифрование требует большого заряда батареи</li></font></li></string>
+    <string name="encrypting_sdcard_summary">"
+
+"<li>Убедитесь в достаточном заряде батареи</li>"
+
+"<li>Не удаляйте SD-карту</li></string>
+    <string name="encrypting_sdcard_title">Шифрование...</string>
+    <string name="encrypting_sdcard_completed">SD-карта зашифрована</string>
+    <string name="encrypting_sdcard_progress_prefix">"Прогресс: "</string>
+    <string name="decrypting_sdcard_progress_prefix">"Прогресс: "</string>
+    <string name="removing_encrypted_files_progress_prefix">"Прогресс: "</string>
+    <string name="sdcard_decrypting_tips">Дешифрование в процессе</string>
+    <string name="removing_encrypted_files_tips">Удаление в процессе</string>
     <string name="eng_mode">Инженерное меню</string>
     <string name="eng_mode_summary">Сбор информации, статистика, тонкие настройки всевозможных параметров устройства</string>
     <string name="factory_mode">Заводское меню</string>

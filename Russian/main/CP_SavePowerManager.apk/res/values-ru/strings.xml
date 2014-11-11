@@ -21,7 +21,7 @@
     <string name="automatic_brightness">Автоматическая яркость</string>
     <string name="text_close">Выкл.</string>
     <string name="text_start">Вкл.</string>
-    <string name="text_battery_inf">Информания о батарее</string>
+    <string name="text_battery_inf">Информация о батарее</string>
     <string name="text_savemode_setting">Настройка режимов</string>
     <string name="text_soft_setting">Настройка приложения</string>
     <string name="text_autostart">Автозагрузка после включения устройства</string>

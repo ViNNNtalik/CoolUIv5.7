@@ -617,4 +617,15 @@ SMS/MMS
     <string name="audience_record_success_tip2">Задайте PIN-код для помощи в разблокировке</string>
     <string name="screenshot_chord">Три скриншота</string>
     <string name="screenshot_chord_summary" />
+    <string name="virtual_keys_settings_category">Настройки</string>
+    <string name="virtual_keys_settings_title">Виртуальные клавиши</string>
+    <string name="hide_virtual_keys_title">Сокрытие виртуальных клавиш</string>
+    <string name="hide_virtual_keys_summary">Провести вверх от нижнего края экрана для появления виртуальных клавиш</string>
+    <string name="virtual_keys_combination">Комбинация</string>
+    <string name="description">"Описание: "</string>
+    <string name="indicates_menu_key">Клавиша \"Меню\"</string>
+    <string name="indicates_back_key">Клавиша \"Назад\"</string>
+    <string name="indicates_home_key">Клавиша \"Домой\"</string>
+    <string name="indicates_recent_apps_key">Клавиша \"Недавние приложения\"</string>
+    <string name="select_some_apps_to_hide">Выбор приложений</string>
 </resources>
