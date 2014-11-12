@@ -837,8 +837,8 @@
     <string name="call_end_record">Проверить записи</string>
     <string name="call_end_add_blacklist">Черный список</string>
     <string name="hold_call_active_one_call">Активный  * вызов</string>
-    <string name="hangup_and_answercall">hangup * вызов</string>
-    <string name="hold_and_answercall">hold * вызов</string>
+    <string name="hangup_and_answercall">Завершить *</string>
+    <string name="hold_and_answercall">Удержать *</string>
     <string name="hangup_all_and_answercall">end вызов * calls and accept</string>
     <string name="hangup_all_and_activecall">* will hangup all CDMA-вызовы</string>
     <string name="hold_call_active">Два удерживаемых вызова</string>
