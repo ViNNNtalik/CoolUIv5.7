@@ -1307,14 +1307,14 @@
     <string name="clean_accelerate_beta">Версия  Beta1.4</string>
     <string name="storage_space">SD-карта</string>
     <string name="ram">Память</string>
-    <string name="ram_accelerate">Очистка оперативной памяти</string>
+    <string name="ram_accelerate">Очистка оперативной \n памяти</string>
     <string name="can_clean">К очистке</string>
     <string name="process">"процессов, "</string>
     <string name="release_ram">Очищено памяти</string>
-    <string name="rubbish_clean">Удаление ненужных файлов</string>
+    <string name="rubbish_clean">Удаление ненужных \n файлов</string>
     <string name="predict_can_clean">Можно очистить</string>
     <string name="rubbish">Мусор</string>
-    <string name="privacy_clean">Очистка приватных данных</string>
+    <string name="privacy_clean">Очистка приватных \n данных</string>
     <string name="privacy_file">Файлы приватности</string>
     <string name="privacy_url_history">История браузера</string>
     <string name="privacy_search_history">История поиска</string>
@@ -1419,7 +1419,7 @@
     <string name="mobile_already_improve">Устройство очищено и оптимизировано</string>
     <string name="depth_clean_could_clean_more">Более глубокая очистка позволит лучше вычистить мусор</string>
     <string name="depth_improve_could_improve_more">Более глубокая очистка позволит лучше оптимизировать устройство</string>
-    <string name="text_rom_analyst">Анализ больших файлов</string>
+    <string name="text_rom_analyst">Анализ больших \n файлов</string>
     <string name="text_rom_analyst_abs">Просмотр и анализ больших файлов после подсчета</string>
     <string name="item_delete">Удаление</string>
     <string name="item_detail">Просмотр деталей</string>

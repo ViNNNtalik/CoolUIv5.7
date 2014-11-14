@@ -809,76 +809,76 @@
     <string name="cannot_hold">"Нельзя удержать"</string>
     <string name="gsm_not_support_secret">"Сеть GSM не поддерживает секретную связь"</string>
     <string name="not_supr_when_bt">Запись при включенном Bluetooth не поддерживается</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="gsm_not_support_record">"GSM NET не поддерживает запись"</string>
+    <string name="soundRecord_had_stop">Запись остановлена</string>
+    <string name="card1_fdn_setting">Настройки FDN SIM1</string>
+    <string name="card2_fdn_setting">Настройки FDN SIM2</string>
+    <string name="voice_redial">Голос</string>
+    <string name="video_redial">Видео</string>
+    <string name="msg_reject_or_answer_video_call_when_phone2_voice">Ответить или отклонить?</string>
+    <string name="title_video_incoming_when_phone2_voice">Входящий видеовызов!</string>
+    <string name="button_answer_video_incoming_when_phone2_voice">Ответ с видео</string>
+    <string name="button_voice_answer_video_incoming_when_phone2_voice">Ответ голосом</string>
+    <string name="button_reject_video_incoming_when_phone2_voice">Отклонение</string>
+    <string name="labelCFD">Переадресация по умолчанию</string>
+    <string name="labelCFNRs">Переадресация, когда недоступен</string>
+    <string name="sum_cfu_disabled_for_cdma">Переадресация всех вызовов</string>
+    <string name="sum_cfb_disabled_for_cdma">Переадресация, когда занят</string>
+    <string name="sum_cfnry_disabled_for_cdma">Переадресация, когда без ответа</string>
+    <string name="sum_cfnrc_disabled_for_cdma">Переадресация, когда недоступен</string>
+    <string name="conference_connect_hangup">Повесить трубку</string>
+    <string name="conference_connect_separate">Раздельно</string>
     <string name="call_end_redial">Перезвонить</string>
     <string name="call_end_send_message">Послать SMS</string>
-    <string name="call_end_add_plan">Добавить заметку</string>
+    <string name="call_end_add_plan">Добавить в Календарь</string>
     <string name="call_end_contacts">Просмотр контакта</string>
-    <string name="call_end_notebook">Мемо</string>
+    <string name="call_end_notebook">Заметка</string>
     <string name="call_end_add_contacts">Послать контакт</string>
-    <string name="call_end_record">Проверить записи</string>
+    <string name="call_end_record">Просмотр записи</string>
     <string name="call_end_add_blacklist">Черный список</string>
-    <string name="hold_call_active_one_call">Активный  * вызов</string>
+    <string name="hold_call_active_one_call">Активный  * </string>
     <string name="hangup_and_answercall">Завершить *</string>
     <string name="hold_and_answercall">Удержать *</string>
-    <string name="hangup_all_and_answercall">end вызов * calls and accept</string>
-    <string name="hangup_all_and_activecall">* will hangup all CDMA-вызовы</string>
-    <string name="hold_call_active">Два удерживаемых вызова</string>
-    <string name="auto_answer_call">Активировано</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="hangup_all_and_answercall">Завершить все * вызовы и принять</string>
+    <string name="hangup_all_and_activecall">* завершит все CDMA-вызовы</string>
+    <string name="hold_call_active">Два вызова на удержании</string>
+    <string name="auto_answer_call">Автомат. ответ включен</string>
+    <string name="preferred_networks">Сетевые предпочтения</string>
+    <string name="ContactDetail">Детали контакта</string>
+    <string name="ip_number_set_success">Задано успешно!</string>
+    <string name="ip_number_set_fail">Не удалось задать, IP-номер не должен быть пустым!</string>
+    <string name="secure_report_zero">У пользователя с этой стороны нет прав на шифрование</string>
+    <string name="secure_report_one">У пользователя с той стороны нет прав на шифрование</string>
+    <string name="secure_report_two">Устройство с этой стороны не авторизовано</string>
+    <string name="secure_report_three">Устройство с той стороны не авторизовано</string>
+    <string name="secure_report_four">Таймаут зашифрованного соединения</string>
+    <string name="secure_report_five">Другие причины</string>
+    <string name="start_secret_comm">Зашифрованный вызов активен</string>
+    <string name="create_secret_comm">Создание зашифрованного вызова</string>
+    <string name="secure_version_tip">Презагрузиться для входа в зашифрованную версию</string>
+    <string name="response_setting">Настройки ответа</string>
+    <string name="flip_answer">Ответ чехлом (флипом)</string>
+    <string name="hand_answer">Обычный ответ</string>
+    <string name="secret_call">Зашифрованный вызов</string>
+    <string name="auto_search_net">Автомат. поиск сети</string>
+    <string name="auto_search_net_dialog_title">Запрос выключения</string>
+    <string name="auto_search_net_prompt">Вы уверены, что хотите выключить автомат. поиск сети?</string>
+    <string name="insert_sd_card">Вставьте SD-карту</string>
+    <string name="hangup_conference_con_i">Завершить вызов с %s из конференц-вызова</string>
+    <string name="hangup_conference_call">Завершить конференц-вызов</string>
+    <string name="hangup_conference_call_and_answer">Завершить конференц-вызов и ответить</string>
+    <string name="remain_pin2_times">PIN2, осталось попыток %s</string>
+    <string name="str_old_pin2_times">Старый PIN2, осталось попыток %s</string>
+    <string name="remain_puk2_times">Новый PIN2, осталось попыток ввода PUK2: %s</string>
+    <string name="lock_puk2">PUK2 заблокирован</string>
+    <string name="innerScreenMenu_options">Выбор</string>
+    <string name="innerScreenMenu_secret">Зашифрованный вызов</string>
+    <string name="innerScreenMenu_hangup">Повесить трубку</string>
+    <string name="end_call_with_sb_inner">Завершить вызов с %s</string>
+    <string name="end_sb_call_answer_ring">Завершить вызов с %s и ответить</string>
+    <string name="separate_sb_call_from_conference">Разделить вызов с %s</string>
+    <string name="close_mute_fuction">Закрыть без звука</string>
+    <string name="headset_or_phone">Гарнитура</string>
     <string name="unknown_number">Неизвестный номер</string>
     <string name="select_item">Выбор</string>
     <string name="dissmiss_menu">Возврат</string>
@@ -905,20 +905,20 @@
     <string name="doing_backup">Архивирование... Дубликат архива недопустим</string>
     <string name="doing_recover">Восстановление... Дубликат восстановления недопустим</string>
     <string name="doing_update">Обновление... Дубликат обновления недопустим</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="cdma_data_network_power_saving_mode">Режим экономии заряда для передачи данных</string>
+    <string name="secure_notallowed_tip">Зашифрованный вызов не поддерживает конферен-связь</string>
+    <string name="record_button_prompt">Вызов записан</string>
+    <string name="record_button_prompt_title">Запрос:</string>
+    <string name="record_button_play">Воспроизведение</string>
+    <string name="record_button_lookup">Просмотр</string>
+    <string name="record_button_ok">Отмена</string>
+    <string name="new_incoming_from">Новый вызов от *</string>
+    <string name="new_communication_from">Calling with *</string>
+    <string name="call_answer">Принять</string>
+    <string name="call_reject">Отклонить</string>
+    <string name="call_look">Просмотр</string>
+    <string name="uimContacts_emptyLoading">Чтение с UIM-карты…</string>
+    <string name="uimContacts_empty">Нет контактов на UIM-карте</string>
     <string name="listen_protected">Антипрослушка включена</string>
     <string name="click_here_to_return_call">К вызову</string>
     <string name="click_here_to_reject_other_ringingcall">Ответ на вызов отклонит другой вызов. Продолжить?</string>
@@ -953,48 +953,48 @@
     <string name="remind_later_fail">Время напоминания не может быть раньше, чем текущее время</string>
     <string name="remind_title">Повтор</string>
     <string name="next_day">Завтра</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="lte_boot_choose_network_muti_title">Режим сети:</string>
+    <string name="lte_boot_choose_network_prior_title">Приоритетная сеть:</string>
+    <string name="lte_prior_auto">Авто</string>
+    <string name="lte_prior_lte">Приоритет LTE</string>
+    <string name="lte_prior_tdscdma">Приоритет TDSCDMA</string>
+    <string name="lte_prior_wcdma">Приоритет WCDMA</string>
+    <string name="lte_prior_gsm">Приоритет GSM</string>
+    <string name="lte_prior_dlds">Приоритет DLDS</string>
+    <string name="lte_muti_lte">Приоритет LTE</string>
+    <string name="lte_muti_tdscdma">TDSCDMA</string>
+    <string name="lte_muti_wcdma">WCDMA</string>
+    <string name="lte_muti_gsm">GSM</string>
+    <string name="lte_explain_title">Описание:</string>
+    <string name="lte_explain_prior_net">Выбор приоритетной сети при включении</string>
+    <string name="lte_explain_muti_net">Выбор одной или нескольких сетей при включении</string>
+    <string name="all_incoming_call">Все сходящие</string>
+    <string name="roaming_incoming_call">Все входящие в роуминге</string>
+    <string name="all_outgoing_call">Все исходящие</string>
+    <string name="international_outgoing_call">Международные исходящие</string>
+    <string name="adventive_outgoing_call">Международные исходящие</string>
+    <string name="cancel_all_incoming_call_limit">Отмена всех ограничений на входящие вызовы</string>
+    <string name="cancel_all_outgoing_call_limit">Отмена всех ограничений на исходящие вызовы</string>
+    <string name="cancel_all_call_limit">Отмена всех ограничений на вызовы</string>
+    <string name="cancel_call_limit">Отмена ограничения на вызов</string>
+    <string name="input_password">Введите пароль:</string>
+    <string name="video_phone">Видеовызов</string>
+    <string name="show_mode">Режим отображения</string>
+    <string name="vp_replace_screen">Замена экрана</string>
+    <string name="vp_other">Прочее</string>
+    <string name="unconditional_replace_screen">Заменить экран без условий</string>
+    <string name="unconditional_replace_screen_preview">Заменить экран предпросмотра без условий</string>
+    <string name="the_other_side_replace_screen">Замена экрана с другой стороны</string>
+    <string name="the_other_side_replace_screen_preview">Замена экрана предпросмотра с другой стороны</string>
+    <string name="local_replace_screen">Локальная замена экрана</string>
+    <string name="local_replace_screen_preview">Локальная замена экрана предпросмотра</string>
+    <string name="vp_replay_mode">VP Режим повтора</string>
+    <string name="video_back_shake_ring">Возврат к видео, встряхнув кольцо</string>
+    <string name="close_vidicon_nosend_replace_screen">Закрыть замещающий экран</string>
+    <string name="file_manage_app_notexit">Файловый менеджер</string>
+    <string name="resume_default">Возобновить по умолчанию</string>
+    <string name="video_recoder_save_path">Путь сохранения</string>
+    <string name="wait_time">Время ожидания</string>
     <string name="change_password">Изменить код запрета</string>
     <string name="old_password_str">Старый пароль</string>
     <string name="new_password_str">Новый пароль</string>
@@ -1004,34 +1004,34 @@
     <string name="video_call_transfer">Переадресация видеовызова</string>
     <string name="video_call">Видеовызов</string>
     <string name="voice_call">Голосовой вызов</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="boot_choose_net_TD">Только TD-SCDMA для запуска</string>
+    <string name="boot_choose_net_GSM">Только GSM для запуска</string>
+    <string name="change_password_succeed">Пароль изменен</string>
+    <string name="error_path">Неверный путь</string>
+    <string name="error_picture">Ошибка изображения</string>
+    <string name="forbid_call_in">Запрет входящих вызовов</string>
+    <string name="international_roaming_forbid_call_in">Запретить входящие вызовы при роуминге</string>
+    <string name="forbid_call_out">Запрет исходящих вызовов</string>
+    <string name="forbid_long_distance_telephone_call_out">Запрет платных вызовов через таксофоны</string>
+    <string name="forbid_international_long_distance_telephone_call_out">Запрет платных международных вызовов через таксофоны</string>
+    <string name="passwords_mismatch">Пароль не совпадает</string>
+    <string name="passwords_empty">Вам необходимо ввести и подтвердить пароль</string>
+    <string name="password_empty">Ввод пароля</string>
+    <string name="password_too_short">Минимальная длина пароля: 4 цифры</string>
+    <string name="password_too_long">Максимальная длина пароля: 8 цифр</string>
+    <string name="video_call_answer_voice">Был получен видеовызов и отклонен, так как не поддерживается. Абонент проинформирован о необходимости голосового вызова</string>
+    <string name="out_3g_net">Нет 3G-сети, видеовызов завершен!</string>
+    <string name="videoPhone_unsupported">Видеовызов не поддерживается</string>
+    <string name="videoPhone_lib_unloaded">Видеовызов не загружен!</string>
+    <string name="voicecall_is_on">Видеовызов отменен, необходимо завершение голосового вызова...</string>
+    <string name="vp_is_on">Видеовызов в процессе, необходимо его завершение…</string>
+    <string name="vp_is_inavailable">GSM не может обеспечить видеовызов, переключитесь на 3G-сеть…</string>
+    <string name="sdcard_videophone_default_save_path">/mnt/sdcard/VP/</string>
+    <string name="udisk_videophone_default_local_replace_image">/system/etc/replace_any.jpg</string>
+    <string name="udisk_videophone_default_remote_replace_image">/system/etc/replace_remote.jpg</string>
+    <string name="unconditional_replace_image">/data/data/com.android.phone/unconditional.jpg</string>
+    <string name="remote_replace_image">/data/data/com.android.phone/other_side.jpg</string>
+    <string name="local_replace_image">/data/data/com.android.phone/local.jpg</string>
     <string name="auto_answer">Автоматический ответ</string>
     <string name="auto_answer_prompt">Отвечать автоматически</string>
     <string name="auto_answer_summary">Не активировано</string>
@@ -1076,7 +1076,7 @@
     <string name="menu_swaping">Обмен</string>
     <string name="refuse_phrase_list">Список SMS с отклонением вызова</string>
     <string name="add_refusephrase">Добавить SMS</string>
-
+    <string name="edit_refuse_phrase">Редактировать SMS</string>
     <string name="editphrase">Изменить</string>
     <string name="deletephrase">Удалить</string>
     <string name="savephrase">Сохранить</string>
@@ -1092,81 +1092,81 @@
     <string name="select_no">Нет</string>
     <string name="select_yes">Да</string>
     <string name="phrase_sort_order_prompt">Перетащите иконку справа для сортировки записей</string>
-
-
-
-
-
-
-
-
-
+    <string name="manual_evadable_network">Ручные настройки CDMA-сети</string>
+    <string name="manual_system_evadable">Ручные настройки CDMA-сети</string>
+    <string name="change_network">Изменить к следующей сети</string>
+    <string name="search_next_network">Нажмите для уклонения от текущей сети. Следующая сеть будет найдена автоматически</string>
+    <string name="clear_network_list">Очистить список сетей для уклонения</string>
+    <string name="evade_list_title">Список сетей для уклонения</string>
+    <string name="network_name">Номер сети：</string>
+    <string name="clear_net_list_warning">Очистить список сетей для уклонения?</string>
+    <string name="delete_net_list_warning">Удалить эту сеть?</string>
     <string name="message_null_warning">Сообщение не может быть пустым</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="remove_selected_sid_warning">Действие приведет к запрету текущей сети и поиску следующей</string>
+    <string name="no_enable_network">Нет доступных сетей</string>
+    <string name="remove_selected_sid_fail">Не удалось удалить</string>
+    <string name="sid_had_add_to_list">Сеть перемещена в список для уклонения</string>
+    <string name="evadable_net_description">"Описание:
+Автоматический выбор сети CDMA，но текущая сеть не может осуществлять действия"</string>
+    <string name="error_sid_hadnot_add_to_list">Нет сетей, не удается перейти к списку сетей для уклонения</string>
+    <string name="evade_list_is_null">Список сетей для уклонения пуст</string>
+    <string name="international_roaming_settings">Настройки международного роуминга</string>
+    <string name="select_network_and_settings">Выбор сети и настройки</string>
+    <string name="update_CDMA_roaming_list">Обновление списка роуминга CDMA (PRL)</string>
+    <string name="international_roaming_service_tel">Бесплатная линия по роумингу</string>
+    <string name="international_roaming_tel_number">+8618918910000 (набор по нажатию)</string>
+    <string name="resume_default_settings">Восстановить настройки по умолчанию</string>
+    <string name="description">Описание:</string>
+    <string name="description_summary">Не для нас:) Только китайцам</string>
+    <string name="amity_prompt">Запрос:</string>
+    <string name="amity_prompt_summary">В роуминге при отсутствии сети CDMA необхоим переход на сеть GSM</string>
+    <string name="update_CDMA_roaming_list_warning">Операция приведет к расходам за одно SMS</string>
+    <string name="resume_default_settings_warning">Выбор приведет к глобальным настройкам</string>
+    <string name="double_mode_gsm_network">Режим двойной карты для сети GSM</string>
+    <string name="roaming_mode_option">Режим выбора</string>
+    <string name="roaming_mode_option_title">Опции режима (доступны только в роуминге)</string>
+    <string name="unroaming_mode_prompt">В настоящий момент роуминг отсутствует</string>
+    <string name="mocao_disable_prompt">Выкл. для Макао и внутреннних земель</string>
+    <string name="TelecomRoamDial">Набор в роуминге</string>
+    <string name="telecom_roam_dial_sub">Запускать помощь в роуминге при международном роуминговом вызове через CDMA</string>
+    <string name="country_code">Китай +86</string>
+    <string name="dial_to_home">Вызов домой</string>
+    <string name="roam_dial">Набор в международном роуминге</string>
+    <string name="redia_133">**133 вызов</string>
+    <string name="dial_other_country">Вызов в другую страну</string>
+    <string name="dial_local">Локальный вызов</string>
+    <string name="dial_now">Вызов</string>
+    <string name="dial_to_chinese_hongkong">Вызов в Гонконг</string>
+    <string name="dial_to_chinese_macao">Вызов в Макао</string>
+    <string name="dial_to_chinese_taiwan">Вызов в Тайвань</string>
+    <string name="dial_to_china">Вызов в континентальный Китай</string>
+    <string name="chinese_macao">Макао +853</string>
+    <string name="chinese_hongkong">Гонконг +852</string>
+    <string name="chinese_taiwan">Тайвань +886</string>
+    <string name="choose_country">Выбор страны</string>
+    <string name="oceania">Океания</string>
+    <string name="asia">Азия</string>
+    <string name="africa">Африка</string>
+    <string name="north_america">Северная Америка</string>
+    <string name="south_america">Южная Америка</string>
+    <string name="europe">Европа</string>
+    <string name="yl_search">Поиск</string>
+    <string name="roaming_help">"Помощь в роуминге:
+
+
+ 1. При вызове домой не забывайте про необходимость полного номера в международном формате, который начинается с "+"
+ 2. Используйте меню выбора кодов стран для вызова 
+ 3. При локальном вызове можно ничего не делать с номером
+ 4. Международный код "+", импортируемый пользователем, не будет показывать уведомление о роуминге
+
+
+"</string>
+    <string name="yl_roaming_help">Помощь</string>
+    <string name="yl_roaming_reback">Назад</string>
+    <string name="fdn_name_null_warning">Имя контакта FDN не может быть пустым</string>
+    <string name="fdn_name_null_prompt">Нет имени</string>
+    <string name="unknown_fdn_name">Неизв. имя</string>
+    <string name="fdn_invalid_name">FDN не обновлено: длина имени более 13 цифр</string>
     <string name="unregister_network_prompt">Ошибка регистрации в сети. Начать авто-регистрацию?</string>
     <string name="close_data_connect_prompt">Не удалось найти сеть. Отключите соединение и попробуйте заново</string>
     <string name="forbid_manual_evade_network">Включена передача данных. Не давать вручную уклониться от сети</string>
@@ -1273,4 +1273,5 @@
     <string name="mark_action">Метка</string>
     <string name="hangup_remote_call">Завершить удаленный вызов</string>
     <string name="can_not_hold">"Нельзя удержать вызов, так как другой вызов CDMA"</string>
+    <string name="yl_word_secret">Секретный вопрос</string>
 </resources>
