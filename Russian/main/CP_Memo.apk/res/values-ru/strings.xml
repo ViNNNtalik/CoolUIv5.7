@@ -273,6 +273,7 @@
     <string name="toast_widget_quick_add">Нажмите Заметку или Добавить</string>
     <string name="toast_location_no_map">Не удается показать на карте из-за отсутствия данных о местоположении</string>
     <string name="toast_filetype_not_supprot">Формат не поддерживается</string>
+    <string name="toast_filesize_not_supprot">Размер не должен быть больше 20 Мб</string>
     <string name="toast_export_success">Файл сохранен в %s</string>
     <string name="toast_file_exists_already">Файл уже существует</string>
     <string name="toast_file_name_illegal">Недопустимые символы</string>

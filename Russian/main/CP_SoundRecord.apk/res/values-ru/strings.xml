@@ -45,6 +45,7 @@
     <string name="Recorder_error_message_file_limit">Записанный файл слишком большой</string>
     <string name="Recorder_error_message_file_deleted">Файл удален во время записи</string>
     <string name="Recorder_error_other_running">Дугое приложение использует запись аудио</string>
+    <string name="Recorder_error_mms_size">Достигнут верхний предел. Нельзя добавить запись</string>
     <string name="menu_share_text">Поделиться</string>
     <string name="menu_detail_text">Детали</string>
     <string name="menu_rename_text">Переименовать</string>

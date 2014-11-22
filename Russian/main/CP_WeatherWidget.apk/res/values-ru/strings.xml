@@ -23,4 +23,7 @@
     <string name="city_xian">Сиань</string>
     <string name="city_shenzhen">Шэньчжэнь</string>
     <string name="city_guangzhou">Гуанчжоу</string>
+    <string name="pm_descript_yz">Отлично</string>
+    <string name="pm_descript_lh">Хорошо</string>
+    <string name="pm_descript_pr">Воздух</string>
 </resources>

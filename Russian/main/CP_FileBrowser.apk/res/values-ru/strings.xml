@@ -338,6 +338,7 @@
     <string name="notif_text">FTP-сервер принимает подключения</string>
     <string name="ok">ОК</string>
     <string name="cant_get_url">Неизвестн.</string>
+    <string name="set_path_title">Задать папку</string>
     <string name="menu_removeallfavorite">Убрать все из избранного</string>
     <string name="item_favorite_add">В избранное</string>
     <string name="item_favorite_cancel">Из избранного</string>

@@ -617,10 +617,12 @@ SMS/MMS
     <string name="audience_record_success_tip2">Задайте PIN-код для помощи в разблокировке</string>
     <string name="screenshot_chord">Три скриншота</string>
     <string name="screenshot_chord_summary" />
-    <string name="virtual_keys_settings_category">Настройки</string>
     <string name="virtual_keys_settings_title">Виртуальные клавиши</string>
-    <string name="hide_virtual_keys_title">Сокрытие виртуальных клавиш</string>
+    <string name="hide_virtual_keys_title">Виртуальные клавиши, которые могут быть скрыты</string>
     <string name="hide_virtual_keys_summary">Провести вверх от нижнего края экрана для появления виртуальных клавиш</string>
+    <string name="virtual_keys_background_category">Стиль фона</string>
+    <string name="virtual_keys_background_dark">Темный</string>
+    <string name="virtual_keys_background_light">Светлый</string>
     <string name="virtual_keys_combination">Комбинация</string>
     <string name="description">"Описание: "</string>
     <string name="indicates_menu_key">Клавиша \"Меню\"</string>

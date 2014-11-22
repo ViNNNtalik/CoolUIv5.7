@@ -87,9 +87,10 @@
     <string name="toast_result_download_fail">Ошибка загрузки. Обновление отменено</string>
     <string name="toast_result_update_success">Успешно обновлено</string>
     <string name="toast_result_update_failure">Загруженный пакет содержит ошибки. Обновление не удалось</string>
+    <string name="dlg_result_update_failure">Системное обновление не удалось, так как есть проблемы с правами суперпользователя</string>
     <string name="toast_result_cancel_update">Омена пользователем перед обновлением</string>
     <string name="toast_result_disk_full">"Загрузка отменена из-за нехватки места. Перезагрузите устройство и попробуйте заново"</string>
-    <string name="toast_show_dialog_again">Этот диалог будет показан через %s</string>
+    <string name="toast_show_dialog_again">Вы можете воспользоваться системой обновления позже</string>
     <string name="toast_turnon_wifi">Wi-Fi выключен. Включите его</string>
     <string name="toast_internet_wifi">Убедитесь, что Ваше подключение по Wi-Fi имеет соединение с Интернетом</string>
     <string name="toast_download_package">Ожидайте. Загрузка пакета обновления скоро начнется</string>
@@ -101,7 +102,6 @@
     <string name="title_update_optional">Обновление дополнительного пакета</string>
     <string name="title_putin_password">Введите пароль</string>
     <string name="login_password_hit">Введите пароль</string>
-
     <string name="password_error">Ошибка пароля</string>
     <string name="network_error">Ошибка сети</string>
     <string name="password_is_null">Пароль недоступен</string>

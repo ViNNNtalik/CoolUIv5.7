@@ -401,4 +401,9 @@
     <string name="backup_sdcard_path">SD-карта</string>
     <string name="backup_path_1">>COOLPAD>BACKUPSD</string>
     <string name="backup_path_2">"Путь: "</string>
+    <string name="loading_data">Загрузка данных, попробуйте позже</string>
+    <string name="apk_backup_path">"Подсказка: бэкап APK в: "</string>
+    <string name="apk_backup_local_path">Внутр. хранилище</string>
+    <string name="apk_backup_sdcard_path">SD-карта</string>
+    <string name="apk_backup_path_1">>backup>Приложения</string>
 </resources>
