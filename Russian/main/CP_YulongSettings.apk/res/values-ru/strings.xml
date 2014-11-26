@@ -192,10 +192,10 @@
     <string name="ledtimeseterror">Время начала и окончания не могут совпадать</string>
     <string name="no_prompt">Без подтверждения</string>
     <string name="data_connection_prompt">Подтверждение соединения</string>
-    <string name="network_prompt_title">"Дорогой Coolpad-пользователь:   
+    <string name="network_prompt_title">"Дорогой пользователь Coolpad!   
 "</string>
-    <string name="network_prompt_text">\u0009 Android-устройство. Рекомендуется настроить тарифный план</string>
-    <string name="network_prompt_text_chinamobile">\u0009 Android-устройство. Рекомендуется настроить тарифный план</string>
+    <string name="network_prompt_text">\u0009 очень любит потребление больших объемов Интернет-трафика. Для избежания неприятных ситуаций с ненужными расходами рекомендуется настроить тарифный план</string>
+    <string name="network_prompt_text_chinamobile">\u0009 очень любит потребление больших объемов Интернет-трафика. Для избежания неприятных ситуаций с ненужными расходами рекомендуется настроить тарифный план</string>
     <string name="wireless_networks_settings_title">Беспроводные сети</string>
     <string name="wifi_in_airplane_mode">Режим полета</string>
     <string name="save_mode">В режиме экономии заряда!</string>
@@ -318,7 +318,7 @@
     <string name="no_activity_found">Приложение не установлено</string>
     <string name="phoneinfo_settings">Конфигурация устройства</string>
     <string name="charge_mode_settings">Управление зарядкой</string>
-    <string name="model_number">Модель</string>
+    <string name="model_number">Модель (перевод ViNNNtalik)</string>
     <string name="firmware_version">Версия Android</string>
     <string name="kernel_version">Ядро</string>
     <string name="build_number">Сборка</string>

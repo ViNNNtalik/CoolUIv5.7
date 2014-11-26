@@ -367,13 +367,13 @@
     <string name="status_cancelled">Синхронизация отменена</string>
     <string name="status_recover">recovery</string>
     <string name="status_sending_item">being sent</string>
-    <string name="status_complete_failure">synchronization failed</string>
-    <string name="menu_cancel_sync">cancel sync</string>
+    <string name="status_complete_failure">Синхронизация не удалась</string>
+    <string name="menu_cancel_sync">Отмена синхронизации</string>
     <string name="menu_sync">Синхр.</string>
-    <string name="home_last_sync">last synchronization on</string>
-    <string name="word_today">Today</string>
-    <string name="word_yesterday">yesterday</string>
-    <string name="status_removing_item">Deleting</string>
+    <string name="home_last_sync">"Последняя синхронизация "</string>
+    <string name="word_today">Сегодня</string>
+    <string name="word_yesterday">"Вчера</string>
+    <string name="status_removing_item">УдалениеDeleting</string>
     <string name="word_at" />
     <string name="checking_credentials_title">safety certification ...</string>
     <string name="checking_credentials_failed">security authentication fails, restart the cool cloud recertification!</string>
@@ -1246,7 +1246,7 @@ The text of four characters into the "</string>
      <string name="coolwin_download">Загрузить и установить</string>
      <string name="downloading">Загрузка...</string>
      <string name="coolwin_update_download_failed"> Cool cloud upgrade download failed</string>
-     <string name="please_update_retry">Пожадуйста, презагрузите</string>
+     <string name="please_update_retry">Пожалуйста, перезагрузите</string>
      <string name="coolwin_version_update"> Cool cloud version of the update package download</string>
      <string name="newversion_check"> detected %1$s new version, the version number is %2$s, whether to upgrade now?</string>
      <string name="coolwin_version_checking"> being detected ...</string>
@@ -2150,7 +2150,7 @@ End "</string>
      <string name="find_phone_switch_open"> Open</string>
      <string name="find_phone_switch_close"> off</string>
      <string name="try_refresh"> Refresh to try</string>
-     <string name="cancel_sync"> cancel sync</string>
+     <string name="cancel_sync">Отмена синхронизации</string>
      <string name="phone_contact">Контакты устр-ва</string>
      <string name="cloud_contact">Контакты Облака</string>
      <string name="search"> Search</string>

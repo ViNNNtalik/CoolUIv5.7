@@ -155,7 +155,7 @@
     <string name="title_default_setting">Настройки по умолчанию</string>
     <string name="title_notice_prompt">Уведомления</string>
     <string name="title_auto_sign_setting">Настройки подписи</string>
-    <string name="title_auto_reply_setting">Настройки автоответчика</string>
+    <string name="title_auto_reply_setting">Настройки автомат. ответа</string>
     <string name="title_auto_save_setting">Настройки автосохранения</string>
     <string name="title_monthly_statistics">Месячная статистика</string>
     <string name="title_sent_message">Отправлено</string>
@@ -592,10 +592,10 @@
     <string name="enable_chatmode">Режим чата</string>
     <string name="chatmode_is_default">Использовать режим чата по умолчанию</string>
     <string name="forward_msg_tip">Пересылка метки</string>
-    <string name="autoreply">Автоответ</string>
-    <string name="autoreply_contents">Cодержимое автоответа</string>
+    <string name="autoreply">Автомат. ответ</string>
+    <string name="autoreply_contents">Cодержимое автомат. ответа</string>
     <string name="restoreDefault">Сброс</string>
-    <string name="replynetwork">Ответить сеть</string>
+    <string name="replynetwork">Сеть ответа</string>
     <string name="autosave">Автосохранение</string>
     <string name="autosave_period">Период сохранения</string>
     <string name="pref_title_valid_deadline">Срок действия</string>
@@ -896,7 +896,7 @@
     <string name="string_sms_max_to_limit">Число символов достигло лимита. Преобразовать SMS в MMS?</string>
     <string name="string_sms_recipient_has_email_tip">В получателях есть адрес эл.почты. Преобразовать SMS в MMS?</string>
     <string name="string_folder_has_lock_msg">В этой папке есть избранные сообщения</string>
-    <string name="setting_prompt">Выбор текста для автоответа</string>
+    <string name="setting_prompt">Выбор текста для автомат. ответа</string>
     <string name="string_note_save_success">Сохранено</string>
     <string name="string_note_save_failed">Не удалось сохранить</string>
     <string name="string_note_save_failed_null_content">"Невозможно сохранить пустую заметку "</string>

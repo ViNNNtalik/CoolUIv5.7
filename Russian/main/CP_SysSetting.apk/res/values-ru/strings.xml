@@ -397,7 +397,7 @@
     <string name="cdma_security_settings_summary">Настройка функции \"Местоположение\", разблокировка экрана и блокировка хранилища регистрационных данных</string>
     <string name="security_passwords_title">Пароли</string>
     <string name="crypt_keeper_settings_title">Шифрование</string>
-    <string name="idle_screen_lock_info_title">Информация о локскрине</string>
+    <string name="idle_screen_lock_info_title">Базовые настройки локскрина</string>
     <string name="security_password_setting_title">Настройки пароля Менеджера</string>
     <string name="security_password_setting_title_old">Настройки пароля Менеджера</string>
     <string name="crypt_keeper_encrypt_title">Зашифровать устройство</string>
@@ -830,7 +830,7 @@
     <string name="system_update_settings_list_item_title">Обновление системы</string>
 
     <string name="firmware_version">Версия Android</string>
-    <string name="model_number">Модель</string>
+    <string name="model_number">Модель (перевод ViNNNtalik)</string>
     <string name="baseband_version">Модем</string>
     <string name="kernel_version">Ядро</string>
     <string name="build_time">Дата создания</string>
@@ -2777,7 +2777,7 @@
     <string name="voice_wakeup_password">Голосовой пароль</string>
 
     <string name="cool_seccenter">Менеджер Coolpad</string>
-    <string name="virtos_master_clear_tip">Очистить все данные: аккаунты, SMS/MMS, журнал вызовов, контакты, данны приложений</string>
+    <string name="virtos_master_clear_tip">Очистить все данные: аккаунты, SMS/MMS, журнал вызовов, контакты, данных приложений</string>
     <string name="virtos_master_clear_keep_preset">Сохранить предустановленные ресурсы</string>
     <string name="virtos_master_clear_keep_safety">Сохранить данные безопасности</string>
     <string name="virtos_master_warning_title">Сброс устройства</string>

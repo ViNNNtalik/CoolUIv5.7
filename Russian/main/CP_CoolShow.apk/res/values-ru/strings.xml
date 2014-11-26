@@ -35,7 +35,7 @@
     <string name="coolshow_download_operate">Загрузки</string>
     <string name="coolshow_download">"Загрузка "</string>
     <string name="coolshow_downloading">Загрузка</string>
-    <string name="coolshow_downloaded">Скачено</string>
+    <string name="coolshow_downloaded">Загружено</string>
     <string name="coolshow_download_pending">Ожидание загрузки</string>
     <string name="coolshow_download_continue">Продолжить</string>
     <string name="coolshow_download_error">Ошибка загрузки</string>
@@ -304,7 +304,7 @@
     <string name="coolshow_default_ring_lockscreen">Кольцо</string>
     <string name="coolshow_default_wave_lockscreen">Волна</string>
     <string name="coolshow_default_zipper_lockscreen">Замок</string>
-    <string name="coolshow_download_times">Загружено</string>
+    <string name="coolshow_download_times">" раз загр."</string>
     <string name="coolshow_font_detail">Детали</string>
     <string name="coolshow_introduction">Описание</string>
     <string name="coolshow_font_setted">Шрифт изменен</string>

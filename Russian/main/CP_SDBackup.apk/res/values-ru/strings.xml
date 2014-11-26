@@ -34,7 +34,7 @@
     <string name="menu_export_vcard_to_udisk">Экспорт на внутр.хранилище</string>
     <string name="menu_import_vcard_from_udisk">Импорт с внутр.хранилища</string>
     <string name="app_carrier_name">Telecom-бэкап</string>
-    <string name="last_backup_time">Последний бэкап:</string>
+    <string name="last_backup_time">"Последний бэкап: "</string>
     <string name="last_backup_time_two">Бэкап данных и настроек на Вашем устройстве</string>
     <string name="tip_one">Бэкап Ваших данных на SD-карту</string>
     <string name="tip_two">Восстановление данных на устройство</string>
