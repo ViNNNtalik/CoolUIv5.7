@@ -55,6 +55,7 @@
     <string name="menu_set_private_text">В приватные</string>
     <string name="menu_cancel_private_text">В общие</string>
     <string name="record_mode_no_propet">Больше не спрашивать</string>
+    <string name="record_path_text">Место хранения</string>
     <string name="password">Пароль Сейфа</string>
     <string name="input_password">Введите пароль от Сейфа</string>
     <string name="rename_text_3">Переименовать</string>

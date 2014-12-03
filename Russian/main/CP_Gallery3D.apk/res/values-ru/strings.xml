@@ -138,7 +138,7 @@
     <string name="flip_title_left_right">Горизонтально</string>
     <string name="crop_title_freedom">Произвольно</string>
     <string name="exit_confirm_msg">Выйти из режима редактирования фото?</string>
-    <string name="exit_confirm_title">Подтверждение</string>
+    <string name="exit_confirm_title">Отмена редактирования</string>
     <string name="photoeditor_name">Фотостудия</string>
     <string name="loading_failure">Не удалось загрузить фотографию</string>
     <string name="saving_failure">Не удалось сохранить изменения</string>
@@ -441,6 +441,8 @@
     <string name="album_empty">Нет записей</string>
     <string name="camera_label">Камера</string>
     <string name="camera_unable_start">Не удалось запустить Камеру!</string>
+    <string name="no_storage">Нет места для хранения</string>
+    <string name="exception_illegal_argument">Неверное значение!</string>
     <string name="face_detcet_on">Определение лица вкл.</string>
     <string name="face_detcet_off">Определение лица выкл.</string>
     <string name="add_name">Добавить имя</string>
@@ -494,7 +496,6 @@
     <string name="to">В</string>
     <string name="select">Выбор</string>
     <string name="deselect">Отмена</string>
-    <string name="no_storage">Нет места для хранения</string>
     <string name="crop_save_text">ОК</string>
     <string name="details">Сведения</string>
 </resources>

@@ -253,7 +253,7 @@
     <string name="signup_continue_button">Далее</string>
     <string name="signup_login_label">Вход</string>
     <string name="signup_help_text">Помощь</string>
-    <string name="about_label">О приложении</string>
+    <string name="about_label">О прил.</string>
     <string name="settings_label">Настройки</string>
     <string name="label_contact_edit">Edit Contact</string>
     <string name="label_contact_insert">insert contacts</string>
@@ -567,7 +567,7 @@ The new data will be pushed to the cloud phone "</string>
     <string name="askphonenumber">Введите номер телефона</string>
     <string name="emailregister">Адрес эл. почты зарегистрирован</string>
     <string name="phoneregister">Номер телефона зарегистрирован</string>
-    <string name="coolwin_feedback">feedback</string>
+    <string name="coolwin_feedback">Отзыв</string>
     <string name="coolwin_introudce">cool cloud business description</string>
     <string name="coolwin_notice">Notes</string>
     <string name="coolwin_problem">FAQ</string>
@@ -788,7 +788,7 @@ Please set your name, the name may be familiar to you to let people quickly iden
      <string name="cooperation"> cooperation</string>
      <string name="no_support_share"> This phone does not support this feature!</string>
      <string name="coolwind"> Cool Cloud Share</string>
-     <string name="share"> Share</string>
+     <string name="share">Реком.</string>
      <string name="add"> join</string>
      <string name="sharetip"> share tips</string>
      <string name="repeatetip"> name repeated contacts with the same name already exists, please enter a new name!</string>

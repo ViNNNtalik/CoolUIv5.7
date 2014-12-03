@@ -15,6 +15,10 @@
         <item>Режим записи</item>
         <item>Режим стерео</item>
     </string-array>
+    <string-array name="record_path_mode_sub_title">
+        <item>Внутреннее хранилище</item>
+        <item>SD-карта</item>
+    </string-array>
     <string-array name="record_mode_propet">
         <item>Режим интервью: Используется верхний и нижний микрофон для записи</item>
         <item>Режим записи: Используется только один микрофон в нижней части устройства</item>

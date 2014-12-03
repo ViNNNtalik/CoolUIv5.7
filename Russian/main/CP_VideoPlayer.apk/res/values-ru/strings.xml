@@ -243,6 +243,7 @@
     <string name="phone_download_limit_maxtask">Максимум %d задач поддерживается</string>
     <string name="dialog_continue_play_online">Завершено. Дальнейшее воспроизведение приведет к потреблению 3G-трафика</string>
     <string name="dialog_2g3g_ok">ОК</string>
+    <string name="dialog_nosupport_msg">Сеть 2G не поддерживается</string>
     <string name="dialog_2g3g_cancelplay">Отмена</string>
     <string name="dialog_play_error">Нет сети</string>
     <string name="play_control_desc_t" formatted="false">Синопсис серии %d: %s</string>

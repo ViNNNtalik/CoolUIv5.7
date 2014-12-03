@@ -1081,6 +1081,8 @@
     <string name="lockpattern_settings_title">Графический ключ разблокировки</string>
     <string name="lockpattern_settings_enable_title">Запрашивать ключ</string>
     <string name="lockpattern_settings_enable_summary">Использовать графический ключ для защиты телефона</string>
+    <string name="lockpattern_settings_enable_visible_password_title">Напрямую показывать экран пароля</string>
+    <string name="lockpattern_settings_enable_visible_password_summary" />
     <string name="lockpattern_settings_enable_visible_pattern_title">Показывать графический ключ</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title">Вибрировать при касании</string>
     <string name="lockpattern_settings_enable_power_button_instantly_locks">Блокировка клавишей питания</string>

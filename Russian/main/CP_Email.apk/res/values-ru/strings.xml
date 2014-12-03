@@ -1279,6 +1279,7 @@
     <string name="get_attachment_info_fail_and_stop_send">Получение информации о вложении не удалось. Отправка невозможна</string>
     <string name="credentials_configure_lock_screen_hint">Необходимо задать PIN для локскрина или пароль перед использованием защищенного хранилища</string>
     <string name="fromList_is_empty_description">Пусто</string>
+    <string name="attachment_view_disabel">Запрет просмотра приложения</string>
     <string name="more_string">%1$s еще...</string>
     <string name="chips_waiting_for_directory_result">Ожидание контактов</string>
 

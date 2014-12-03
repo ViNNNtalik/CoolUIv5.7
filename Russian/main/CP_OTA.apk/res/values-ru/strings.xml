@@ -78,6 +78,7 @@
     <string name="dlg_title_update">Обновление прошивки</string>
     <string name="toast_package_downloading_in_background">Пакет обновления загружается в фоне</string>
     <string name="toast_no_available_update">Ваша прошивка самая последняя!</string>
+    <string name="toast_no_available_update_roaming">В связи с нахождением в роуминге не рекомендуется проверять наличие обновления</string>
     <string name="toast_server_not_available">Ваша прошивка самая последняя!</string>
     <string name="toast_in_update">Ваше устройство обновляется. Попробуйте позже</string>
     <string name="toast_connect_not_available">Нет сети. Проверьте подключение!</string>
