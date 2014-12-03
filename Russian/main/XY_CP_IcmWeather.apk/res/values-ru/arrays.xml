@@ -282,4 +282,25 @@
         <item>空气严重污染</item>
         <item>空气污染爆表了</item>
      </string-array>
+    <string-array name="tuopan_color_array">
+        <item>По умолчанию</item>
+        <item>Черный</item>
+        <item>Белый</item>
+        <item>Красный</item>
+        <item>Зеленый</item>
+        <item>Голубой</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Классика</item>
+        <item>Планшет</item>
+        <item>Внутр. куб</item>
+        <item>Внеш. куб</item>
+        <item>Верт. переворот</item>
+        <item>Гориз. переворот</item>
+        <item>Стек</item>
+        <item>Увеличение</item>
+        <item>Вверх</item>
+        <item>Вниз</item>
+        <item>Аккордеон</item>
+    </string-array>
 </resources>

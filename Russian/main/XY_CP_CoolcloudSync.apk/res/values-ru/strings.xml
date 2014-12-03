@@ -1376,6 +1376,7 @@ The text of four characters into the "</string>
      <string name="photo"> Фото</string>
      <string name="photo_2">Камера</string>
      <string name="photo_3"> Album</string>
+
      <string name="note1"> Personal</string>
      <string name="note2"> work</string>
      <string name="note3"> Leisure</string>
@@ -2366,6 +2367,9 @@ End "</string>
      <string name="cooperation_replace_background">Заменить фоновое изображение</string> 
      <string name="jion_group_notifi_message_null">Нет</string> 
      <string name="cooperation_input_nickname">Введите никнейм</string> 
+    <string name="cooperation_input_password">Введите пароль</string>
+    <string name="cooperation_insure_password">Подтвердите пароль</string>
+    <string name="cooperation_register_success">Завершение регистрации</string>
      <string name="user_title">Заголовок:</string> 
      <string name="this_sdcard_no_can_save">Нет места на SD-карте</string> 
      <string name="add_pic_select">Выбор изображения</string> 
@@ -2465,11 +2469,26 @@ End "</string>
      <string name="recycle_preview_connecting"> Connect to Server ... </string>
      <string name="recycle_preview_noneed_sync"> Contacts do not need to sync </string>
      <string name="recycle_preview_sync_result"> After synchronization: the phone will increase {nAddNum} people who delete {nDelNum} </string>
+     <string name="coolcloud_sync_title">Синхронизация с Облаком</string>
+     <string name="coolcloud_just_need_string">Только</string>
+     <string name="coolcloud_every_contact_sync">Синхронизация каждого контакта</string>
+    <string name="coolcloud_time_0_05s">0.05s</string>
+    <string name="coolcloud_35_precent">35%</string>
+     <string name="coolcloud_up_speed">Скорость</string>
+     <string name="coolcloud_user_info_backup">"Полный бэкап данных в: "</string>
      <string name="sms_phrase">Бэкап быстрых ответов</string>
      <string name="smsphrase_backup_summary">Резервирование быстрых ответов в Облако</string>
      <string name="smsphrase_recover">Восстановление быстрых ответов</string>
      <string name="smsphrase_backup_description">Резервирование быстрых ответов в Облако</string>
      <string name="smsphrase_backup">Бэкап быстрых ответов</string>
+    <string name="note_cloud">Заметки в Облаке</string>
+    <string name="note_cloud_description">Просмотр заметок в Облаке</string>
+    <string name="note_sync_result">Результаты синхронизации заметок</string>
+    <string name="note_result_description1">"Следующее не удалось синхронизировать: "</string>
+    <string name="note_result_description2">Следующая выгрузка поможет Вам с синхронизацией</string>
+    <string name="note_result_known">Да</string>
+    <string name="note_remind">Напоминание Облака</string>
+    <string name="note_remind_content">Частичная синхронизация. Нажмите для просмотра</string>
      <string name="coolwin_intimacy_data_html">Куча китайской ереси, ненужной для нас</string>
      <string name="personal_nickname">Имя</string> 
      <string name="personal_sex">Пол</string> 
@@ -2502,5 +2521,6 @@ End "</string>
      <string name="register">Регистрация</string> 
      <string name="weibo_login"> Sina microblogging account login</string> 
      <string name="login">Вход</string>
+    <string name="other_ways_register">Другой способ</string>
      <string name="automatic_synchronization_settings">Automatic synchronization settings</string>
 </resources>
