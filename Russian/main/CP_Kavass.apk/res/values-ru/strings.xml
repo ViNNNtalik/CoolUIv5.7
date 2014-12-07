@@ -324,8 +324,8 @@
     <string name="mark_cheat">Мошенничество</string>
     <string name="mark_harass">Домогательство</string>
     <string name="mark_intermediary">Посредничество</string>
-    <string name="mark">Отметить</string>
-    <string name="as">" как "</string>
+    <string name="mark">"Отметить "</string>
+    <string name="as">" как"</string>
     <string name="intercept_type">Элементы для перехвата</string>
     <string name="bat_set_intercept_type">Выбор элементов</string>
     <string name="bat_set_intercept_type_dlg_msg">Задано в соответствии с выбранными параметрами</string>

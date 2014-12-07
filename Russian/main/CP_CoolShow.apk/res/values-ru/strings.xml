@@ -237,7 +237,7 @@
     <string name="coolshow_switch_wallpaper">Выбор обоев</string>
     <string name="coolshow_switch_wallpaper_text">Выбор обоев для переключения</string>
     <string name="coolshow_sound_effect">Мелодии</string>
-    <string name="coolshow_coming_sound">Мелодия вызова</string>
+    <string name="coolshow_coming_sound">Мелодии вызова</string>
     <string name="coolshow_coming_sound_1">Мелодия вызова SIM1</string>
     <string name="coolshow_coming_sound_2">Мелодия вызова SIM2</string>
     <string name="coolshow_notifications_sound">Уведомления</string>

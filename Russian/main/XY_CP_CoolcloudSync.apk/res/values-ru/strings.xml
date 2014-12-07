@@ -704,7 +704,7 @@ Please set your name, the name may be familiar to you to let people quickly iden
      <string name="emptypassword">Пароль не может быть пустым</string>
      <string name="oldpassword_is_empty">Старый пароль не может быть пустым</string>
      <string name="newpassword_is_empty">Новый пароль не может быть пустым</string>
-     <string name="confirmpassword_is_empty">Пароль не может быть пустымl</string>
+     <string name="confirmpassword_is_empty">Пароль не может быть пустым</string>
      <string name="emptyusername">Имя не может быть пстым</string>
      <string name="checking_credentials">Проверка, ожидайте...</string>
      <string name="modifypasswordok">Пароль изменен успешно</string>
@@ -2469,7 +2469,7 @@ End "</string>
      <string name="recycle_preview_connecting"> Connect to Server ... </string>
      <string name="recycle_preview_noneed_sync"> Contacts do not need to sync </string>
      <string name="recycle_preview_sync_result"> After synchronization: the phone will increase {nAddNum} people who delete {nDelNum} </string>
-     <string name="coolcloud_sync_title">Синхронизация с Облаком</string>
+     <string name="coolcloud_sync_title">Облако</string>
      <string name="coolcloud_just_need_string">Только</string>
      <string name="coolcloud_every_contact_sync">Синхронизация каждого контакта</string>
     <string name="coolcloud_time_0_05s">0.05s</string>

@@ -9,8 +9,8 @@
     <string name="udiskIconLabel">Устройство</string>
     <string name="intsd_label_abbreviation">Устр-во</string>
     <string name="sdcardIconLabel">SD-карта</string>
-    <string name="internal_sdcard">Внутренняя SD-карта</string>
-    <string name="external_sdcard">Внешняя SD-карта</string>
+    <string name="internal_sdcard">Внутреннее хранилище</string>
+    <string name="external_sdcard">SD-карта</string>
     <string name="usb_sdcard">USB-хранилище</string>
     <string name="phone_space">Внутреннее хранилище</string>
     <string name="sed_phone_space">SED диск</string>
