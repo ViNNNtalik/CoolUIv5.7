@@ -92,7 +92,7 @@
     <string name="enable_graphic_pass_fail">Блокировка рисунком настроена</string>
     <string name="enabled">Активно</string>
     <string name="unenabled">Не активно</string>
-    <string name="setting_title_name">Настройки Менеджера</string>
+    <string name="setting_title_name">Настройки</string>
     <string name="change_pass">Изменение пароля</string>
     <string name="dialog_ok2">ОК</string>
     <string name="change_pass_item_title">Изменить пароль</string>
@@ -154,7 +154,7 @@
     <string name="system_monitor">Приложения</string>
     <string name="money_protect">Монитор расходов</string>
     <string name="backup">Бэкап</string>
-    <string name="seccenter_setting">Настройки Менеджера</string>
+    <string name="seccenter_setting">Настройки</string>
     <string name="destroy_aft_red">Я шпион!</string>
     <string name="app_fobid">Приложения с автозагрузкой</string>
     <string name="online_control">Сетевой доступ</string>

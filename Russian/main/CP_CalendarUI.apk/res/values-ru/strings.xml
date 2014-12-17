@@ -348,7 +348,8 @@
     <string name="receivers_cannot_repeat">Дубликаты не допускаются</string>
     <string name="empty_place">Убедитесь, что адрес не пустой</string>
     <string name="no_map_app">Не приложений с картой</string>
-    <string name="send_immediately_after_save">После сохранения уведомление будет немедленное послано получателю</string>
+    <string name="send_immediately_after_save">После сохранения уведомление будет немедленно послано получателю, что включает расходы на SMS</string>
+    <string name="send_immediately_after_save1">После сохранения уведомление будет немедленно послано получателю, что включает расходы на SMS. Письмо по эл. почте послано быть не может</string>
     <string name="menu_search">Поиск</string>
     <string name="menu_add">Добавить</string>
     <string name="menu_batch_delete">Групповое удаление</string>

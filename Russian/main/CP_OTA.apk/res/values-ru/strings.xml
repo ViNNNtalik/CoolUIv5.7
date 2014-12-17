@@ -55,6 +55,7 @@
     <string name="dlg_btn_positive_download">Загрузка</string>
     <string name="dlg_btn_backup_download">Загрузка</string>
     <string name="dlg_btn_negative_download">Отмена</string>
+    <string name="test">(публичная бета)</string>
     <string name="dlg_btn_later_download">Позже</string>
     <string name="dlg_message_download">Разработчики Coolpad всегда стремятся улучшить свои продукты. Пакет обновления (Версия %s) готов к загрузке</string>
     <string name="big_version_message_download">"\u0009\u0009Разработчики Coolpad всегда стремятся улучшить свои продукты и пользовательский опыт. Обновление содержит новую версию Android. Поскольку размер обновления очень большой, рекомендуется использовать Wi-Fi

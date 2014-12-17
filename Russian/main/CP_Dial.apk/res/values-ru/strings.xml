@@ -110,8 +110,5 @@
     <string name="replace_with">Заменить</string>
     <string name="one_touch_delete">Удалить</string>
     <string name="unknown_number_not_operate">Неизвестные номера не поддерживаются</string>
-    <string name="add_contact2">Добавить в Контакты</string>
-    <string name="persist_gsm_backdoor_open">Модуль GSM не открыт</string>
-    <string name="persist_gsm_backdoor_close">Модуль GSM открыт</string>
-    <string name="persist_gsm_backdoor_restart">Вступят в силу после перезагрузки</string>
+    <string name="another_system_in_call">Другой вызов</string>
 </resources>

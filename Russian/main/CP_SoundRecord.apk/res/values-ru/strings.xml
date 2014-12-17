@@ -6,10 +6,10 @@
     <string name="recorder_run_background">Диктофон будет запущен в фоне</string>
     <string name="stop_recorder">Диктофон будет закрыт</string>
     <string name="file_is_saved">Записанный файл сохранен</string>
-    <string name="recordings_myrecords_dir">/Coolpad/Records/</string>
-    <string name="normal_recordings_dir">/Coolpad/Records/NormalRecords</string>
-    <string name="message_recordings_dir">/Coolpad/Records/AutoResponse</string>
-    <string name="talk_recordings_dir">/Coolpad/Records/CallRecords</string>
+    <string name="recordings_myrecords_dir">/Coolpad/My Records/</string>
+    <string name="normal_recordings_dir">/Coolpad/My Records/Normal Records</string>
+    <string name="message_recordings_dir">/Coolpad/My Records/ICM Records</string>
+    <string name="talk_recordings_dir">/Coolpad/My Records/Call Records</string>
     <string name="normal_recordings">Обычные записи</string>
     <string name="message_recordings">ICM-записи</string>
     <string name="talk_recordings">Записи вызовов</string>

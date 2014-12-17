@@ -2094,9 +2094,9 @@
     <string name="hardware_version">Версия оборудования</string>
     <string name="apn_delete_alarm">Нельзя удалить APN по умолчанию</string>
     <string name="update_checked">Включить опцию автомат. обновления</string>
-    <string name="gms_package_install_title">GMS-установка</string>
-    <string name="gms_package_install_summary">Установка GMS-файлов на устройство</string>
-    <string name="gms_package_not_install">GMS-файл не установлен</string>
+    <string name="gms_package_install_title">Установка пакета GAPPS</string>
+    <string name="gms_package_install_summary">Установка через рекавери пакета GAPPS (Google-приложений)</string>
+    <string name="gms_package_not_install">Пакет GAPPS не установлен</string>
     <string name="erase_udisk_storage_for_gps">Очистить хранилище с данными GPS</string>
     <string name="erase_udisk_storage_for_gps_securityfile">Очистить внутреннее хранилище, которое содержит данные, включая Сейф</string>
     <string name="erase_udisk_storage_not_earase_gps">Очистить внутреннее хранилище</string>

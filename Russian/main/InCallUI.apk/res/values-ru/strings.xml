@@ -1070,9 +1070,9 @@
     <string name="menu_mergeCalls">Объединить вызовы</string>
     <string name="menu_mute">Без звука</string>
     <string name="menu_endCall">Завершить</string>
-    <string name="slide_to_start_record">Свайп для записи</string>
+    <string name="slide_to_start_record">Старт</string>
     <string name="prepare_to_start_record">Подготовка</string>
-    <string name="slide_to_stop_record">Свайп для остановки</string>
+    <string name="slide_to_stop_record">Стоп</string>
     <string name="menu_swaping">Обмен</string>
     <string name="refuse_phrase_list">Список SMS с отклонением вызова</string>
     <string name="add_refusephrase">Добавить SMS</string>

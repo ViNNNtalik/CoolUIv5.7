@@ -874,6 +874,7 @@
     <string name="im">IM</string>
     <string name="privateSecretSetting">Настройки приватности</string>
     <string name="editAddress">Редактировать адрес</string>
+    <string name="outofmemoryerror">Недостаточно памяти!</string>
     <string name="selectPic">Выбрать изображение</string>
     <string name="deletePic">Удалить изображение</string>
     <string name="phone">Телефон</string>
