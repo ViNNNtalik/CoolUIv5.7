@@ -69,6 +69,12 @@
         <item>Пропущенные</item>
         <item>Временные</item>
     </string-array>
+    <string-array name="recover_native_calllog_by_folder">
+        <item>Все</item>
+        <item>Входящие</item>
+        <item>Исходящие</item>
+        <item>Пропущенные</item>
+    </string-array>
     <string-array name="username_suggestion_suffix_list">
         <item>\@189.cn</item>
         <item>\@wo.com.cn</item>

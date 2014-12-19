@@ -1439,10 +1439,10 @@ The text of four characters into the "</string>
      <string name="cooperation_develope_toast"> being developed ......</string>
      <string name="cooperation_refresh_data_error"> update data failed!</string>
      <string name="cooperation_send_info_hint"> enter a comment</string>
-     <string name="cooperarion_pull_refresh_recently"> Last updated:</string>
-     <string name="cooperation_pull_refresh_now"> Refreshing ...</string>
-     <string name="cooperation_pull_to_refresh"> drop-down refresh</string>
-     <string name="cooperation_release_to_refresh"> release Refresh</string>
+     <string name="cooperarion_pull_refresh_recently">"Последнее обновление: "</string>
+     <string name="cooperation_pull_refresh_now">Обновление...</string>
+     <string name="cooperation_pull_to_refresh">Вниз для обновления</string>
+     <string name="cooperation_release_to_refresh">Отпустите для обновления</string>
      <string name="cooperation_popup_text_accept"> accept</string>
      <string name="cooperation_popup_text_refuse"> rejected</string>
      <string name="cooperation_popup_text_possible"> may participate</string>
@@ -1876,8 +1876,9 @@ End "</string>
      <string name="apk_backup_failed_to_retry"> application backup failed, reconnect wifi!</string>
      <string name="no_external_device_to_download"> does not detect an external storage device, you can not download!</string>
      <string name="can_recover_app"> recoverable application</string>
-     <string name="app_install_success"> installed successfully</string>
-     <string name="app_install_failed"> Installation failed</string>
+     <string name="app_install_success">Успешно установлено</string>
+     <string name="app_install_failed">Установка не удалась</string>
+    <string name="app_install_finish">Установка завершена</string>
      <string name="app_download_success"> download success</string>
      <string name="app_download_failed"> download failed</string>
      <string name="cancel_app_recover"> cancel resume</string>
@@ -2373,6 +2374,7 @@ End "</string>
      <string name="user_title">Заголовок:</string> 
      <string name="this_sdcard_no_can_save">Нет места на SD-карте</string> 
      <string name="add_pic_select">Выбор изображения</string> 
+    <string name="add_audio_select">Выбор аудиозаписи</string>
      <string name="userManagerEditNicknameError"> your nickname contains sensitive words, please re-enter</string> 
      <string name="userManagerEditSignatureError"> Your signature contains sensitive words, please re-enter</string> 
      <string name="userManagerNoBindCompanyEmailCodeError"> is not bound Mail</string> 
@@ -2463,6 +2465,7 @@ End "</string>
      <string name="contect_remind_merge_contact_text"> Cool Cloud organize contacts</string>
      <string name="contect_remind_back_up_text"> cool cloud a key backup</string>
      <string name="contect_remind_find_phone_text"> cool cloud phone to retrieve</string>
+    <string name="contect_login_tile_notify">Вы долго не входили в свой аккаунт Облака. Для обеспечения безопасности рекомендуется перелогиниться</string>
      <string name="recycle_preview_get_info_fail"> preview information acquisition failed. </string>
      <string name="recycle_preview_invaild_fail"> illegal tactics. </string>
      <string name="recycle_preview_result"> sync preview the results </string>
@@ -2481,6 +2484,10 @@ End "</string>
      <string name="smsphrase_recover">Восстановление быстрых ответов</string>
      <string name="smsphrase_backup_description">Резервирование быстрых ответов в Облако</string>
      <string name="smsphrase_backup">Бэкап быстрых ответов</string>
+    <string name="record">Аудиозаписи</string>
+    <string name="recover_record">Восстановление аудиозаписей</string>
+    <string name="record_recovery_check">Просмотр аудиозаписей</string>
+    <string name="record_recovery_check_summary">Просмотр аудиозаписей для резервирования</string>
     <string name="note_cloud">Заметки в Облаке</string>
     <string name="note_cloud_description">Просмотр заметок в Облаке</string>
     <string name="note_sync_result">Результаты синхронизации заметок</string>

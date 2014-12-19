@@ -291,8 +291,8 @@
 Темы"</string>
     <string name="coolshow_play_exception">Исключения</string>
     <string name="coolshow_scene_state_waitupdate">Подготовка к обновлению</string>
-    <string name="coolshow_account_name">Вы не вошли в Cool-аккаунт</string>
-    <string name="coolshow_account_sign">Войдите в в Cool-аккаунт</string>
+    <string name="coolshow_account_name">Нет входа в аккаунт Облака</string>
+    <string name="coolshow_account_sign">Войдите в аккаунт Облака</string>
     <string name="coolshow_account_score">очки</string>
     <string name="coolshow_quit_login">Выход</string>
     <string name="coolshow_keyword">Введите ключевые слова</string>
@@ -313,5 +313,5 @@
     <string name="coolshow_hide_app_tip">Приложения не могут быть спрятаны, когда рабочие столы заблокированы</string>
     <string name="coolshow_keyword_no_empty">Введите ключевые слова</string>
     <string name="coolshow_set_theme_again">Задать тему заново</string>
-    <string name="coolshow_uac_center">Центр аккаунта</string>
+    <string name="coolshow_uac_center">Центр аккаунта Облака</string>
 </resources>
