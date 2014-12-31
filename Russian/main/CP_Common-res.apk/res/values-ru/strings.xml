@@ -19,9 +19,11 @@
     <string name="cooperation_exception">Исключение</string>
     <string name="password_hint">Подсказка</string>
     <string name="password_maxlength">32</string>
-    <string name="title">Введите пароль от Менеджера</string>
+    <string name="title">Введите пароль</string>
     <string name="need_set_login_password_dialog_msg">Введите пароль от Менеджера</string>
-    <string name="login_password_error_dialog_msg">Неправильный пароль Менеджера. Введите заново</string>
+    <string name="login_password_error_dialog_msg">Неправильный пароль. Введите заново</string>
+    <string name="login_password_error_dialog_msg1">Неправильный пароль. Можно ввести 1 раз</string>
+    <string name="login_password_error_dialog_msg2">Неправильный пароль. Можно ввести 2 раза</string>
     <string name="set_question_title">Вопрос</string>
     <string name="set_answer_title">Ответ</string>
     <string name="need_set_answer_dialog_msg">Введите ответ</string>
@@ -83,5 +85,8 @@
     <string name="clipboard2_clear_dialog_sub_content">(заблокированный элемент не будет удален)</string>
     <string name="clipboard2_clear_dialog_ok">ОК</string>
     <string name="clipboard2_clear_dialog_cancel">Отмена</string>
+    <string name="commonbutton_settext_hint">Введите текст</string>
     <string name="time_picker_separator">:</string>
+    <string name="common_forget_password">Забыли пароль?</string>
+    <string name="google_search_head">http://www.google.com/search?complete=1&amp;q=</string>
 </resources>

@@ -28,7 +28,8 @@
     <string name="uac_provision_setting_succeed_hint"> "Ваше устройство настроено!
 Наслаждайтесь использованием CoolLife 6.0 "</string>
     <string name="uac_provision_other_title">Пользовательская программа улучшения качества</string>
-    <string name="uac_provision_other_summary">Отправлять отчеты об ошибке в случае возникновения проблем</string>
+    <string name="uac_provision_other_summary">Отправлять отчеты об ошибке в случае
+ возникновения проблем</string>
     <string name="uac_provision_wifi_try_connect">Попытка подключения к: %s</string>
     <string name="uac_provision_wifi_start_failed">Ошибка запуска</string>
     <string name="wifi_settings">Wi-Fi</string>
@@ -155,12 +156,44 @@
 
 
 
+
+
+
+
+
+    <string name="ethernet_ip_settings_invalid_ip">Введите действующий IP-адрес</string>
+    <string name="ethernet_use_static_ip">Использование статического IP-адреса</string>
+    <string name="ethernet_use_static_ip_succeed">Использование статического IP-адреса успешно</string>
+    <string name="ethernet_use_static_ip_failed">Использование статического IP-адреса не удалось</string>
+    <string name="ethernet_static_ip_address">IP-адрес</string>
+    <string name="ethernet_static_dns1">Имя домена 1</string>
+    <string name="ethernet_static_dns2">Имя домена 2</string>
+    <string name="ethernet_static_gateway">Шлюз по умолчанию</string>
+    <string name="ethernet_static_netmask">Маска подсети</string>
+    <string name="ethernet_advanced_mac_address_title">MAC-адрес</string>
+    <string name="ethernet_advanced_ip_address_title">IP-адрес</string>
+    <string name="linkage_status_disconnected">Сеть Ethernet отключена физически!</string>
+    <string name="linkage_status_dev_fail">Не удалось включить Ethernet. Он точно есть?</string>
+    <string name="duplex_full">Полный</string>
+    <string name="duplex_half">Половина</string>
+    <string name="duplex_unknown">Неизвестно</string>
+    <string name="linkage_status_format" formatted="false">Подключено. Скорость: %dMb/s. Дуплекс: %s</string>
+    <string name="ip_network_status_connecting">Конфигурирование интерфейса Ethernet</string>
+    <string name="ip_network_status_connected">Конфигурирование интерфейса Ethernet успешно</string>
+    <string name="ip_network_status_failed">Конфигурирование интерфейса Ethernet не удалось</string>
+    <string name="ip_network_status_unavailable">Не доступно</string>
+    <string name="eth_ip_settings_please_complete_settings">Пожалуйста, введите полный IP-адрес!</string>
+    <string name="eth_ip_settings_eth_is_disabled">Ethernet недоступен</string>
+    <string name="ethernet_static_ip_settings_title">Настройки статического IP-адреса</string>
+    <string name="category_ethernet">Настройки IP-адреса</string>
     <string name="intent_sender_sendbroadcast_text">Отправить запрос</string>
     <string name="intent_sender_action_label">Действие:</string>
     <string name="intent_sender_startactivity_text">Запустить действие</string>
     <string name="intent_sender_resource_label">Ресурс:</string>
     <string name="intent_sender_account_label">Аккаунт:</string>
     <string name="proxy_settings_title">Настройки прокси-сервера</string>
+    <string name="proxy_settings_succeed">Прокси-сервер настроен успешно</string>
+    <string name="proxy_settings_failed">Ошибка настройки прокси-сервера</string>
     <string name="proxy_clear_text">Очистить</string>
     <string name="proxy_port_label">Порт прокси</string>
     <string name="proxy_exclusionlist_label">Не использовать прокси для</string>
@@ -177,11 +210,6 @@
     <string name="proxy_error_empty_host_set_port">Поле с адресом порта должно быть оставлено пустым в случае, если поле узла пустое</string>
     <string name="proxy_error_invalid_port">Указанный порт недействителен</string>
     <string name="proxy_warning_limited_support">HTTP-прокси используется в обозревателе, но может не использоваться другими приложениями</string>
-
-
-
-
-
 
     <string name="app_name">Аккаунт Облака</string>
     <string name="umgr_coolaccount">Аккаунт Облака</string>
@@ -230,18 +258,18 @@
     <string name="umgr_account_upgrade_prompt"> will give you a temporary account:%s upgrade, after the upgrade you will be enjoying the cool variety of services</string>
     <string name="uac_forward_prologue_account_specificaiton"> "Description: Now the data will be migrated to the account under the cool cloud account
 \ u0009 \ u0009 \ u0009 households, oh do not worry about the data will be lost! "</string>
-    <string name="umgr_please_input_bind_phone"> Please enter the phone number you want to bind</string>
-    <string name="umgr_account_upgrade_confirm"> Determine upgrade</string>
-    <string name="umgr_account_upgrade_cancel"> later date</string>
-    <string name="uac_forward_prolgoue_forward"> I want to upgrade</string>
-    <string name="uac_forward_prolgoue_bind"> is bound to have a cool cloud account</string>
-    <string name="uac_forward_title"> Account Upgrade</string>
-    <string name="uac_consume_tab_title"> consumer details</string>
-    <string name="uac_income_tab_title"> Revenue Details</string>
-    <string name="uac_coolbean_title"> Cool Beans Details</string>
-    <string name="uac_get_moret_text"> See more</string>
-    <string name="uac_no_get_coolbean_consume"> did not get to the consumer records</string>
-    <string name="uac_no_get_coolbean_income"> did not get to the revenue record</string>
+    <string name="umgr_please_input_bind_phone">Введите номер телефона для связывания</string>
+    <string name="umgr_account_upgrade_confirm">Обновление</string>
+    <string name="umgr_account_upgrade_cancel">Позже</string>
+    <string name="uac_forward_prolgoue_forward">Я хочу обновить</string>
+    <string name="uac_forward_prolgoue_bind">Привязка у аккаунту Облака Coolpad</string>
+    <string name="uac_forward_title">Обновление аккаунта</string>
+    <string name="uac_consume_tab_title">Делали использования</string>
+    <string name="uac_income_tab_title">Детали поступления</string>
+    <string name="uac_coolbean_title">Детали жетонов Coolpad</string>
+    <string name="uac_get_moret_text">Еще</string>
+    <string name="uac_no_get_coolbean_consume">Не удалось получить информацию по использованию  жетонов</string>
+    <string name="uac_no_get_coolbean_income">Не удалось получить информацию по поступлению  жетонов</string>
     <string name="cooperarion_pull_refresh_recently">"Последнее обновление: "</string>
     <string name="cooperation_pull_refresh_now">Обновление...</string>
     <string name="cooperation_pull_refreshing">Обновление...</string>
@@ -444,25 +472,25 @@
     <string name="umgr_rcode_access_token_expired"> expired token</string>
     <string name="umgr_rcode_access_token_abolished"> token was abolished</string>
     <string name="umgr_rcode_validate_access_token_failure"> authentication token failed</string>
-    <string name="umgr_rcode_illigel_uid"> user id not legitimate</string>
-    <string name="umgr_rcode_get_appid_failure"> Get Application ID failed</string>
-    <string name="umgr_rcode_get_code_failure"> Get the code failed</string>
-    <string name="umgr_rcode_get_access_token_by_code_failure"> Get Data access token code based on failure</string>
-    <string name="umgr_rcode_code_reused"> Code be reused</string>
-    <string name="umgr_rcode_get_access_token_failure"> Get Data access token failed</string>
-    <string name="umgr_rcode_get_refresh_token_failure"> Get refresh token failed</string>
-    <string name="umgr_rcode_get_app_scope_failure"> Get APP permissions list failed</string>
-    <string name="umgr_rcode_get_app_scope_on_user_failure"> Gets the user to specify a list of applications for authorization failed</string>
-    <string name="umgr_rcode_get_api_failure"> Get API information failed</string>
-    <string name="umgr_rcode_authorize_scope_failure"> user specified APP Authorization failed</string>
-    <string name="umgr_rcode_authorize_expiretime_failure"> user specified APP Authorization failed</string>
-    <string name="umgr_rcode_api_unauthorized"> This application uses the API has not been authorized users</string>
-    <string name="umgr_rcode_app_apply_permissions_required"> not applied for permission to use the API</string>
-    <string name="umgr_rcode_http_failure"> network transmission errors</string>
-    <string name="umgr_rcode_http_post_required"> network request for error</string>
-    <string name="umgr_rcode_http_req_failure"> Network Request Error</string>
-    <string name="umgr_rcode_http_res_failure"> Network Response Error</string>
-    <string name="umgr_rcode_http_recv_failure"> An error occurred while receiving data network</string>
+    <string name="umgr_rcode_illigel_uid">Недопустимый ID</string>
+    <string name="umgr_rcode_get_appid_failure">Получение ID приложения не удалось</string>
+    <string name="umgr_rcode_get_code_failure">Ошибка получения кода</string>
+    <string name="umgr_rcode_get_access_token_by_code_failure">Не удалось получить доступ к данным</string>
+    <string name="umgr_rcode_code_reused">Код для повторного использования</string>
+    <string name="umgr_rcode_get_access_token_failure">Получение доступа не удалось</string>
+    <string name="umgr_rcode_get_refresh_token_failure">Обновление не удалось</string>
+    <string name="umgr_rcode_get_app_scope_failure">Получение списка разрешений не удалось</string>
+    <string name="umgr_rcode_get_app_scope_on_user_failure">Получение списка приложений не удалось</string>
+    <string name="umgr_rcode_get_api_failure">Получение информации об API не удалось</string>
+    <string name="umgr_rcode_authorize_scope_failure">Авторизация пользовательского прлиожения не удалась</string>
+    <string name="umgr_rcode_authorize_expiretime_failure">Авторизация не удалась</string>
+    <string name="umgr_rcode_api_unauthorized">Недопустимый API</string>
+    <string name="umgr_rcode_app_apply_permissions_required">Нет прав на использование данного API</string>
+    <string name="umgr_rcode_http_failure">Ошбика передачи</string>
+    <string name="umgr_rcode_http_post_required">Ошибка запроса сети</string>
+    <string name="umgr_rcode_http_req_failure">Ошибка ответа сети</string>
+    <string name="umgr_rcode_http_res_failure">Ошибка запроса сети</string>
+    <string name="umgr_rcode_http_recv_failure">Возникла ошибка при получении данных</string>
     <string name="umgr_rcode_http_client_protocol_failure">Ошибка протокола</string>
     <string name="umgr_rcode_http_ioexception">Неправильный сетевой запрос</string>
     <string name="umgr_rcode_input_appid_mismatch">Введенный ID и зарегистрированный ID не совпадают</string>

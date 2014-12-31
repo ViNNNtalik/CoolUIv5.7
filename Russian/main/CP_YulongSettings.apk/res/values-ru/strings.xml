@@ -322,6 +322,7 @@
     <string name="firmware_version">Версия Android</string>
     <string name="kernel_version">Ядро</string>
     <string name="build_number">Сборка</string>
+    <string name="gongce">(публичная бета)</string>
     <string name="cpu_type">Процессор</string>
     <string name="ram_type">Оперативная память (RAM)</string>
     <string name="memory_type">Память устройства</string>
@@ -619,7 +620,7 @@ SMS/MMS
     <string name="screenshot_chord_summary" />
     <string name="virtual_keys_settings_title">Виртуальные клавиши</string>
     <string name="hide_virtual_keys_title">Виртуальные клавиши, которые могут быть скрыты</string>
-    <string name="hide_virtual_keys_summary">Провести вверх от нижнего края экрана для появления виртуальных клавиш</string>
+    <string name="hide_virtual_keys_summary">После запуска приложения виртуальные клавиши будут спрятаны</string>
     <string name="virtual_keys_background_category">Стиль фона</string>
     <string name="virtual_keys_background_dark">Темный</string>
     <string name="virtual_keys_background_light">Светлый</string>

@@ -32,15 +32,15 @@
     </string-array>
     <string-array name="period_options">
         <item>@string/reminderstring</item>
-        <item> every 15 minutes</item>
-        <item> every 30 minutes</item>
-        <item> every 1 hour</item>
-        <item> every six hours</item>
+        <item>Каждые 15 минут</item>
+        <item>Каждые 30 минут</item>
+        <item>Каждый час</item>
+        <item>Каждые 6 часов</item>
     </string-array>
     <string-array name="fire_times">
-        <item> 1 час</item>
-        <item> 6 час</item>
-        <item> 1 день</item>
+        <item>1 час</item>
+        <item>6 час</item>
+        <item>1 день</item>
     </string-array>
     <string-array name="array_sex">
         <item>М</item>
@@ -55,12 +55,12 @@
     </string-array>
     <string-array name="recover_sms_by_folder">
         <item>Входящие</item>
-        <item>Исходящие</item>
-        <item>Черновики</item>
+        <item>Исходящие</item>
+        <item>Черновики</item>
     </string-array>
     <string-array name="recover_native_sms_by_folder">
         <item>Входящие</item>
-        <item>Исходящие</item>
+        <item>Исходящие</item>
     </string-array>
     <string-array name="recover_calllog_by_folder">
         <item>Все</item>
@@ -305,16 +305,16 @@
          <item> A: You need to log in on the new phones registered cool cloud account, you ll be cool cloud cloud of contacts, calendar, notepad and other data sync to your new phone, just select the information and call records data Recovery can restore the backed-up to the phone.</item>
          <item> "A: prompt appears privileges for the following reasons:
 A mobile phone permissions set incorrectly
-  \ u0009 \ u00091. caused by security software. Please check whether your phone safe security software, if any:
-  \ u0009 \ u0009 Cloud Security: Find cool cloud data protection, select the Trust;
-  \ u0009 \ u0009 Cool Butler: Press path data protection - contact / call log / SMS / calendar / location permissions find cool cloud, setting allows;
-  \ u0009 \ u0009360 mobile guards: press Path Security Tools - Privacy Behavior Monitoring - All software find cool cloud, set up trust;
-  \ u0009 \ u0009 Tencent Mobile housekeeper: Press path Privacy - Privacy Monitor - Trust Software "find cool clouds, set up the trust;
-\ u0009 \ u0009 other security software: Please read cool cloud open contacts, calendar, messages, call records, authority position;
-\ u0009 \ u00092. caused by the system itself permissions.
-\ u0009 \ u0009MIUI system, press the path system settings - find cool cloud applications, settings I trust the program rights management;
+  \u0009 \u00091. caused by security software. Please check whether your phone safe security software, if any:
+  \u0009 \u0009 Cloud Security: Find cool cloud data protection, select the Trust;
+  \u0009 \u0009 Cool Butler: Press path data protection - contact / call log / SMS / calendar / location permissions find cool cloud, setting allows;
+  \u0009 \u0009360 mobile guards: press Path Security Tools - Privacy Behavior Monitoring - All software find cool cloud, set up trust;
+  \u0009 \u0009 Tencent Mobile housekeeper: Press path Privacy - Privacy Monitor - Trust Software "find cool clouds, set up the trust;
+\u0009 \u0009 other security software: Please read cool cloud open contacts, calendar, messages, call records, authority position;
+\u0009 \u00092. caused by the system itself permissions.
+\u0009 \u0009MIUI system, press the path system settings - find cool cloud applications, settings I trust the program rights management;
 Second, the phone adapter problem
-\ u0009 \ u0009 please call the cool cloud hotline: 029-88824132, the problem with the model back to the customer, we will process as soon as possible. "</item>
+ u0009 \u0009 please call the cool cloud hotline: 029-88824132, the problem with the model back to the customer, we will process as soon as possible. "</item>
          <item> A: You can log on the computer www.coolyun.com, using the contact in the Contacts module to re-function, organize contacts.</item>
          <item> A: You can login screen mobile terminal cool cloud click forget your password, enter your registered e-mail or phone number, a link to reset your password will be sent to the appropriate mailbox or phone, click the link to reset your password.</item>
          <item> A: a mobile phone can register up to five different cool cloud account, please register with caution!</item>

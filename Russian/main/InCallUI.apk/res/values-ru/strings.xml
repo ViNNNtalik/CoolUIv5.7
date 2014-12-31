@@ -329,14 +329,14 @@
     <string name="fake_phone_activity_infoText_text">Входящий номер телефона</string>
     <string name="fake_phone_activity_placeCall_text">Ложный входящий вызов</string>
     <string name="voicemail_settings_number_label">Номер голосовой почты</string>
-    <string name="card_title_dialing">Набор номера…</string>
+    <string name="card_title_dialing">"Набор "</string>
     <string name="card_title_redialing">Повторная попытка</string>
     <string name="card_title_conf_call">Конференц-вызов</string>
     <string name="card_title_incoming_call">Входящий вызов</string>
     <string name="card_title_call_ended">Вызов завершен</string>
     <string name="card_title_on_hold">Ждет ответа</string>
     <string name="card_title_hanging_up">Завершение разговора</string>
-    <string name="card_title_in_call">Текущий вызов</string>
+    <string name="card_title_in_call">"Текущий вызов "</string>
     <string name="card_title_my_phone_number">Мой номер: %s</string>
     <string name="notification_dialing">Набор</string>
     <string name="notification_missedCallTitle">Пропущенный вызов</string>

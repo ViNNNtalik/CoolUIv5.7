@@ -1033,4 +1033,10 @@
     <string name="doing_update">Обновление... Дубликат обновления недопустим</string>
     <string name="doing_backup">Архивирование... Дубликат архива недопустим</string>
     <string name="recover_fail_for_inexistence">Ошибка восстановления. Файл не найден</string>
+    <string name="network_mode_switch_fail_airplan_mode">Переключение невозможно в режиме полета</string>
+    <string name="network_mode_switch_fail_no_4g_sim">Текущая SIM-карта не допускает переключения</string>
+    <string name="network_mode_switch_fail_phone_non_idle">Переключение не разрешено в течение вызова</string>
+    <string name="network_mode_switch_fail_is_switching">Не повторять переключение</string>
+    <string name="sum_cfu_enabled_indicator_slot1">Переадресация всех вызово с SIM1</string>
+    <string name="sum_cfu_enabled_indicator_slot2">Переадресация всех вызово с SIM2</string>
 </resources>

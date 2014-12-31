@@ -811,6 +811,8 @@
     <string name="incoming_port_is_too_lenght">Неправильный ID порта входящего сервера</string>
     <string name="outgoing_port_is_too_lenght">Неправильный ID порта исходящего сервера</string>
     <string name="from_my_coolpad_phone">С моего Coolpad</string>
+    <string name="from_my_dazen_phone">С моего Dazen!</string>
+    <string name="from_my_ivvi_phone">С моего Ivvi!</string>
     <string name="from_my_189_mailbox">С моего 189 mailbox</string>
     <string name="backup_parse_file_failed">Не удалось обработать файл бэкапа</string>
     <string name="backup_memeroy_is_full">Недостаточно места</string>
@@ -1280,9 +1282,10 @@
     <string name="credentials_configure_lock_screen_hint">Необходимо задать PIN для локскрина или пароль перед использованием защищенного хранилища</string>
     <string name="fromList_is_empty_description">Пусто</string>
     <string name="attachment_view_disabel">Запрет просмотра приложения</string>
+    <string name="please_imap_startservice_online">Ошибка пароля. Запустите службу IMAP</string>
     <string name="more_string">%1$s еще...</string>
     <string name="chips_waiting_for_directory_result">Ожидание контактов</string>
-
+    <string name="copy">Копировать адрес эл. почты</string>
     <string name="picasa_default_destination">Альбом выгрузки</string>
     <string name="summary_title_uploading">Выгрузка</string>
     <string name="summary_title_finished">Завершенные</string>

@@ -114,6 +114,6 @@
     <string name="safety_mode_title">Режим \"Вечность\"</string>
     <string name="safety_mode_tips">В этом режиме резко ограничены функции. Будет выключен Wi-Fi, 3G, GPRS, GPS, доступ к записи, камере. Включить?</string>
     <string name="safety_notification_title">Режим \"Вечность\" включен</string>
-    <string name="safety_notification_context">Выключено Wi-Fi, 3G, Bluetooth, GPRS, GPS, доступ к записи, камере</string>
-    <string name="safety_mode_description">Выключено Wi-Fi, 3G, Bluetooth, GPRS, GPS, доступ к записи, камере</string>
+    <string name="safety_notification_context">Выключено Wi-Fi, 3G, GPRS, GPS, доступ к записи, камере</string>
+    <string name="safety_mode_description">Выключено Wi-Fi, 3G, GPRS, GPS, доступ к записи, камере</string>
 </resources>

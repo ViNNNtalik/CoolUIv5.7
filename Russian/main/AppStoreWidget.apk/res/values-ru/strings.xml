@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">Популярное</string>
+    <string name="appstore_label_launcher_service">Служба лаунчера</string>
     <string name="menu_settings">Настройки</string>
     <string name="app_type_fun">Развлечения</string>
     <string name="app_type_tool">Инструменты</string>

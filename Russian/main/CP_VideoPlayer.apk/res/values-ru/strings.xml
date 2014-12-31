@@ -97,6 +97,9 @@
     <string name="detail_score">Кол-во: %s</string>
     <string name="show_download_list">Показать загрузку</string>
     <string name="no_support_download">Не удается загрузить видео</string>
+    <string name="update_already_latest">У Вас последняя версия!</string>
+    <string name="update_no_wifi">Обновление только по Wi-Fi</string>
+    <string name="update_time_out">Таймаут!</string>
     <string name="play_history">Последнее просмотренное</string>
     <string name="favorites_online">Избранное</string>
     <string name="download_video">Загрузки</string>
