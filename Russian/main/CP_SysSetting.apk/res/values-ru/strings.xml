@@ -109,7 +109,7 @@
     <string name="status_min_number_slot3">MIN (слот 3)</string>
     <string name="status_prl_version_slot3">PRL Version (слот 3)</string>
     <string name="status_meid_number_slot3">MEID (слот 3)</string>
-    <string name="switchnet_data_network">" нет передачи данны. Переключиться на "</string>
+    <string name="switchnet_data_network">" нет передачи данных. Переключиться на "</string>
     <string name="slot_two">SIM2</string>
     <string name="slot_one">SIM1</string>
     <string name="hotknot_settings_title">HotKnot</string>

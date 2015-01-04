@@ -241,7 +241,7 @@
     <string name="carrier_name">Оператор</string>
     <string name="carrier_name_summary">Имя оператора на локскрине</string>
     <string name="smallcomponent">Прозрачность фона виджета</string>
-    <string name="smallcomponent_summary">Настройка прозрачность фона для соответствия обоям</string>
+    <string name="smallcomponent_summary">Настройка прозрачности фона для соответствия обоям</string>
     <string name="lockscreen_shortcut_key">Комбинация клавиш для локскрина</string>
     <string name="lockscreen_shortcut_key_summary">Настройка комбинаций клавиш для локскрина</string>
     <string name="twofinger_gesture">Жесты двумя пальцами</string>

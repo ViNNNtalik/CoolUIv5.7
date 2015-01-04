@@ -1,4 +1,4 @@
-xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Заводское меню</string>
     <string name="autoCheck">Автомат.</string>
@@ -356,23 +356,23 @@ xml version="1.0" encoding="utf-8"?>
     <string name="nfc">NFC</string>
     <string name="nfcsuccess">NFC успешно</string>
     <string name="nfcfail">NFC не удалось</string>
-    <string name="twtest">Тест TW</string>
-    <string name="twversion">TW version</string>
-    <string name="screencalsuccess">screen calibrate success</string>
-    <string name="screencalfail">screen calibrate fail</string>
-    <string name="waitUpdate">TW is Updating,please do not touch screen.</string>
-    <string name="latestTW">The latest TW</string>
-    <string name="twupdatesuccess">TW Update success,new is calibrate</string>
-    <string name="twupdatefail">TW Update fail</string>
+    <string name="twtest">Тест\nтачскрина</string>
+    <string name="twversion">Версия тачскрина</string>
+    <string name="screencalsuccess">Калибровка прошла успешно</string>
+    <string name="screencalfail">Ошибка калибровки</string>
+    <string name="waitUpdate">Идет обновление тачскрина, ожидайте...</string>
+    <string name="latestTW">Последняя версия тачскрина</string>
+    <string name="twupdatesuccess">Тачскрин обновлен успешно</string>
+    <string name="twupdatefail">Ошибка обновления тачскрина</string>
     <string name="nodeopenfail">node open fail</string>
     <string name="nodereadfail">node read fail</string>
     <string name="screennotneedcal">Экран не требует калибровки</string>
-    <string name="twfail">tw fail</string>
-    <string name="twupdate">tw update</string>
-    <string name="twcalibrate">tw calibrate</string>
-    <string name="twneedupdate">TW need update，please do not touch screen</string>
-    <string name="yesornocaltest">yes or no calibrate test ?</string>
-    <string name="yesornoagaincal">yes or no calibrate again?</string>
+    <string name="twfail">Обновление не удалось</string>
+    <string name="twupdate">Обновление \nтачскрина</string>
+    <string name="twcalibrate">Апп. калибровка</string>
+    <string name="twneedupdate">Требуется обновление тачскрина. Не касайтесь экрана</string>
+    <string name="yesornocaltest">Запустить тест?</string>
+    <string name="yesornoagaincal">Откалибровать заново?</string>
     <string name="login_label">RD personnel password</string>
     <string name="need_set_login_password_dialog_msg">please input password of login</string>
     <string name="login_password_error_dialog_msg">passwrod of login is error,please input password again</string>
@@ -427,7 +427,7 @@ xml version="1.0" encoding="utf-8"?>
     <string name="backmodfail">back camera fail</string>
     <string name="fromodpass">front camera pass</string>
     <string name="fromodfail">front camera fail</string>
-    <string name="sensorTest">TW-сенсор</string>
+    <string name="sensorTest">Сенсор \nтачскрина</string>
     <string name="twresult_1">The original value of the node is greater than the maximum value.</string>
     <string name="twresult_2">The original value of the node is less than the minimum.</string>
     <string name="twresult_3">There are both is greater than the maximum value, and less than the minimum value of the node.</string>

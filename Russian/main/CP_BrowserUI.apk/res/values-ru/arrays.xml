@@ -6,15 +6,23 @@
         <item>http://www.google.com/favicon.ico</item>
         <item>http://www.google.com/search?hl={language}&amp;ie={inputEncoding}&amp;source=android-browser&amp;q={searchTerms}</item>
         <item>UTF-8</item>
-        <item>http://www.google.com/complete/search?hl=ru&amp;client=android&amp;q={searchTerms}</item>
+        <item>http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}</item>
     </string-array>
-    <string-array name="yandexmarket">
-        <item>Яндекс.Маркет</item>
-        <item>http://market.yandex.ru/</item>
-        <item>http://market.yandex.ru/favicon.ico</item>
-        <item>http://market.yandex.ru/search.xml?cvredirect=2&amp;text={searchTerms}</item>
+    <string-array name="browser_baidu">
+        <item>Baidu</item>
+        <item>baidu.com</item>
+        <item>http://www.baidu.com/favicon.ico</item>
+        <item>http://www.baidu.com/s?wd={searchTerms}</item>
+        <item>GB2312</item>
+        <item></item>
+    </string-array>
+    <string-array name="browser_bing_zh_TW">
+        <item>Bing</item>
+        <item>bing.com</item>
+        <item>http://www.bing.com/s/wlflag.ico</item>
+        <item>http://www.bing.com/search?setmkt=zh-TW&amp;q={searchTerms}</item>
         <item>UTF-8</item>
-        <item>http://www.google.com/complete/search?hl=ru&amp;client=android&amp;q={searchTerms}</item>
+        <item>http://suggestqueries.google.com/complete/search?output=firefox&amp;ie=UTF-8&amp;hl=ru&amp;q={searchTerms}</item>
     </string-array>
     <string-array name="browser_yahoo_tw">
         <item>Yahoo!</item>
@@ -69,7 +77,7 @@
         <item>Удалить файлы</item>
     </string-array>
     <string-array name="browser_browser_function_tips">
-        <item>Длинное нажатие  Назад - быстрый возврат на первую веб-страницу</item>
+        <item>Длинное нажатие Назад - быстрый возврат на первую веб-страницу</item>
         <item>Длинное нажатие в правом углу скроллера - быстрая прокрутка списков</item>
         <item>Длинное нажатие на веб-страницах для всплывающих меню</item>
         <item>В режиме инкогнито не записываются история посещения сайтов, поиска и Cookies</item>
@@ -1152,7 +1160,7 @@
         <item>Froyo-N1</item>
         <item>Honeycomb-Xoom</item>
     </string-array>
-   <string-array name="browser_pref_development_ua_values">
+    <string-array name="browser_pref_development_ua_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -1249,14 +1257,14 @@
         <item>Открыть в новой вкладке</item>
         <item>Редактировать закладку</item>
         <item>Удалить закладку</item>
-        <item>Поделиться  закладкой</item>
+        <item>Поделиться закладкой</item>
         <item>Как дом.страница</item>
     </string-array>
     <string-array name="browser_bookmark_context_dialog_list_items_no_navigation_present">
         <item>Открыть в новой вкладке</item>
         <item>Редактировать закладку</item>
         <item>Удалить закладку</item>
-        <item>Поделиться  закладкой</item>
+        <item>Поделиться закладкой</item>
         <item>На рабочий стол</item>
         <item>Как дом.страница</item>
     </string-array>
@@ -1299,5 +1307,13 @@
     <string-array name="browser_handle_pdf_choices">
         <item>Загрузка</item>
         <item>Открыть</item>
+    </string-array>
+    <string-array name="yandexmarket">
+        <item>Яндекс.Маркет</item>
+        <item>http://market.yandex.ru/</item>
+        <item>http://market.yandex.ru/favicon.ico</item>
+        <item>http://market.yandex.ru/search.xml?cvredirect=2&amp;text={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://www.google.com/complete/search?hl=ru&amp;client=android&amp;q={searchTerms}</item>
     </string-array>
 </resources>
