@@ -315,7 +315,7 @@
     <string name="coolshow_set_theme_again">Задать тему заново</string>
     <string name="coolshow_uac_center">Центр аккаунта Облака</string>
     <string name="coolshow_wallpaper_title">Обои</string>
-    <string name="coolshow_ringtone_title">Мелодия вызова</string>
-    <string name="coolshow_lockscreen_title">Локскрин</string>
-    <string name="coolshow_font_title">Шрифт</string>
+    <string name="coolshow_ringtone_title">Мелодии вызова</string>
+    <string name="coolshow_lockscreen_title">Локскрины</string>
+    <string name="coolshow_font_title">Шрифты</string>
 </resources>

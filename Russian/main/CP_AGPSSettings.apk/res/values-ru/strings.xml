@@ -31,6 +31,8 @@
     <string name="gpsinfo_title">Информация GPS</string>
     <string name="gpsinfo">Статус спутников</string>
     <string name="gpsinfotoast">Нет приложения для продолжения</string>
+    <string name="setsuplservertoast">Убедитесь, что сервер SUPL доступен</string>
+    <string name="setsuplprottoast">Убедитесь, что порт SUPL доступен</string>
     <string name="startup_shutdown_time">Время включения должно быть как минимум через 5 минут после времени выключения</string>
     <string name="restore_to_default">Восстановлено</string>
     <string name="ledtimeseterror">Время начала и окончания не могут совпадать</string>

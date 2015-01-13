@@ -408,4 +408,11 @@
     <string name="apk_backup_path_1">>backup>Приложения</string>
     <string name="backup_path_3">>ct_backup>backup_all</string>
     <string name="backup_path_4">>backup>Data</string>
+    <string name="honor_host_yidong">Добро пожаловать в бэкап и восстановление</string>
+    <string name="show_tip_content_yidong">Инструмент бэкапа и восстановления только для China Mobile</string>
+    <string name="app_name_recover_yidong">Восстановление</string>
+    <string name="menu_import_coolpad_yidong">Импорт данных</string>
+    <string name="app_name_yidong">Бэкап и восстановление</string>
+    <string name="combine_prompt_string1_yidong">Импортированые контакты имеют одинаковые имена. Приложение поможет избавиться от дубликатов и объединить контакты</string>
+    <string name="dele_dialog_prompt">Удаление</string>
 </resources>

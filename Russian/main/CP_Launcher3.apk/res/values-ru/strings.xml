@@ -136,6 +136,7 @@
     <string name="alarm">Будильник</string>
     <string name="todolist">Расписание</string>
     <string name="quit">Выход</string>
+    <string name="coolpad_backup_app_title">Бэкап и восстановление</string>
     <string name="no_premisson_close_ttwindow">Не разрешено закрытие страницы китайских новостей в классическом стиле</string>
     <string name="settings_actionbar_title">Параметры</string>
     <string name="menu_desktop_settings">Параметры</string>

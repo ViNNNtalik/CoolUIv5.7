@@ -180,6 +180,7 @@
     <string name="delete_songs_desc">Удалить песни?</string>
     <string name="songs_already_download">Песня загружена</string>
     <string name="songs_download_fail">Не удалось загрузить</string>
+    <string name="music_space_not_enough">Недостаточно места</string>
     <string name="songs_download_success">Загружено</string>
     <string name="songs_download_add_to_list">Добавлено в список загрузки</string>
     <string name="no_lyric">Нет лирики</string>

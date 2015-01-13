@@ -1174,18 +1174,18 @@
 
 
     <string name="candidates_style"><u>варианты</u></string>
-    <string name="ext_media_checking_notification_title">Подготовка носителя информации</string>
+    <string name="ext_media_checking_notification_title">Подготовка %s</string>
     <string name="ext_media_checking_notification_message">Проверка ошибок...</string>
-    <string name="ext_media_nofs_notification_title">Пустой носитель информации</string>
-    <string name="ext_media_nofs_notification_message">На носителе информации нет данных, или его файловая система не поддерживается</string>
-    <string name="ext_media_unmountable_notification_title">Поврежденный носитель информации</string>
-    <string name="ext_media_unmountable_notification_message">Носитель информации поврежден. Попробуйте отформатировать его</string>
-    <string name="ext_media_badremoval_notification_title">Носитель информации неожиданно извлечен</string>
-    <string name="ext_media_badremoval_notification_message">Перед извлечением носителя информации отключите его во избежание потери данных</string>
-    <string name="ext_media_safe_unmount_notification_title">Безопасное извлечение носителя информации</string>
-    <string name="ext_media_safe_unmount_notification_message">Можно безопасно извлечь носитель информации</string>
-    <string name="ext_media_nomedia_notification_title">Отсутствует носитель информации</string>
-    <string name="ext_media_nomedia_notification_message">Носитель информации извлечен. Вставьте новый</string>
+    <string name="ext_media_nofs_notification_title">Пустой %s</string>
+    <string name="ext_media_nofs_notification_message">На %s нет данных, или его файловая система не поддерживается</string>
+    <string name="ext_media_unmountable_notification_title">Поврежденный %s</string>
+    <string name="ext_media_unmountable_notification_message">%s поврежден. Попробуйте отформатировать его</string>
+    <string name="ext_media_badremoval_notification_title">%s неожиданно извлечен</string>
+    <string name="ext_media_badremoval_notification_message">Перед извлечением %s отключите его во избежание потери данных</string>
+    <string name="ext_media_safe_unmount_notification_title">Безопасное извлечение %s</string>
+    <string name="ext_media_safe_unmount_notification_message">Можно безопасно извлечь %s</string>
+    <string name="ext_media_nomedia_notification_title">Отсутствует %s</string>
+    <string name="ext_media_nomedia_notification_message">%s извлечен. Вставьте новый</string>
     <string name="activity_list_empty">Подходящих действий не найдено</string>
     <string name="permlab_pkgUsageStats">Статистика использования компонентов</string>
     <string name="permdesc_pkgUsageStats">Приложение сможет изменять собранную статистику использования компонентов. Это разрешение не используется обычными приложениями</string>
