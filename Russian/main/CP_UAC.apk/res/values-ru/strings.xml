@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="uac_provision_welcome_use_coolui6.0">Добро пожаловать в CoolUi6.0!</string>
+    <string name="uac_provision_welcome_use_coolui6.0">Добро пожаловать в CoolUI 6.0!</string>
     <string name="uac_provision_language_simple_chinese">中文（简体）</string>
     <string name="uac_provision_language_traditional_chinese">中文（繁體）</string>
     <string name="uac_provision_language_english">English</string>
@@ -26,7 +26,7 @@
     <string name="uac_provision_other_setting">Другие настройки</string>
     <string name="uac_provision_setting_succeed">Успешно настроено!</string>
     <string name="uac_provision_setting_succeed_hint"> "Ваше устройство настроено!
-Наслаждайтесь использованием CoolLife 6.0 "</string>
+Наслаждайтесь использованием CoolUI 6.0 "</string>
     <string name="uac_provision_other_title">Пользовательская программа улучшения качества</string>
     <string name="uac_provision_other_summary">Отправлять отчеты об ошибке в случае
  возникновения проблем</string>
