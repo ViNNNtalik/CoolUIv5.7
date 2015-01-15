@@ -386,6 +386,7 @@ Dolby Плюс включает звук стандарта 7.1 и позвол�
     <string name="mmmusic_copyright_downloadfail">Невозможно загрузить в соответствии с правами пользования</string>
     <string name="music_2g3g_tosttitle">Подсказка</string>
     <string name="music_picker_title_text">Выбор аудио</string>
+    <string name="music_sleepinput_invalid">Неверный ввод</string>
 
 
 

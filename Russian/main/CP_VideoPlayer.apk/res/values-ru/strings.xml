@@ -39,6 +39,7 @@
     <string name="about">О приложении</string>
     <string name="autocheckupdate">Автомат. обновление</string>
     <string name="manualupdate">Обновление вручную</string>
+    <string name="setting_exit">Выход</string>
     <string name="to_Online">В онлайн-версию</string>
     <string name="about_summary">Информация о копирайте</string>
     <string name="toast_add_favor_error">Не удалось добавить в избранное</string>

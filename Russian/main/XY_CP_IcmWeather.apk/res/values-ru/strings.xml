@@ -663,6 +663,7 @@
     <string name="life_proposal_web_load_failed">Ошибка сети</string>
     <string name="life_proposal_web_reload">Нажмите для обновления</string>
     <string name="str_main_data_overdue">Отпустите для обновления</string>
+    <string name="invalid_date">Неверная дата</string>
     <string name="city_setting">Настройки города</string>
     <string name="appwidget24">Двойная погода</string>
     <string name="appwidget24_4day">Любимая погода</string>
