@@ -56,7 +56,7 @@
     <string name="centerclock">Часы по центру</string>
     <string name="custom_carrier_isnotset">Текст не задан!</string>
     <string name="custom_carrier_unneed_delimiter">Мне не нужен разделитель</string>
-    <string name="not_found_app">"Не удается найти приложение"</string>
+    <string name="not_found_app">Не удается найти приложение</string>
     <string name="root">Права Суперпользователя</string>
     <string name="root_summary">Если права предоставлены, возможно нарушение работы устройства</string>
     <string name="t1">Звук включения устройства</string>
